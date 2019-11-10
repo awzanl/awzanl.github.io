@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>代码及命令</title>
+    <url>/ful/b7a8ef1d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=2 color="＃0EEC1D">日常代码、<a href="/ful/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练</font></p>
+<a id="more"></a>
+
+<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ful/38a005da.html">.</a>…..</h6><h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"480"</span> height=<span class="string">"320"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"/ful/f3e15bcc/1.mp4"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">项目组</a><br>插件安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<p>安装完成后，在需要添加音乐的地方加上：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/ful/b7a8ef1d/3.PNG" alt="图"><br>　　想加入歌单，把上面的代码换成下面代码就行，参数的用法可以参照插件的使用说明</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;&#123;<span class="string">"narrow"</span>: <span class="literal">false</span>,<span class="string">"autoplay"</span>: <span class="literal">true</span>,<span class="string">"showlrc"</span>: 3,<span class="string">"mode"</span>: <span class="string">"random"</span>,<span class="string">"music"</span>: [&#123;<span class="string">"title"</span>: <span class="string">"平凡之路"</span>,<span class="string">"author"</span>: <span class="string">"朴树"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"https://ogd99kckh.qnssl.com/1.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"野子"</span>,<span class="string">"author"</span>: <span class="string">"苏运莹"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a"</span>,<span class="string">"pic"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg"</span>,<span class="string">"lrc"</span>:<span class="string">"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"</span>&#125;]&#125;&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="插入视频："><a href="#插入视频：" class="headerlink" title="插入视频："></a>插入视频：</h1><p>1、方式一：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% iframe 地址 100 200 %&#125;</span><br></pre></td></tr></table></figure>
+<p>2、方式二：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"640"</span> height=<span class="string">"359"</span> src=<span class="string">"地址"</span> frameborder=<span class="string">"0"</span> allow=<span class="string">"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="bat命令："><a href="#bat命令：" class="headerlink" title="bat命令："></a>bat命令：</h1><p>发布：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">d:</span><br><span class="line">CD d:\m</span><br><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<p>启动localhost4000.bat</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line">CD D:\m</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h2 id="文字剧中-左对齐-右对齐"><a href="#文字剧中-左对齐-右对齐" class="headerlink" title="文字剧中 左对齐 右对齐"></a>文字剧中 左对齐 右对齐</h2><h3 id="居中："><a href="#居中：" class="headerlink" title="居中："></a>居中：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;剧中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="左对齐："><a href="#左对齐：" class="headerlink" title="左对齐："></a>左对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"left"</span>&gt;左对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="右对齐："><a href="#右对齐：" class="headerlink" title="右对齐："></a>右对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"right"</span>&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="标题居中放大"><a href="#标题居中放大" class="headerlink" title="标题居中放大"></a>标题居中放大</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font size=3 &gt; &lt;h1&gt;标题居中放大&lt;/h1&gt; &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<center><font size=3 > <h1>标题居中放大</h1> </font></center>
+
+<h1 id="删除符号："><a href="#删除符号：" class="headerlink" title="删除符号："></a>删除符号：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~删除部分~</span><br></pre></td></tr></table></figure>
+<p><del>删除部分</del></p>
+<h1 id="Hexo-Next修改永久链接的默认格式"><a href="#Hexo-Next修改永久链接的默认格式" class="headerlink" title="Hexo Next修改永久链接的默认格式"></a>Hexo Next修改永久链接的默认格式</h1><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<h3 id="修改-config-yml："><a href="#修改-config-yml：" class="headerlink" title="修改_config.yml："></a>修改_config.yml：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  rep: hex    <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/advanced/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5RST.html" target="_blank" rel="noopener">原文链接</a></p>
+<h3 id="在文章插入标签链接："><a href="#在文章插入标签链接：" class="headerlink" title="在文章插入标签链接："></a>在文章插入标签链接：</h3><p>文件在同一目录下（不输入后缀）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 管理多个博客 %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+
+<p>（可点击直达）</p>
+<h3 id="文章插入围绕图片字体围绕："><a href="#文章插入围绕图片字体围绕：" class="headerlink" title="文章插入围绕图片字体围绕："></a>文章插入围绕图片字体围绕：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Imagus _  https://hexo.io/zh-cn/docs/tag-plugins 点击进入谷歌商店安装  %&#125;</span><br><span class="line">[&lt;div style=<span class="string">"float:left;border:solid 1px 000;margin:2px;"</span>&gt;&lt;img src= 代码及命令/1.PNG   width=<span class="string">"100"</span> height=<span class="string">"100"</span> &gt;&lt;/div&gt;][T1]</span><br><span class="line"></span><br><span class="line">[T1]: /ful/b7a8ef1d/1.JPG</span><br><span class="line"> <span class="string">"***Magic Actions for YouTube*** </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"</span> </span><br><span class="line">Imagus 概述</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Enlarge thumbnails, and show images/videos from links with a mouse hover.</span><br><span class="line">鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</span><br><span class="line"></span><br><span class="line">扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">选项页面上的分类和它们的简单描述：</span><br><span class="line"></span><br><span class="line">▪ 筛选规则</span><br><span class="line">一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p><a href="/ful/b7a8ef1d/1.JPG" title="***Magic Actions for YouTube*** 
+
+![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/b7a8ef1d/1.PNG   width="100" height="100" ></div></a></p>
+<p>Imagus 概述</p>
+<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
+<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
+<p>选项页面上的分类和它们的简单描述：</p>
+<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</p>
+<footer><strong>Imagus _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h3 id="分割符"><a href="#分割符" class="headerlink" title="分割符"></a>分割符</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="注释（不显示的部分）"><a href="#注释（不显示的部分）" class="headerlink" title="注释（不显示的部分）"></a>注释（不显示的部分）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="插入文字链接："><a href="#插入文字链接：" class="headerlink" title="插入文字链接："></a>插入文字链接：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 这个位置-1。 _  https://hexo.io/zh-cn/docs/tag-plugins 位置-3。  %&#125;</span><br><span class="line">这一行文字的显示位置-2。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
+<footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
+
+<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>安装好后，用git –version 来查看一下版本</p>
+<p>接下来初始化一下hexo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init 文件夹名</span><br></pre></td></tr></table></figure>
+<p>这个文件夹名自己取可以自己取什么名字都行，然后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹名 //进入这个文件夹</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<font size=1 color="＃0EEC1D">
+新建完成后，指定文件夹目录下有：
+node_modules: 依赖包
+public：存放生成的页面
+scaffolds：生成文章的一些模板
+source：用来存放你的文章
+themes：主题
+** _config.yml: 博客的配置文件**
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+打开hexo的服务，在浏览器输入localhost:4000就可以看到你生成的博客了
+</font>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s </span><br><span class="line">$ hexo s -p 5000</span><br></pre></td></tr></table></figure>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="点击原创直达原文">以上部分来源–原文链接点击</a></p>
+<h3 id="我的网址"><a href="#我的网址" class="headerlink" title="我的网址"></a>我的网址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ https://laokgg.tk</span><br></pre></td></tr></table></figure>
+<h3 id="音乐播放器-来源点击"><a href="#音乐播放器-来源点击" class="headerlink" title="音乐播放器 来源点击"></a>音乐播放器 <a href="http://npm.taobao.org/package/hexo-tag-aplayer" target="_blank" rel="noopener" title="点击原创直达原文">来源点击</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<h3 id="不显示图片"><a href="#不显示图片" class="headerlink" title="不显示图片"></a>不显示图片</h3><p>具体做法：</p>
+<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
+<h2 id="博文顶置（2种方式）"><a href="#博文顶置（2种方式）" class="headerlink" title="博文顶置（2种方式）"></a>博文顶置（2种方式）</h2><p>1、目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>2、手动方式： 来源：点击原创直达原文：<a href="https://www.jianshu.com/p/a5d85680722e" target="_blank" rel="noopener"点击直达原作者"">原创</a><br>修改<br>找到node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+<p>在</p>
+<p>var posts = locals.posts;<br>下面添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>完整代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>使用</p>
+<p>在文章添加 top 标签可以设置置顶顺序。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>youtube</title>
+    <url>/ful/f0789934.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>油管视频.中天新闻直播.大世界.东森财经</p>
+<a id="more"></a>
+<h2 id="中天新闻直播"><a href="#中天新闻直播" class="headerlink" title="中天新闻直播"></a>中天新闻直播</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/wUPPkSANpyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h2 id="丫头每天点评时事-周末休镜回家宅"><a href="#丫头每天点评时事-周末休镜回家宅" class="headerlink" title="丫头每天点评时事 **周末休镜回家宅"></a>丫头每天点评时事 **周末休镜回家宅</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/gd0dr1dlOvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<pre><code class="bash"></code></pre>
+<h2 id="东京大-真大-大而不堵"><a href="#东京大-真大-大而不堵" class="headerlink" title="东京大_ _真大_大而不堵"></a>东京大_ _真大_大而不堵</h2><p>.</p>
+<iframe width="400" height="150" src="https://www.youtube.com/embed/z1obnaqPgMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="邰正宵经典歌曲大全："><a href="#邰正宵经典歌曲大全：" class="headerlink" title="邰正宵经典歌曲大全："></a>邰正宵经典歌曲大全：</h2><iframe width="400" height="50" src="https://www.youtube.com/embed/Mt7q7x4g6Ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="东森财经"><a href="#东森财经" class="headerlink" title="东森财经"></a>东森财经</h2><iframe width="400" height="200" src="https://www.youtube.com/watch?v=q8u9qK5niss&feature=player_embedded_uturn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<!--
+
+<iframe src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" width="100" height="200" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="640" height="359" src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+]]></content>
+      <categories>
+        <category>视频</category>
+      </categories>
+      <tags>
+        <tag>直播</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/ful/4a17b156.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post<img src="/ful/4a17b156/2.PNG" alt="2" style="zoom:30%;" /></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>浓缩三句话</title>
+    <url>/ful/b0fd571b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一句话"><a href="#第一句话" class="headerlink" title="第一句话"></a>第一句话</h2><p>　　你的责任就是你的方向， 你的经历就是你的资本， 你的性格就是你的命运。</p>
+<a id="more"></a>
+
+<p><img src="/ful/b0fd571b/1.webp" alt="图片跑了"></p>
+<h2 id="第二句话"><a href="#第二句话" class="headerlink" title="第二句话"></a>第二句话</h2><p>　　复杂的事情简单做，你就是专家；简单的事情重复做， 你就是行家；重复的事情用心做，你就是赢家。</p>
+<p><img src="/ful/b0fd571b/2.webp" alt="图片跑了"></p>
+<h2 id="第三句话"><a href="#第三句话" class="headerlink" title="第三句话"></a>第三句话</h2><p>　　美好是属于自信者的， 机会是属于开拓者的， 奇迹是属于执著者的！<br><img src="/ful/b0fd571b/3.webp" alt="图片跑了"></p>
+<p>　　你若不想做，总会找到借口；你若想做，总会找到方法。</p>
+<p>　　沙子是废物，水泥也是废物，但他们混在一起是混凝土，就是精品；</p>
+<p>　　大米是精品，汽油也是精品，但他们混在一起就是废物。</p>
+<p>　　是精品还是废物不重要，跟谁混，很重要 !<br><img src="/ful/b0fd571b/4.webp" alt="图片跑了"><br>　　朋友不是乱交的，每天在一起喝酒的不一定是真朋友，每天在一起混的也不一定是永远的朋友。</p>
+<p><img src="/ful/b0fd571b/5.webp" alt="图片跑了"></p>
+<p>人生要交的四位朋友：</p>
+<p>1、交一个欣赏你的朋友，即便在你穷困潦倒的时候反而会更安慰你、帮助你。</p>
+<p>2、交一个有正能量的朋友，在你情绪低落的时候陪伴你、 鼓励你。</p>
+<p><img src="/ful/b0fd571b/6.webp" alt="图片跑了"><br>3、交一个为你领路的朋友，自愿做你的垫脚石，带你走过泥泞、拨开迷雾。<br>4、交一个肯指点你的朋友，时刻提醒你、监督你，让你时刻发现自己的不足。</p>
+<h2 id="回家的感觉真好："><a href="#回家的感觉真好：" class="headerlink" title="回家的感觉真好："></a>回家的感觉真好：</h2><video width="480" height="320" controls>
+<source src="/ful/f3e15bcc/2.mp4">
+</video>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>三句话</tag>
+        <tag>奇迹是属于执著者的</tag>
+        <tag>复杂的事情简单做</tag>
+        <tag>简单的事情重复做</tag>
+        <tag>重复的事情用心做</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最基本的烹饪原理</title>
+    <url>/ful/2a535c51.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--
+<center><font size=2 > <h1>最基本的烹饪原理</h1> </font></center>
+-->
+<h2 id="01-蚝油的妙用。"><a href="#01-蚝油的妙用。" class="headerlink" title="01.蚝油的妙用。"></a>01.蚝油的妙用。</h2><p>　　蚝油作为一种提鲜调料，有许多妙用。蚝油中盐含量很高，可以代替盐来调味，并且还有一种“鲜味”，特别是在炒肉菜，炒青椒等这些菜品是，出锅前来点蚝油，味道立马提升了上来。</p>
+<p><img src="/ful/2a535c51/1.jpg" alt="图"></p>
+<a id="more"></a>
+<p>　　许多不易入味的素菜中也可以使用蚝油，比如蒜苔、花菜、包菜，蚝油加生抽的组合，对大部分素材都有妙用，不过需要注意的一点是，使用时候最好是在熄火前在添加，因为持续的烹饪高温会导致其鲜味与营养都遭受破坏。</p>
+<h2 id="02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？"><a href="#02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？" class="headerlink" title="02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？"></a>02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？</h2><p>　　肉老分为两种，一种是水分含量少，一种是肉纤维太粗。</p>
+<p>　　针对肉水分含量少的，我们可以通过加入少量的盐，让肉其中的蛋白质产生盐溶反应吸收水分，让肉更加鲜嫩多汁了。</p>
+<p><img src="/ful/2a535c51/2.jpg" alt="图"></p>
+<p>　　针对纤维太粗，用锤子把纤维锤烂、用酶把纤维破坏，是一种让肉从硬到软的一种稚嫩手段。</p>
+<p>　　上浆其实就是给肉加个保护层，淀粉的变性温度低于蛋白质，可以在肉还没有变性之前形成保护膜，防止肉的水分流失。</p>
+<p>　　划重点：想要肉嫩，保持水分，破坏纤维。</p>
+<h2 id="03-肉类食材不要反复冰冻、融化"><a href="#03-肉类食材不要反复冰冻、融化" class="headerlink" title="03.肉类食材不要反复冰冻、融化"></a>03.肉类食材不要反复冰冻、融化</h2><p>　　因为这样水分冷冻形成的冰晶，会将细胞间的间隙撑大，从而导致肉严重失水，再进行加工时就会使口感营养都大打折扣。</p>
+<p><img src="/ful/2a535c51/3.jpg" alt="图"></p>
+<h2 id="04-糖，真的是是万能的。"><a href="#04-糖，真的是是万能的。" class="headerlink" title="04.糖，真的是是万能的。"></a>04.糖，真的是是万能的。</h2><p>　　不管是任何菜式，出锅前放一丢丢，总会遇到你想要的味道。加糖，不是为了让菜变得甜腻，而是作为味引，激发出足以挑拨你味蕾的口感。</p>
+<h2 id="05-蒸鱼的技巧"><a href="#05-蒸鱼的技巧" class="headerlink" title="05.蒸鱼的技巧"></a>05.蒸鱼的技巧</h2><p>　　一般蒸鱼应该是热水下锅，这样才能够缩短蒸鱼的时间，让鱼肉更加鲜嫩，并且蒸鱼完后，应该是先淋酱油再淋热油，这样酱油才能够很好</p>
+<p><img src="/ful/2a535c51/4.jpg" alt="图"></p>
+<h2 id="06-放调料味的先后顺序到底有什么讲究？"><a href="#06-放调料味的先后顺序到底有什么讲究？" class="headerlink" title="06.放调料味的先后顺序到底有什么讲究？"></a>06.放调料味的先后顺序到底有什么讲究？</h2><p>　　先给酱，因为酱又调色又调味，再调味，最后调色和给盐。</p>
+<p>特别是烧菜和卤菜，糖和醋先给后给效果不一样，糖长时间加热会焦糖化，菜的甜度变低颜色变深。醋加热也会挥发，只能其去腥的作用。</p>
+<p>　　所以糖和醋一般分两次给，起锅前补一下味道。</p>
+<p>总结：先调味再调色最后给盐，加热易变味的调料分两次给。</p>
+<h2 id="07-如何让绿叶菜出锅也是美美的？"><a href="#07-如何让绿叶菜出锅也是美美的？" class="headerlink" title="07.如何让绿叶菜出锅也是美美的？"></a>07.如何让绿叶菜出锅也是美美的？</h2><p>　　炒绿叶菜，锅里可以适当地多放一些油，火力一定要用大火，把菜放入锅里后迅速翻炒，水分足的菜炒到八成熟时再放盐，这样不会影响菜的颜色，也不容易出水。</p>
+<p><img src="/ful/2a535c51/5.jpg" alt="图"></p>
+<h2 id="08-如何才能把肉炖得好吃？"><a href="#08-如何才能把肉炖得好吃？" class="headerlink" title="08.如何才能把肉炖得好吃？"></a>08.如何才能把肉炖得好吃？</h2><p>　　炖肉的时候，很多人做的炖肉常常会做的比较干硬，除了炖的时间不够外，制作的过程也忽略了一些技巧，要怎么把炖肉做得又香又酥烂呢？</p>
+<p>　　炖肉时，加水一定要加热水，否则肉不容易炖烂。除了常规的葱、姜、八角、桂皮、香叶，可在锅里加两块陈皮，既能去除油腻，又能增加香味。</p>
+<h2 id="09-放盐的先后有讲究"><a href="#09-放盐的先后有讲究" class="headerlink" title="09.放盐的先后有讲究"></a>09.放盐的先后有讲究</h2><p>　　煮汤一定是最后放盐，俗话说:”吃肉不如喝汤.”嘛，你先给了盐，鱼的鲜味就进不去汤里了，相反卤菜的话就要先给盐让菜先保自己的味道，再让卤水的味道慢慢进来。</p>
+<p><img src="/ful/2a535c51/6.jpg" alt="图"></p>
+<h2 id="10-怎么把汤熬白？"><a href="#10-怎么把汤熬白？" class="headerlink" title="10.怎么把汤熬白？"></a>10.怎么把汤熬白？</h2><p>　　其原理就是，大火让油脂和水在蛋白质的作用下，充分乳化，促成汤色如奶。也有人说厨房会加牛奶，让汤变白，其实加牛奶主要是增加蛋白质，不然要想把汤加到白的程度，那奶味得多大啊。</p>
+<p><img src="/ful/2a535c51/7.jpg" alt="图"></p>
+<p>　　奶汤制作过程中需要大火，水一定要给足，最好不要中途加水，加的话最好加热水。总结一下就是原料上就是蛋白质、脂肪、水，方法就是要煎一下，水要沸腾。这就是制作奶汤的要点。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>烹饪技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>鱼肉不腥还特鲜美</title>
+    <url>/ful/d32b2432.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/ful/d32b2432/1.webp" alt="tu"></p>
+<h1 id="鱼肉去腥"><a href="#鱼肉去腥" class="headerlink" title="鱼肉去腥"></a>鱼肉去腥</h1><p>　　鲤鱼、草鱼是我们经常吃的鱼，但是这些都是土腥味特别重的鱼。一不留意，做出来的鱼肉就腥味很大，所以去腥是第一步。</p>
+<a id="more"></a>
+<p><img src="/ful/d32b2432/1.jpg" alt="tu"></p>
+<h1 id="温水去味"><a href="#温水去味" class="headerlink" title="温水去味"></a>温水去味</h1><p>　　将鱼破肚以后用温水洗鱼，千万不要用过烫或者过冷的水，否则会越洗越腥。或者还可以将鱼放在温茶水里浸泡10分钟左右，也可以去除腥味。</p>
+<p><img src="/ful/d32b2432/2.webp" alt="tu"></p>
+<h1 id="酒类去味"><a href="#酒类去味" class="headerlink" title="酒类去味"></a>酒类去味</h1><p>　　将鱼用温水洗净后，用白酒涂满鱼身，1分钟后再用水洗去白酒，能去除腥味噢。还可以先把鱼剖开，用红葡萄酒腌一下，这样也能将腥味去掉~</p>
+<p><img src="/ful/d32b2432/2.jpg" alt="tu"></p>
+<h1 id="牛奶去味"><a href="#牛奶去味" class="headerlink" title="牛奶去味"></a>牛奶去味</h1><p>　　炖鱼的时候，可以在锅内加入一半的牛奶，这样能够去除腥味，还能使鱼肉变得酥软，超级好吃噢~如果是煎炸的话，可以先将鱼放在牛奶里浸泡片刻，再下油锅，这样也能使鱼肉更加鲜美。<br><img src="/ful/d32b2432/3.webp" alt="tu"></p>
+<h1 id="橘皮去味"><a href="#橘皮去味" class="headerlink" title="橘皮去味"></a>橘皮去味</h1><p>　　熬制营养汤时，将橘子皮撕成小片，放入汤中可以去腥味，特别是鱼汤、羊汤等，而又不会减少肉的香味。<br><img src="/ful/d32b2432/4.webp" alt="tu"></p>
+<h1 id="炖鱼入味"><a href="#炖鱼入味" class="headerlink" title="炖鱼入味"></a>炖鱼入味</h1><p>　　炖鱼好吃是好吃，就是实在难以入味。炖鱼的话建议选择小一点的鱼，2~3斤左右就好，洗干净之后在鱼身上划上几刀，提前用盐、料酒、葱、姜腌一会儿，这样鱼肉才可以更好地入味。炖的时候也要注意，要小火慢炖，越久越入味 </p>
+<p><img src="/ful/d32b2432/5.webp" alt="tu"></p>
+<h1 id="蒸鱼不腥味"><a href="#蒸鱼不腥味" class="headerlink" title="蒸鱼不腥味"></a>蒸鱼不腥味</h1><p>　　鱼最健康的吃法就是蒸鱼，因为这样能够保持鱼的鲜味和营养。要想蒸鱼没有腥味的话，葱姜蒜是必须要有的，因为蒸鱼时间很短，所以调料需要多放一些，这样味道厚重一点儿，就能够覆盖鱼腥味了。<br><img src="/ful/d32b2432/6.webp" alt="tu"></p>
+<p>　　还有切忌用冷水蒸鱼噢。因为鱼在突遇高温时，才能锁住内部鲜汁，味道更鲜美。蒸前最好在鱼身上洒一些鸡油或猪油，可使鱼肉更加滑嫩。还可以封上保鲜膜，防止鱼的鲜味跑掉。</p>
+<p><img src="/ful/d32b2432/7.webp" alt="tu"></p>
+<h1 id="煎鱼不散"><a href="#煎鱼不散" class="headerlink" title="煎鱼不散"></a>煎鱼不散</h1><p>　　小编个人非常喜欢吃外焦里嫩的煎鱼，但是煎鱼特别麻烦，一不小心一条鱼就四分五裂了。所以煎鱼的时候，可以先做一个面粉鸡蛋糊，把入味的鱼放在面粉中粘一遍，然后薄薄的挂一层蛋液，煎出来的鱼肉就不会散开了！</p>
+<p><img src="/ful/d32b2432/3.jpg" alt="tu"></p>
+<h1 id="煎鱼不粘锅"><a href="#煎鱼不粘锅" class="headerlink" title="煎鱼不粘锅"></a>煎鱼不粘锅</h1><p>　　煎鱼如果怕粘锅的话，就先把锅烧热，油温高一点，再放入鱼，这时候鱼遇到高油温表皮会立即变硬，就不会粘锅了，最后再改用小火把鱼煎透。</p>
+<p><img src="/ful/d32b2432/4.jpg" alt="tu"></p>
+<h1 id="烧鱼不碎"><a href="#烧鱼不碎" class="headerlink" title="烧鱼不碎"></a>烧鱼不碎</h1><p>　　红烧鱼经常是整条进锅，但出锅的时候就变成两半了。要想烧鱼不碎的话，最好的办法就是先用油炸一遍，让鱼定型，再二次烧煮的时候也千万不要拿锅铲来回翻动。直接用勺子把鱼汤淋在鱼身上入味就可以了。</p>
+<p><img src="/ful/d32b2432/8.webp" alt="tu"></p>
+<h1 id="推荐食谱"><a href="#推荐食谱" class="headerlink" title="推荐食谱"></a>推荐食谱</h1><h2 id="炖鱼"><a href="#炖鱼" class="headerlink" title="炖鱼"></a>炖鱼</h2><p><img src="/ful/d32b2432/5.jpg" alt="tu"></p>
+<p>食材：1条鱼、3颗蒜切碎、4汤匙柠檬汁、适量盐、新鲜黑胡椒粉、1汤匙橄榄油、1杯大葱和洋葱、1个黄色和红色甜椒切片、2杯切碎的番茄、1汤匙辣椒粉、1束香菜切碎、1杯椰奶</p>
+<h2 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h2><p>1、将鱼片放入碗中，加入切碎的大蒜和柠檬汁，搅拌均匀涂在鱼块上，然后洒满盐和胡椒粉，搁置一边。</p>
+<p><img src="/ful/d32b2432/6.jpg" alt="tu"></p>
+<p>2、将甜椒、番茄、洋葱一起放入锅内，加入2汤匙橄榄油，在中等温度下加热。</p>
+<p><img src="/ful/d32b2432/9.webp" alt="tu"></p>
+<p>3、将部分蔬菜取出放在碗中备用，把鱼块放入锅中平铺，撒上盐和胡椒粉，再倒入取出的蔬菜，覆盖平铺的鱼块，最后倒入椰奶。</p>
+<p><img src="/ful/d32b2432/10.webp" alt="tu"></p>
+<p><img src="/ful/d32b2432/7.jpg" alt="tu"></p>
+<p><img src="/ful/d32b2432/11.webp" alt="tu"></p>
+<p>4、转为中火，盖上锅盖，继续炖15分钟。出锅前可以先试喝一口，味道不够的话可以再继续添加调料。<br><img src="/ful/d32b2432/12.webp" alt="tu"></p>
+<p><img src="/ful/d32b2432/8.jpg" alt="tu"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>家常菜</tag>
+        <tag>做鱼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活点滴分享</title>
+    <url>/ful/f3e15bcc.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="出门常用"><a href="#出门常用" class="headerlink" title="出门常用"></a>出门常用</h1><h3 id="出门带鸡蛋不用事先煮及保持长久热鸡蛋。"><a href="#出门带鸡蛋不用事先煮及保持长久热鸡蛋。" class="headerlink" title="出门带鸡蛋不用事先煮及保持长久热鸡蛋。"></a>出门带鸡蛋不用事先煮及保持长久热鸡蛋。</h3><p>　将生鸡蛋冲洗一下，最好开水烫一下杀菌，然后放入保温杯内根据保温杯的大小放鸡蛋的数量，然后将开水倒入保温杯，大约一二十分钟鸡蛋就熟了，这样的鸡蛋很嫩且长时间后还可以吃到热的鸡蛋。<br>　注意：容器小鸡蛋多，会使鸡蛋加热不够，会出现不太熟的鸡蛋</p>
+<a id="more"></a>
+
+<img src="/ful/undefined/2.jpg" alt=" 圣托里尼 " style="zoom:50%;" />
+
+<h1 id="醋多用途"><a href="#醋多用途" class="headerlink" title="醋多用途"></a>醋多用途</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">去腥，洗鱼的手沾点醋，在手里搓搓，清水冲洗可去除手上星闻。</span><br><span class="line">铝制品及不锈钢器皿用醋擦拭后，光亮。</span><br><span class="line">煮面条时，放少许醋，可使面条由黄变白。</span><br></pre></td></tr></table></figure>
+<h1 id="支付宝生成证件照："><a href="#支付宝生成证件照：" class="headerlink" title="支付宝生成证件照："></a>支付宝生成证件照：</h1><p>　　打开支付宝以后，主页最上面有一个搜索然后我们点击进去。<br>如图：<br><img src="/ful/f3e15bcc/1.jpg" alt="tu"><br>　　在这里输入证件照三个字，点击进入。<br>进去以后，我们点击证件照拍摄。<br>如图：<br><img src="/ful/f3e15bcc/2.jpg" alt="tu"><br>　　就会出现热门证件照和证件照分类，非常的详细，应用尽有，这样大家就可以根据自己的需求而进行尺寸的选择。<br>如图：<br><img src="/ful/f3e15bcc/3.jpg" alt="tu"></p>
+<h1 id="绳结"><a href="#绳结" class="headerlink" title="绳结"></a>绳结</h1><h3 id="绳结中的杠杆原理：在无机械时可以四两拨千斤，非常实用"><a href="#绳结中的杠杆原理：在无机械时可以四两拨千斤，非常实用" class="headerlink" title="绳结中的杠杆原理：在无机械时可以四两拨千斤，非常实用"></a>绳结中的杠杆原理：在无机械时可以四两拨千斤，非常实用</h3><iframe width="300" height="180" src="https://www.youtube.com/embed/nlpGRFjFdj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>打不开视频的看图吧：<br>　　图一：<br><img src="/ful/f3e15bcc/1.PNG" alt="tu"><br>　　图二：<br><img src="/ful/f3e15bcc/2.PNG" alt="tu"><br>　　图三：<br><img src="/ful/f3e15bcc/3.PNG" alt="tu"><br>　　图四：<br><img src="/ful/f3e15bcc/4.PNG" alt="tu"><br>　　图五：<br><img src="/ful/f3e15bcc/5.PNG" alt="tu"><br>　　图六：<br><img src="/ful/f3e15bcc/6.PNG" alt="tu"><br>　　图七：<br><img src="/ful/f3e15bcc/7.PNG" alt="tu"><br>　　图八：<br><img src="/ful/f3e15bcc/8.PNG" alt="tu"><br>　　<br>     图九：</p>
+<p><img src="/ful/f3e15bcc/9.PNG" alt="tu"></p>
+<h1 id="领带打法："><a href="#领带打法：" class="headerlink" title="领带打法："></a>领带打法：</h1><video width="480" height="320" controls>
+<source src="/ful/f3e15bcc/1.mp4">
+</video>
+
+<!-- 作为食品模板：
+<iframe src="/ful/f3e15bcc/1.mp4" width="300" height="180" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="300" height="180" src="/ctor/f3e15bcc/1.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>鸡蛋</tag>
+        <tag>醋的多用途</tag>
+        <tag>证件照</tag>
+        <tag>打绳结</tag>
+        <tag>打领带</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中美平民生活对比</title>
+    <url>/ful/23616e9c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　　2018年网上看到的一篇文章，是网站转载没有作者链接的文章，这里就不打链接了。</p>
+<p>　　大部分的美国人月收入也就是在几千美金。有人可能会想，中国人收入在几千人民币一个月的是主流，但是只够吃饭的，别说北京上海等大城市，就算小城市日子也是过得紧紧巴巴。美国人怎么看上去还是那么轻松。这就要说到美国的物价了。　　</p>
+<a id="more"></a>
+<p><img src="1.jpg" alt=""><br>　　一个鸡蛋9分钱。一个鸡腿几分钱，一斤大米0.42元。纯净水，24瓶售价3.99元，每瓶0.166元。小猪肘子每磅一两块钱，你信吗？　　</p>
+<p><img src="2.jpg" alt=""><br>　　也许，如果不是我的女儿去美国留学，去亚特兰大佐治亚理工学院读博，我不会关注到生活在美国和生活在中国有多大差别。也许，我不会关注到在中国，为什么生活成本会如此昂贵，我不会关注到通货膨胀在多大程度上抵消了经济增长所带来的收益。<br>　　面对中国涨势如潮的农产品价格，面对几乎便宜得不可思议的美国食品价格，我们不会发出这样的疑问：中国的农产品价格怎么了？中国的农产品价格体系出了什么问题？美国食品价格为什么会如此便宜，他们又是如何理顺他们的农产品价格体系的？<br><img src="3.jpg" alt=""><br>　　也许，在来到美国之前，你会想，美国这个经济非常发达的国家，公民收入非常之高的国家，生活的成本一定很昂贵，物价昂贵得让初来乍到的中国人望而生畏。就像在改革开放之初， 大陆人来到深圳一样，深圳人的收入很高，可深圳的物价昂贵得让人咋舌。</p>
+<p>　　在中国，收入越高的城市，生活消费水平自然会水涨船高。似乎这才符合常理。中国的一线城市生活成本，大大地高于二三线城市。　　</p>
+<p><img src="4.jpg" alt="">　　<br>　　可你看看美国，完全不是那么回事。你到美国一逛超市，一看美国超市的物价，你简直难以相信自己的眼睛。</p>
+<p>　　先看吃的：</p>
+<p>　　50磅大米20几美元一袋，美国的食品价格大都以磅论价，一磅合0.45359237公斤。大体为中国市斤的0.97市斤。也就是说，一斤大米0.42美元。而我们家吃的大米每市斤都在5元人民币上下。</p>
+<p>请注意，不要把美元折算成人民币，因为2017年美国的人均月收入为3000美元，而2017年上半年中国的人均月收入为2155元人民币（308美元），仅为美国的人均收入的1/10　　</p>
+<p><img src="5.jpg" alt="">　　<br>　　美国的物价是建筑在美国的人均收入上的，中国的物价是建筑在中国的人均收入上的。可建筑在人均收入为3000美元的大米价格，每磅才0.42美元。其便宜的程度让人难以置信。</p>
+<p>　　美国的大米价格与中国的大米价格便宜得简直就不能比。</p>
+<p>　　香米又称“国宝米”，是华人最常吃的一种高档白香米。价格也仅为25磅21.99美元。每磅不到0.88美元。</p>
+<p><img src="6.jpg" alt="">　<br>　　超市货架上的纯净水，24瓶售价3.99美元，每瓶才0.166美元。便宜的简直和中国卖废品的塑料瓶似的。</p>
+<p><img src="7.jpg" alt="">　　</p>
+<p>　　再看鸡蛋，便宜的简直难以置信，2盒鸡蛋，每盒18个，即36个鸡蛋，才3.35美元，一个鸡蛋才0.09美元。一个鸡蛋9分钱。你信吗？在中国，一个鸡蛋卖到0.50元了。<br><img src="8.jpg" alt="">　<br>　　一盒装的十个的鸡腿，售价才0.89美元。也就是说，一个鸡腿还不到1毛钱。一袋子5磅重鸡翅5.99美元。也就是说，1磅鸡翅才1.19美元。</p>
+<p>　　整只烤鸡只要4.99美元。<br><img src="9.jpg" alt="">　<br>　　猪肉馅，原价$3.87元/磅，现价$3.49元/磅。美国超市也有大降价。　　<br><img src="10.jpg" alt=""><br>　　无骨猪肉块原价5.95元/磅，现价$2.99元/磅。<br><img src="11.jpg" alt=""><br>　里脊肉2.99元/磅。<br><img src="12.jpg" alt=""><br>　小猪肘子在美国很便宜。原价$4.74元/磅，现价$2.98元/磅.有的商店还有1块多的。<br><img src="13.jpg" alt=""><br>　　火鸡肉，每磅1.49美元。中国的超市售价在16元一斤，是美国超市售价的10倍。<br><img src="14.jpg" alt=""><br>　　白条鸡（整只）0.89美元/磅。真的是中国的白菜、豆腐价。</p>
+<p>最上等的特级猪扒，2.79美元/磅。</p>
+<p>食用油，在美国很少人用花生油，主要的食用油是菜籽油（Canola Oil）和菜油（Vegetable Oil），因为这两种油的饱和脂肪比花生油的要低很多。动物油基本上是没有人用的。8.89美元/5quart（升）。也就是说，5升装的一桶装的菜籽油售价为8.89美元。可在中国这样的一桶菜籽油，要卖50多元了。<br><img src="15.jpg" alt="">　　<br>　　同样一桶在中国超市卖200多元的进口奶粉，在美国的超市卖22元，看到这个标签的妈妈们，都抽过去了。</p>
+<h3 id="一美元在美国能买什么"><a href="#一美元在美国能买什么" class="headerlink" title="一美元在美国能买什么"></a>一美元在美国能买什么</h3><p>　　按理说，人民币在中国应当比美元在美国值钱才对，才符合经济学理论。因为中国的人均收入，哪怕以人民币计，都远远低于美国的人均收入的绝对数。</p>
+<p>可在中国，一元人民币能干什么？一元人民币只够上一次收费公厕。坐一次公共汽车，坐地铁都不成。<br><img src="16.jpg" alt="">　</p>
+<h3 id="美国到处都可以见到“九毛九超市”"><a href="#美国到处都可以见到“九毛九超市”" class="headerlink" title="美国到处都可以见到“九毛九超市”"></a>美国到处都可以见到“九毛九超市”</h3><p>　在“九毛九超市”里，货品很丰富，所有商品的价格都在九毛九以下。</p>
+<p>有的小东西，九毛九能买好几样，比如：方便面，九毛九能买８包；（在中国这样的方便面一包要卖3元，可在美国，3元能买到25包了。）橙子，九毛九能买十来个。九毛九能买一瓶炒菜油，（比中国最便宜的酱油还便宜，我们家吃的酱油还要15元钱一瓶呢）。<br><img src="17.jpg" alt=""><br>　　九毛九能买一瓶蚝油，一盒鸡蛋（半打），一瓶牛奶，一包青菜，还有一个微型收音机，价格统统是九毛九。在超市里购物，食品不交税，其他物品要交税，那个微型收音机加了８美分的税。</p>
+<p>　　九毛九能买三碗桶装的速食面，（这样的速食面在中国的超市，5元一碗。）九毛九能买一袋葵花籽，一副手套，一个锅铲，一个咖啡杯，一个盘子，一只儿童用带吸管的杯子，九毛九能买厨房里用的手巾一卷，一包核桃仁甜食，1只很精美的工艺品篮子，4卷卫生纸，洗碗剂一瓶，清洁玻璃剂一瓶，一盒室内用固体芳香剂，挺大一瓶可乐饮料（1升），1小罐香肠罐头，一大袋饼干。<br><img src="18.jpg" alt="">　　<br>　　可供选择的种类还挺多。九毛九能买1包糖，4只中性笔，（这样的中性笔在中国卖3.5元一支）。九毛九能买1包283克的果味胶皮糖，4节5号电池，（这样的电池在中国卖到10元一包了）。九毛九能买一包创可贴，一把剪子，1付扑克，一包肉干，一包口香糖。<br><img src="19.jpg" alt=""><br>　　最有趣的是，“九毛九超市”里的商品，大多来自中国：拖鞋、浴巾、Ｔ恤、餐具……琳琅满目。我们说不清这是一种什么感情。中国的商品在美国充斥着美国的地摊市场，我们在美国买中国货。</p>
+<h3 id="可我们在美国买中国货，比在中国买中国货还便宜"><a href="#可我们在美国买中国货，比在中国买中国货还便宜" class="headerlink" title="可我们在美国买中国货，比在中国买中国货还便宜"></a>可我们在美国买中国货，比在中国买中国货还便宜</h3><p>　　我女儿算了算，她每月用吃饭的花销不会超过200美元，而且吃得很好。她说，在美国，吃饭是没有穷人和富人的，因为吃很便宜。</p>
+<p>她在浙江大学上学，每月吃饭要花掉一千元。这便是吃在美国，吃在中国。</p>
+<p>这件事留给我们的思索是：中国的价格体系到底怎么了？美国人又是如何梳理他们的价格体系的？</p>
+<p>上面列出的那么多，有些东西的价格可能会因为地区和季节的不同而不同。另外美国有消费税，大概为8%-10%，每个州不一样。买100块的东西要付108元。吃饭要给小费，一般是税后10-20%。</p>
+<p>总体就美国人月入2000-3000而言，日子还是过得去，你拿100元钱去超市，能够买上一个一推车的东西。过年过节去买衣服，你拿1000元钱也可以买不少。</p>
+<p>所以我们说，美国的经济增长靠什么?</p>
+<p>主要就是内需。</p>
+<p>你去买菜吃饭买衣服，除了个别商品，基本上很少会有“这东西太贵，我买不起”的念头。美国人的收入都是在源源不断地花出去的。</p>
+<p>美国物价相对便宜的一个原因就是完全的市场化和产业化。整个美国的市场是一个有机的整体。</p>
+<p>我们有时候会抱怨，中国超市里的白菜都要2块钱一斤。然后得出一个结论，中国物价太贵了。这个其实是片面的。你去中国一些相对闭塞的县城，农村，你会发现那里的白菜依旧是几毛钱一斤。为什么会差那么大?原因就在于中国的市场化是局部的。所以会出现像广西的香蕉滞销喂鱼的情形。</p>
+<p>城市里面的商品可能都几乎市场化了。但是在一个偏远的农村，他们的很多产品基本上在一个相对狭小的封闭市场中间流动。全国的市场没有融为一体，所以好处就是当地人可以买到便宜的白菜。弊端就是种菜的不能把菜卖出去，赚不到大钱。</p>
+<p>再次就是规模化、机械化生产。</p>
+<p>在这个问题上，中国主要存在耕地产权问题。我们的联产责任承包制其实还是传统的小农经济，但是国家现在的顾虑在于如果农业大规模产业化，就会造成大量的农村剩余劳动力。</p>
+<p>所以，只有在逐步的城镇化转移大量农村人口的基础上，才能做到农业的产业化。这个思路是很明显的。所以说，中国的问题，归根到底都是三农问题。</p>
+<p>美国的农业与中国农业</p>
+<p>美国以不到300万人农业人口，造就了世界上最强大的美国农业。美国用不到0.58％的农业人口所生产的粮食，使美国人均占有的粮食超过了1吨，成为了世界粮食生产出口第一大国，其一个国家的粮食出口，就占到了世界粮食出口总量的一半。</p>
+<p>我们真不知道，如果美国不出口粮食，这个世界会怎么样。</p>
+<p>美国的玉米产量占世界总产量的40%，稳居世界第一，出口量占65%，居世界第一。美国玉米单产在8.5吨/公顷，（而我国的玉米主产区，东北地区单产只有6吨/公顷）。</p>
+<p>美国的小麦产量占世界总产量的11%，居世界第三位，出口量占33%，居世界第一位。水稻产量占2%，居世界第十，出口量占16%，居世界第三位。大豆产量占35%，居世界第一位，出口量占67%，居世界第一位。棉花产量占18%，居世界第二，出口量占24%，居世界第一。</p>
+<p>这些享尽辉煌的数字，都是因为有了建筑在土地私有制基础上的工业化的大农业。</p>
+<p>看罢了美国农业，我们再看中国农业。</p>
+<p>目前，中国已经成为世界第一大小麦和大米消费国，第二大玉米消费国，开始对世界粮食市场构成压力，中国正在成为农产品的纯进口国。</p>
+<p>为什么？为什么7亿人种粮拼不过300万人种粮？</p>
+<p>是因为美国的农业是建筑在土地私有制基础上的工业化的大农业，而中国的农业是建筑在土地集体所有制上的家庭承包制上的小农业。</p>
+<p>美国的农业是现代化的大农业，而中国的农业是家庭承包下的，一家一户的自耕农业。中国的农业没法和美国的大农场竞争，在知识、市场、技术、机械化程度等条件上，中国农产品明显地处于劣势。<br>如果不从根本上解决中国的土地制度，可以断言，中国农业将永远是脆弱而落后的。中国式的土地制度，是中国改革开放一道迈不过去的槛。改革开放三十多年，中国的改革开放一碰到土地制度便退缩，那是一根高压线。</p>
+<p>坚守这根高压线其直接的结果是：我们用七亿人所生产的粮食，人均粮食占有量尚不到美国人均粮食占有量的1/3，仅为0.25～0.3吨左右。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>中美对比</tag>
+        <tag>物价</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>管理多个博客</title>
+    <url>/ful/31bcf49f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="创建第二个密钥："><a href="#创建第二个密钥：" class="headerlink" title="创建第二个密钥："></a>创建第二个密钥：</h2><p>1、先将第一个密钥移出到桌面暂时存放（.ssh文件夹下）<br>2、创建第二个密钥和创建第一个密钥一样的顺序。</p>
+<a id="more"></a>
+
+<p>回到你的git bash中：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"GitHub用户名"</span></span><br><span class="line">git config --global user.email <span class="string">"GitHub的邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>想和对检查下面命令（可省略）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.emai</span><br></pre></td></tr></table></figure>
+<p>3、创建SSH,一路回车：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"GitHub的邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>已经生成了.ssh文件夹里：<br><img src="1.jpg" alt="图示"><br>4、新生成的密钥改名后将第一个密钥放回文件夹里（.ssh）<br>5、公钥放GitHub里<br>6、在gitbash中，查看是否成功</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>7、在第二个博客文件夹下安装deploy-git</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>8、然后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>以上部分和原文不同，按原文多次失败，也可能没有操作好原文步骤，这个步骤后成功。</p>
+<h2 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h2><p>1、查看你的.ssh/根路径下, 有没有config文件<br>没有使用以下命令创建：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">touch config</span><br></pre></td></tr></table></figure>
+<p>2、用记事本或者其他工具打开config文件（注意config文件是没有任何后缀名的），写入以下配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#第一个账号，默认使用的账号，不用做任何更改</span></span><br><span class="line">Host github.com</span><br><span class="line">	HostName github.com</span><br><span class="line">	User git</span><br><span class="line">	IdentityFile ~/.ssh/id_rsa</span><br><span class="line">	</span><br><span class="line"><span class="comment">#第二个新账号，#"xxxxxx"为前缀名，可以任意设置，要记住，后面需要用到</span></span><br><span class="line">Host xxxxxx.github.com</span><br><span class="line">	HostName github.com</span><br><span class="line">	User git</span><br><span class="line">	IdentityFile ~/.ssh/这里是你创建的新密钥的名称</span><br></pre></td></tr></table></figure>
+<p>3、清空本地的 SSH 缓存，添加新的 SSH 密钥 到 SSH agent中。<br>使用命令cd ~/.sshcd到.ssh根目录下，依次执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-add -D</span><br><span class="line">ssh-add xxxxxx <span class="comment">#旧密钥名称，一般是id_rsa</span></span><br><span class="line">ssh-add xxxxxx <span class="comment">#新创建的密钥名称</span></span><br></pre></td></tr></table></figure>
+<h2 id="如果执行以上命令出现错误："><a href="#如果执行以上命令出现错误：" class="headerlink" title="如果执行以上命令出现错误："></a>如果执行以上命令出现错误：</h2><h2 id="Could-not-open-a-connection-to-your-authentication-agent-，"><a href="#Could-not-open-a-connection-to-your-authentication-agent-，" class="headerlink" title="Could not open a connection to your authentication agent.，"></a>Could not open a connection to your authentication agent.，</h2><p>那么就需要先执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-agent bash</span><br></pre></td></tr></table></figure>
+<p>再执行以上命令</p>
+<h2 id="验证配置是否成功"><a href="#验证配置是否成功" class="headerlink" title="验证配置是否成功"></a>验证配置是否成功</h2><p>依次执行以下命令，第一个为默认ssh_key验证；第二个为新的ssh_key验证，其中“xxxxxx”为你先前在config文件中的命名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@xxxxxxx.github.com</span><br></pre></td></tr></table></figure>
+<p>依次显示以下信息, 则说明配置成功：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi 你的用户名! You<span class="string">'ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="取消全局用户名-邮箱配置，单独设置用户名-邮箱"><a href="#取消全局用户名-邮箱配置，单独设置用户名-邮箱" class="headerlink" title="取消全局用户名/邮箱配置，单独设置用户名/邮箱"></a>取消全局用户名/邮箱配置，单独设置用户名/邮箱</h2><p>执行如下命令，取消全局用户名和邮箱配置（如果已经设置了全局的话）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> user.name</span><br><span class="line">git config --global --<span class="built_in">unset</span> user.email</span><br></pre></td></tr></table></figure>
+<p>分别进入你的两个Hexo博客.git目录下执行以下命令单独设置用户名/邮箱：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name <span class="string">"这里是用户名"</span></span><br><span class="line">git config user.email <span class="string">"这里是你的邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>如果此时报错：fatal: not in a git directory，说明你没有进入.git目录下，具体路径：\Hexo.deploy_git.git，.git目录是隐藏的，需要你设置隐藏目录可见.<br>执行以下命令可以查看设置是否成功</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+<h2 id="hexo-配置文件修改git地址"><a href="#hexo-配置文件修改git地址" class="headerlink" title="hexo 配置文件修改git地址"></a>hexo 配置文件修改git地址</h2><p>打开你的第二个博客Hexo目录下的_config.yml文件，找到deploy关键字，写入以下配置并保存：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: git@xxxxxx.github.com:你的用户名/你的用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>再次执行hexo g -d就能成功将新的博客部署到 Github 上了</p>
+<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729" target="_blank" rel="noopener">原文参考作者点击</a></p>
+]]></content>
+      <categories>
+        <category>安装</category>
+      </categories>
+      <tags>
+        <tag>多博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浏览器扩展</title>
+    <url>/ful/1bb1a481.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=1 color="＃0EEC1D">支持 pc版-Chrome、 pc和手机版-Yandex<a href="/ful/1bb1a481.html" title="浏览器扩展">浏览器扩展</a>、</p>
+
+
+</font>
+
+<a id="more"></a>
+
+<h2 id="1、youtube插件（Magic-Actions-for-YouTube）"><a href="#1、youtube插件（Magic-Actions-for-YouTube）" class="headerlink" title="1、youtube插件（Magic Actions for YouTube）"></a>1、youtube插件（Magic Actions for YouTube）</h2><p>bug：播放画质不能固定。<br>下载人数多，建议用下面的</p>
+<blockquote><p><a href="/ful/1bb1a481/1.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/1.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Magic Actions for YouTube</em></strong><br>概述</p>
+<p>改善您的YouTube观看体验！电影模式，鼠标滚轮音量控制，AutoHD，扩展，快照…<br>YouTube™Magic Actions是一种轻巧实用的扩展程序，旨在提供更舒适的观看体验。 </p>
+<p>魔术动作非常易于使用！！！</p>
+<p>最新更新：<br><a href="https://www.mycinema.pro/latest-news.html" target="_blank" rel="noopener">https://www.mycinema.pro/latest-news.html</a></p>
+<p>v7.x的主要功能：</p>
+<p>✔AutoHD功能-开始播放高清的所有YouTube™视频<br>+超高清4k&gt; HD1440p&gt; HD1080p&gt; HD720p&gt; 480p&gt; 360p&gt; 240p&gt; 144p</p>
+<footer><strong>Magic Actions for YouTube _</strong><cite><a href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<blockquote><p>这一行文字的显示位置-2。</p>
+<footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
+
+<h2 id="2、用户代理切换器"><a href="#2、用户代理切换器" class="headerlink" title="2、用户代理切换器"></a>2、用户代理切换器</h2><p>识别手机，pc及浏览器模式</p>
+<blockquote><p><a href="/ful/1bb1a481/2.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/2.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Chrome的用户代理切换器</em></strong> </p>
+<p><strong>概述</strong></p>
+<p>欺骗和模仿用户代理字符串。<br>是否曾经需要快速在用户代理字符串之间快速切换？开发一个需要同时在移动浏览器和桌面浏览器上工作的网站？厌倦了一些古老的网站，因为您没有使用Netscape 4而阻止了您？</p>
+<p>答案就是Chrome的User-Agent Switcher。使用此扩展，您可以在用户代理字符串之间快速轻松地切换。另外，您可以设置每次要欺骗的特定URL。</p>
+<p>请注意，这不会在浏览Internet时提供更好的隐私，并且某些站点可能还有其他手段来确定浏览器不是它的假装。运行此扩展程序可能会影响您的浏览体验，因为它需要拦截和修改传达给服务器的数据。</p>
+<footer><strong>Chrome的用户代理切换器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<blockquote><p>这一行文字的显示位置-2。</p>
+<footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
+
+<h2 id="3、恢复关闭标签"><a href="#3、恢复关闭标签" class="headerlink" title="3、恢复关闭标签"></a>3、恢复关闭标签</h2><p>重复点击可恢复删除的所有网页</p>
+<blockquote><p><a href="/ful/1bb1a481/3.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/3.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>恢复关闭标签</em></strong> </p>
+<p>概述</p>
+<p>recover your closed tab<br>在当前浏览器窗口重新打开关闭的标签”</p>
+<footer><strong>恢复关闭标签 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E6%81%A2%E5%A4%8D%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE/fcjlmbbejgnfpcgiigpgfacipckopdkf" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+
+<h2 id="4、百度搜索"><a href="#4、百度搜索" class="headerlink" title="4、百度搜索"></a>4、百度搜索</h2><p>可在网页中选词搜索及快捷</p>
+<blockquote><p><a href="/ful/1bb1a481/4.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/4.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>百度搜索</em></strong> </p>
+<p>概述</p>
+<p>在地址栏旁添加百度图标，点击图标一键到达百度搜索；在浏览网页时，选中您想搜索的文字，点击鼠标右键菜单即可快速发起搜索。本扩展由百度官方提供。<br>下载百度搜索扩展，您可以在浏览网页时更方便地进行搜索。<br>扩展功能：<br>1.在地址栏旁添加百度图标，点击可以打开百度首页。<br>2.在浏览网页时选中您想搜索的文字，点击鼠标右键，在菜单中点击对应的选择，可以快速发起搜索。如没有选中文字，点击右键菜单也可以直达百度首页。<br>来自百度官方的扩展应用，感谢您的使用。<br>百度一下，你就知道”</p>
+<footer><strong>百度搜索 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<h2 id="5、IDM-Integration-Module"><a href="#5、IDM-Integration-Module" class="headerlink" title="5、IDM Integration Module"></a>5、IDM Integration Module</h2><p>配合软件下载</p>
+<blockquote><p><a href="/ful/1bb1a481/5.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/5.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>IDM Integration Module</em></strong> </p>
+<p>概述</p>
+<p>使用Internet Download Manager下载文件<br>为链接添加“使用IDM下载”上下文菜单项</p>
+<footer><strong>IDM Integration Module _</strong><cite><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="6、Enhancer-for-YouTube™"><a href="#6、Enhancer-for-YouTube™" class="headerlink" title="6、Enhancer for YouTube™"></a>6、Enhancer for YouTube™</h2><p>youtube播放设置同第一个插件（Magic Actions for YouTube）相同，这个没有bug，推荐</p>
+<blockquote><p><a href="/ful/1bb1a481/6.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/6.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Enhancer for YouTube™</em></strong> </p>
+<p>概述</p>
+<p>海量自定义功能提升您的 YouTube™ 用户体验。<br>一个十分易用且高度可定制的扩展程序，它允许您：</p>
+<p>✔ 使用鼠标滚轮控制音量和播放速度</p>
+<p>✔ 视频去广告（自动或手动）</p>
+<p>✔ 频道白名单（不自动去广告）</p>
+<p>✔ 屏蔽注解（自动或手动）</p>
+<p>✔ 自动切换视频清晰度（可以设定为 4K、HD 或任意清晰度）</p>
+<footer><strong>Enhancer for YouTube™ _</strong><cite><a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="７、网页主题插件－Dark-Reader"><a href="#７、网页主题插件－Dark-Reader" class="headerlink" title="７、网页主题插件－Dark Reader"></a>７、网页主题插件－Dark Reader</h2><p>这个不错，可选不同网页设置</p>
+<blockquote><p><a href="/ful/1bb1a481/7.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/7.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Dark Reader</em></strong> </p>
+<p>概述</p>
+<p>黑色主题，适用于任何网站。关爱眼睛，就使用Dark Reader进行夜间和日间浏览。<br>这是一个护眼扩展程序，通过实时生成黑色主题，为每一个网站启用夜间模式。 Dark Reader反转明亮的颜色，使其网页内容具有高对比度并且在易于夜间阅读。</p>
+<p>您可以调整亮度，对比度，应用棕褐色滤镜，黑暗模式，设置字体和忽略的网站列表。</p>
+<p>Dark Reader无广告，也不会在任何地方发送用户的数据。它完全开源 </p>
+<p>安装前请禁用类似的扩展。冲浪愉快！”</p>
+<footer><strong>Dark Reader _</strong><cite><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="8、图片预览放大-——-Imagus"><a href="#8、图片预览放大-——-Imagus" class="headerlink" title="8、图片预览放大 —— Imagus"></a>8、图片预览放大 —— Imagus</h2><p>鼠标停顿放大图片预览效果很好，推荐</p>
+<blockquote><p><a href="/ful/1bb1a481/8.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/8.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Imagus™</em></strong> </p>
+<p>概述</p>
+<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
+<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
+<p>选项页面上的分类和它们的简单描述：</p>
+<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。</p>
+<p>▪ 黑/白名单<br>列表显示一系列用户自定义规则用于阻止或允许特定站点。”</p>
+<footer><strong>Imagus _</strong><cite><a href="https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="9、广告拦截器："><a href="#9、广告拦截器：" class="headerlink" title="9、广告拦截器："></a>9、广告拦截器：</h2><p>优点可以阻止预览  推荐</p>
+<blockquote><p><a href="/ful/1bb1a481/9.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/9.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>AdGuard 广告拦截器</em></strong> </p>
+<p>概述<br>一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。<br>AdGuard 广告拦截器可有效的拦截所有网页上的所有类型的广告，甚至是在 Facebook、Youtube 以及其他万千网站上的广告！</p>
+<p>AdGuard AdBlocker 可以：</p>
+<ol>
+<li>拦截所有广告，包括：</li>
+</ol>
+<ul>
+<li>视频广告（包括 Youtube 视频广告）</li>
+<li>各种媒体广告，例如视频广告，插播广告和浮动广告</li>
+<li>令人讨厌的弹窗</li>
+<li>横幅广告和文字广告（包括 Facebook 广告）</li>
+</ul>
+<ol start="2">
+<li>加速页面载入，节省带宽，屏蔽广告和弹窗</li>
+<li>拦截各种间谍软件，广告软件和拨号安装程序（可选）</li>
+<li>通过拦截常见第三方跟踪系统保护您的隐私（可选）</li>
+<li>保护您对抗恶意和钓鱼攻击（可选）”</li>
+</ol>
+<footer><strong>AdGuard 广告拦截器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?utm_source=chrome-ntp-icon" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="10、广告拦截器（uBlock-Pro）"><a href="#10、广告拦截器（uBlock-Pro）" class="headerlink" title="10、广告拦截器（uBlock Pro）"></a>10、广告拦截器（uBlock Pro）</h2><p>适用于手机，</p>
+<blockquote><p><a href="/ful/1bb1a481/10.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/10.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>uBlock Pro - #1 Adblocker</em></strong> </p>
+<p>概述<br>一款高效的网络请求过滤工具，占用极低的内存和 CPU。<br>完整的adblock系统，旨在提高效率。 </p>
+<p>uBlock Pro是基于uBlock的，并添加了一些额外的阻止列表，特别是对于将来（当前正在进行中）的Fairblock，Sourcepoint，Addefend等adblocker-blocker！</p>
+<p>尽管uBlock的内存和CPU占用空间较小，但与其他流行的阻止程序相比，它可以加载和执行数千个过滤器。</p>
+<p>uBlock不仅是“广告拦截器”：它不仅带有各种内置列表来阻止广告和保护您的隐私，而且还支持灵活的自定义功能-从添加”</p>
+<footer><strong>uBlock Pro - #1 Adblocker _</strong><cite><a href="https://chrome.google.com/webstore/detail/ublock-pro-1-adblocker/fmaicbnbcbjgbpecclcnaehmbpjpdane" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="11、捕捉网页截图："><a href="#11、捕捉网页截图：" class="headerlink" title="11、捕捉网页截图："></a>11、捕捉网页截图：</h2><p>录屏、截屏等，可保存为pdf</p>
+<blockquote><p><a href="/ful/1bb1a481/11.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ful/1bb1a481/11.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>捕捉网页截图 - FireShot</em></strong> </p>
+<p>概述<br>捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件<br>FireShot的抓住了Chrome浏览器的网页截图。您可以编辑和注释您的截图。 </p>
+<p>该截图是即时和不产生流量。无第三方网站和登录所需！ </p>
+<p>“最好的免费谷歌Chrome扩展2013”由PCMAG.COM（<a href="http://www.pcmag.com/article2/0,2817,2397682,00.asp）" target="_blank" rel="noopener">http://www.pcmag.com/article2/0,2817,2397682,00.asp）</a> </p>
+<p>你可以用FireShot的网页截图做了什么： </p>
+<p>✓捕捉网页完全<br>页面✓捕捉唯一可见的部分<br>✓捕获的选择 “</p>
+<footer><strong>捕捉网页截图 - FireShot _</strong><cite><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>]]></content>
+      <categories>
+        <category>浏览器</category>
+      </categories>
+      <tags>
+        <tag>插件</tag>
+        <tag>扩展</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>config件配置</title>
+    <url>/ful/41345ced.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: http://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"></span><br><span class="line"># Site #整站的基本信息</span><br><span class="line">title: Edgar&apos;s Blog              # 网站的主标题</span><br><span class="line">subtitle: 等待执剑少年修炼归来！     # 网站副标题</span><br><span class="line">description:blog | java |        #网站描述，给搜索引擎用的，在生成html中的head-&gt;meta中可看到</span><br><span class="line">author: Edger                    # 网站作者</span><br><span class="line">email:                           # 联系邮箱</span><br><span class="line">language: zh-CN                  # 语言</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"># URL                            # 域名和文件结构</span><br><span class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: http://xxxxx.com             # 你的域名</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">tag_dir: tags</span><br><span class="line">archive_dir: archives</span><br><span class="line">category_dir: categories</span><br><span class="line">code_dir: downloads/code</span><br><span class="line"></span><br><span class="line"># Writing                         # 写文章选项</span><br><span class="line">new_post_name: :title.md          # File name of new posts</span><br><span class="line">default_layout: post              # 默认layout方式</span><br><span class="line">auto_spacing: false               # Add spaces between asian characters and western characters</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link: true               # Open external links in new tab</span><br><span class="line">max_open_file: 100</span><br><span class="line">multi_thread: true</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">highlight:                        #代码高亮</span><br><span class="line">  enable: true                    #是否启用</span><br><span class="line">  line_number: false              #是否显示行号</span><br><span class="line">  tab_replace:</span><br><span class="line"></span><br><span class="line"># Category &amp; Tag                  #分类与标签</span><br><span class="line">default_category: uncategorized   # default</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">archive: 1</span><br><span class="line">category: 1</span><br><span class="line">tag: 1</span><br><span class="line"></span><br><span class="line"># Server                          #本地服务参数</span><br><span class="line">## Hexo uses Connect as a server</span><br><span class="line">## You can customize the logger format as defined in</span><br><span class="line">## http://www.senchalabs.org/connect/logger.html</span><br><span class="line">port: 4000</span><br><span class="line">logger: true</span><br><span class="line">logger_format:</span><br><span class="line"></span><br><span class="line"># Date / Time format              #日期显示格式</span><br><span class="line">## Hexo uses Moment.js to parse and display date</span><br><span class="line">## You can customize the date format as defined in</span><br><span class="line">## http://momentjs.com/docs/#/displaying/format/</span><br><span class="line">date_format: MMM D YYYY</span><br><span class="line">time_format: H:mm:ss</span><br><span class="line"></span><br><span class="line"># Pagination                      #分页设置</span><br><span class="line">## Set per_page to 0 to disable pagination</span><br><span class="line">per_page: 10                      #每页10篇文章</span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"># Extensions</span><br><span class="line">## Plugins: https://github.com/tommy351/hexo/wiki/Plugins</span><br><span class="line">## Themes: https://github.com/tommy351/hexo/wiki/Themes</span><br><span class="line">## 主题</span><br><span class="line">theme: yelee #modernist # raytaylorism # pacman # modernist # light</span><br><span class="line">exclude_generator:</span><br><span class="line"></span><br><span class="line"># Deployment                        #部署</span><br><span class="line">## Docs: http://zespia.tw/hexo/docs/deploy.html</span><br><span class="line">deploy:</span><br><span class="line">  type: github</span><br><span class="line">  repository: git@github.com:bruce-sha/bruce-sha.github.com.git #你的GitHub Pages仓库</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>HEXO</category>
+      </categories>
+      <tags>
+        <tag>_config.yml</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo的Next主题详细配置</title>
+    <url>/ful/dbdb7d64.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo<br>    本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。为了描述方便，在以下说明中，将前者称为站点配置文件，<br>    后者称为主题配置文件。 以下所有终端执行的命令都在你的Hexo根目录下<br><font color="＃72a689"> </p>
+<a id="more"></a>
+<h3 id="1、基本信息配置"><a href="#1、基本信息配置" class="headerlink" title="1、基本信息配置"></a>1、基本信息配置</h3><p>基本信息包括：博客标题、作者、描述、语言等等。</p>
+<p>打开 站点配置文件 ，找到Site模块</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">subtitle: 副标题</span><br><span class="line">description: 描述</span><br><span class="line">author: 作者</span><br><span class="line">language: 语言（简体中文是zh-Hans）</span><br><span class="line">timezone: 网站时区（Hexo 默认使用您电脑的时区，不用写</span><br></pre></td></tr></table></figure>
+
+<p>关于 站点配置文件 中的其他配置可参考站点配置</p>
+<h3 id="2、菜单设置"><a href="#2、菜单设置" class="headerlink" title="2、菜单设置"></a>2、菜单设置</h3><p>菜单包括：首页、归档、分类、标签、关于等等<br>我们刚开始默认的菜单只有首页和归档两个，不能够满足我们的要求，所以需要添加菜单，打开 主题配置文件 找到Menu Settings</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home                          //首页</span><br><span class="line">  archives: /archives/ || archive          //归档</span><br><span class="line">  categories: /categories/ || th           //分类</span><br><span class="line">  tags: /tags/ || tags                     //标签</span><br><span class="line">  about: /about/ || user                   //关于</span><br><span class="line">  <span class="comment">#schedule: /schedule/ || calendar        //日程表</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || sitemap        //站点地图</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || heartbeat          //公益404</span></span><br></pre></td></tr></table></figure>
+<p> 看看你需要哪个菜单就把哪个取消注释打开就行了；<br>关于后面的格式，以archives: /archives/ || archive为例：<br>|| 之前的/archives/表示标题“归档”，关于标题的格式可以去themes/next/languages/zh-Hans.yml中参考或修改<br>||之后的archive表示图标，可以去Font Awesome中查看或修改，Next主题所有的图标都来自Font Awesome。</p>
+<h3 id="3、Next主题样式设置"><a href="#3、Next主题样式设置" class="headerlink" title="3、Next主题样式设置"></a>3、Next主题样式设置</h3><p>我们百里挑一选择了Next主题，不过Next主题还有4种风格供我们选择，打开 主题配置文件 找到Scheme Settings</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment"># scheme: Muse</span></span><br><span class="line"><span class="comment"># scheme: Mist</span></span><br><span class="line"><span class="comment"># scheme: Pisces</span></span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+<h3 id="4种风格大同小异，本人用的是Gemini风格，你们可以选择自己喜欢的风格。"><a href="#4种风格大同小异，本人用的是Gemini风格，你们可以选择自己喜欢的风格。" class="headerlink" title="4种风格大同小异，本人用的是Gemini风格，你们可以选择自己喜欢的风格。"></a>4种风格大同小异，本人用的是Gemini风格，你们可以选择自己喜欢的风格。</h3><p>4、侧栏设置<br>侧栏设置包括：侧栏位置、侧栏显示与否、文章间距、返回顶部按钮等等</p>
+<p>打开 主题配置文件 找到sidebar字段</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line"><span class="comment"># Sidebar Position - 侧栏位置（只对Pisces | Gemini两种风格有效）</span></span><br><span class="line">  position: left        //靠左放置</span><br><span class="line">  <span class="comment">#position: right      //靠右放置</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Sidebar Display - 侧栏显示时机（只对Muse | Mist两种风格有效）</span></span><br><span class="line">  <span class="comment">#display: post        //默认行为，在文章页面（拥有目录列表）时显示</span></span><br><span class="line">  display: always       //在所有页面中都显示</span><br><span class="line">  <span class="comment">#display: hide        //在所有页面中都隐藏（可以手动展开）</span></span><br><span class="line">  <span class="comment">#display: remove      //完全移除</span></span><br><span class="line"></span><br><span class="line">  offset: 12            //文章间距（只对Pisces | Gemini两种风格有效）</span><br><span class="line"></span><br><span class="line">  b2t: <span class="literal">false</span>            //返回顶部按钮（只对Pisces | Gemini两种风格有效）</span><br><span class="line"></span><br><span class="line">  scrollpercent: <span class="literal">true</span>   //返回顶部按钮的百分比</span><br></pre></td></tr></table></figure>
+<h3 id="5、头像设置"><a href="#5、头像设置" class="headerlink" title="5、头像设置"></a>5、头像设置</h3><p>打开 主题配置文件 找到Sidebar Avatar字段</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line">avatar: /images/header.jpg</span><br></pre></td></tr></table></figure>
+<p>这是头像的路径，只需把你的头像命名为header.jpg（随便命名）放入themes/next/source/images中，将avatar的路径名改成你的头像名就OK啦！</p>
+<h3 id="6、设置RSS"><a href="#6、设置RSS" class="headerlink" title="6、设置RSS"></a>6、设置RSS</h3><p>1、先安装 hexo-generator-feed 插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<p>2、打开 站点配置文件 找到Extensions在下面添加</p>
+<h3 id="RSS订阅"><a href="#RSS订阅" class="headerlink" title="RSS订阅"></a>RSS订阅</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">  <span class="built_in">type</span>: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  <span class="built_in">limit</span>: 20</span><br><span class="line">  hub:</span><br><span class="line">  content:</span><br><span class="line">  content_limit: 140</span><br><span class="line">  content_limit_delim: <span class="string">' '</span></span><br></pre></td></tr></table></figure>
+<p>3、打开 主题配置文件 找到rss，设置为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rss: /atom.xml</span><br></pre></td></tr></table></figure>
+<h3 id="7、添加分类模块"><a href="#7、添加分类模块" class="headerlink" title="7、添加分类模块"></a>7、添加分类模块</h3><p>1、新建一个分类页面</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure>
+<p>2、你会发现你的source文件夹下有了categorcies/index.md，打开index.md文件将title设置为title: 分类<br>3、打开 主题配置文件 找到menu，将categorcies取消注释<br>4、把文章归入分类只需在文章的顶部标题下方添加categories字段，即可自动创建分类名并加入对应的分类中<br>举个栗子：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 分类测试文章标题</span><br><span class="line">categories: 分类名</span><br></pre></td></tr></table></figure>
+<h3 id="8、添加标签模块"><a href="#8、添加标签模块" class="headerlink" title="8、添加标签模块"></a>8、添加标签模块</h3><p>1、新建一个标签页面</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new page tags</span><br></pre></td></tr></table></figure>
+<p>2、你会发现你的source文件夹下有了tags/index.md，打开index.md文件将title设置为title: 标签<br>3、打开 主题配置文件 找到menu，将tags取消注释<br>4、把文章添加标签只需在文章的顶部标题下方添加tags字段，即可自动创建标签名并归入对应的标签中<br>举个栗子：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标签测试文章标题</span><br><span class="line">tags: </span><br><span class="line">  - 标签1</span><br><span class="line">  - 标签2</span><br><span class="line">  ...</span><br></pre></td></tr></table></figure>
+<h3 id="9、添加关于模块"><a href="#9、添加关于模块" class="headerlink" title="9、添加关于模块"></a>9、添加关于模块</h3><p>1、新建一个关于页面</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page about</span><br></pre></td></tr></table></figure>
+<p>2、你会发现你的source文件夹下有了about/index.md，打开index.md文件即可编辑关于你的信息，可以随便编辑。<br>3、打开 主题配置文件 找到menu，将about取消注释</p>
+<h3 id="10、添加搜索功能"><a href="#10、添加搜索功能" class="headerlink" title="10、添加搜索功能"></a>10、添加搜索功能</h3><p>1、安装 hexo-generator-searchdb 插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>2、打开 站点配置文件 找到Extensions在下面添加</p>
+<h1 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  <span class="built_in">limit</span>: 10000</span><br></pre></td></tr></table></figure>
+<p>3、打开 主题配置文件 找到Local search，将enable设置为true</p>
+<h3 id="11、添加阅读全文按钮"><a href="#11、添加阅读全文按钮" class="headerlink" title="11、添加阅读全文按钮"></a>11、添加阅读全文按钮</h3><p>因为在你的博客主页会有多篇文章，如果你想让你的文章只显示一部分，多余的可以点击阅读全文来查看，那么你需要在你的文章中添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>其后面的部分就不会显示了，只能点击阅读全文才能看</p>
+<h3 id="12、修改文章内链接文本样式"><a href="#12、修改文章内链接文本样式" class="headerlink" title="12、修改文章内链接文本样式"></a>12、修改文章内链接文本样式</h3><p><a href="https://upload-images.jianshu.io/upload_images/4120931-9cd87c2cc2d0c78f.gif" target="_blank" rel="noopener"><img src="https://upload-images.jianshu.io/upload_images/4120931-9cd87c2cc2d0c78f.gif" alt="无图显示点击直达原图"></a><br>打开文件 themes/next/source/css/_common/components/post/post.styl，在末尾添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">.post-body p a &#123;</span><br><span class="line">  color: <span class="comment">#0593d3;</span></span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid <span class="comment">#0593d3;</span></span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: <span class="comment">#fc6423;</span></span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid <span class="comment">#fc6423;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中选择 .post-body 是为了不影响标题，选择 p 是为了不影响首页“阅读全文”的显示样式,颜色可以自己定义。</p>
+<h3 id="13、设置网站缩略图标"><a href="#13、设置网站缩略图标" class="headerlink" title="13、设置网站缩略图标"></a>13、设置网站缩略图标</h3><p>从网上看了很多设置方法都是说把favicon.ico放到站点目录的source目录下就可以了，可是我试了好多遍，并不行。</p>
+<p>我的设置方法是这样的：把你的图片（png或jpg格式，不是favicon.ico）放在themes/next/source/images里，然后打开 主题配置文件 找到favicon，将small、medium、apple_touch_icon三个字段的值都设置成/images/图片名.jpg就可以了，其他字段都注释掉。<br><img src="https://upload-images.jianshu.io/upload_images/4120931-61a0cc555a25548e.png" alt="效果图 "></p>
+<h3 id="14、设置文章字体的颜色、大小"><a href="#14、设置文章字体的颜色、大小" class="headerlink" title="14、设置文章字体的颜色、大小"></a>14、设置文章字体的颜色、大小</h3><p><img src="https://upload-images.jianshu.io/upload_images/4120931-e471abbb2b1f459f.png" alt="效果图 "><br>如果想设置某一句的颜色或大小，只需用html语法写出来就行了<br>接下来就是见证奇迹的时刻</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font color=<span class="string">"#FF0000"</span>&gt; 我可以设置这一句的颜色哈哈 &lt;/font&gt; </span><br><span class="line">&lt;font size=6&gt; 我还可以设置这一句的大小嘻嘻 &lt;/font&gt; </span><br><span class="line">&lt;font size=5 color=<span class="string">"#FF0000"</span>&gt; 我甚至可以设置这一句的颜色和大小呵呵&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="15、设置文字居中"><a href="#15、设置文字居中" class="headerlink" title="15、设置文字居中"></a>15、设置文字居中</h3><p>设置方法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;这一行需要居中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<p>注意：简书中此方法无效</p>
+<h3 id="16、添加评论系统"><a href="#16、添加评论系统" class="headerlink" title="16、添加评论系统"></a>16、添加评论系统</h3><p>目前国内比较有名的多说、网易云跟帖评论系统都已停止服务了，国外的Disqus评论系统还得需要翻墙，所以不推荐使用，剩下的还有搜狐畅言、友言、来必力等。<br>本来想使用畅言的，结果注册完之后还得要求备案，我只想说F开头的那个单词，果断放弃。<br>后来选择了友言</p>
+<p>1、进入友言官网注册、登录步骤我就不介绍了<br>2、登录完成之后，点击获取代码，你会发现出来了一段代码，里面有你的uid=1234567<br>3、打开 主题配置文件 找到youyan_uid将值设置为上面的uid就可以了</p>
+<h3 id="17、添加站点访问计数"><a href="#17、添加站点访问计数" class="headerlink" title="17、添加站点访问计数"></a>17、添加站点访问计数</h3><p>站点访问计数有名的就是不蒜子，使用起来非常方便<br>1、安装脚本<br>打开 themes/next/layout/_partial/footer.swig，将下面这段代码添加到里面</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">&lt;script async src=<span class="string">"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;span id=<span class="string">"busuanzi_container_site_pv"</span> style=<span class="string">'display:none'</span>&gt;</span><br><span class="line">    本站总访问量 &lt;span id=<span class="string">"busuanzi_value_site_pv"</span>&gt;&lt;/span&gt; 次</span><br><span class="line">    &lt;span class=<span class="string">"post-meta-divider"</span>&gt;|&lt;/span&gt;</span><br><span class="line">&lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"busuanzi_container_site_uv"</span> style=<span class="string">'display:none'</span>&gt;</span><br><span class="line">    有&lt;span id=<span class="string">"busuanzi_value_site_uv"</span>&gt;&lt;/span&gt;人看过我的博客啦</span><br><span class="line">&lt;/span&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>添加的位置如下图，可自行根据个人喜好更换位置<br>2、以上只是显示站点的访问次数，如果想显示每篇文章的访问次数，打开 themes/next/layout/_macro/post.swig，在第一行增加is_pv字段</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% macro render(post, is_index, is_pv, post_extra_class) %&#125;</span><br></pre></td></tr></table></figure>
+<p>然后将这段代码插入到里面</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> is_pv %&#125;</span><br><span class="line">  &lt;span class=<span class="string">"post-meta-divider"</span>&gt;|&lt;/span&gt;</span><br><span class="line">  &lt;span id=<span class="string">"busuanzi_value_page_pv"</span>&gt;&lt;/span&gt;次阅读</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>插入的位置<br>然后再打开 themes/next/layout/post.swig，这个文件是文章的模板，给render方法传入参数（对应刚才添加的is_pv字段）</p>
+<p>最后再打开 themes/next/layout/index.swig，这个文件是首页的模板，给render方法传入参数（对应刚才添加的is_pv字段）</p>
+<p>OK！设置完毕。<br>18、去掉文章目录标题的自动编号<br>我们自己写文章的时候一般都会自己带上标题编号，但是默认的主题会给我们带上编号，很是别扭，如何去掉呢？<br>打开主题配置文件，找到</p>
+<p>将number改为false即可<br>18、更多<br>1、还有其他更多的主题配置，请查看主题配置<br>2、还有其他更多的插件，请查看Hexo插件 </font> </p>
+<p>原作者：<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener" title="原作者有图">点击直达</a></p>
+]]></content>
+      <categories>
+        <category>博文</category>
+      </categories>
+      <tags>
+        <tag>主题配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客使用bat脚本自动创建、部署、编辑和免密码部署</title>
+    <url>/ful/c75db810.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、Hexo-bat脚本："><a href="#一、Hexo-bat脚本：" class="headerlink" title="一、Hexo bat脚本："></a>一、Hexo bat脚本：</h2><font size=1 color="＃0EEC1D"> 
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> /p name=input pages name:</span><br><span class="line"><span class="built_in">echo</span> name:%name%</span><br><span class="line"><span class="built_in">echo</span> please <span class="built_in">wait</span></span><br><span class="line">start /d <span class="string">"F:\notepad\Notepad++"</span>   notepad++.exe  <span class="string">"D:\Blog\blog\source\_posts\%name%.md"</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
+<p>@echo off表示不回显，意思就是说在命令提示符中输入的命令不显示。你也可以设置为 @echo on。<br>set /p name=input pages name: 表示你要输入这篇博客的文件名。使用name变量存储。<br>start /d “F:\notepad\Notepad++”   notepad++.exe  “D:\Blog\blog\source_posts%name%.md”<br>表示使用这个notepad++来新建这个.md文件。<br>其中”F:\notepad\Notepad++”表示nodepad++的安装位置。D:\Blog\blog\source_posts%name%.md表示这个文件的存放位置。<br>博客路径和文本编辑器位置请改成你自己的。</p>
+<h3 id="2、调试"><a href="#2、调试" class="headerlink" title="2、调试"></a>2、调试</h3><p>新建debug.bat文件<br>内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line"><span class="built_in">cd</span> D:\Blog\blog</span><br><span class="line">hexo s -debug</span><br></pre></td></tr></table></figure>
+<p>表示在博客根目录中运行 hexo s -debug命令。</p>
+<h3 id="3、部署"><a href="#3、部署" class="headerlink" title="3、部署"></a>3、部署</h3><p>新建Deploy.bat文件<br>内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> on</span><br><span class="line">D:</span><br><span class="line"><span class="built_in">cd</span> D:\Blog\blog </span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<h3 id="3、部署-1"><a href="#3、部署-1" class="headerlink" title="3、部署"></a>3、部署</h3><p>新建Deploy.bat文件<br>内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> on</span><br><span class="line">D:</span><br><span class="line"><span class="built_in">cd</span> D:\Blog\blog </span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<p>如果你只使用的http推送的代码，需要手动输入用户名和账号的。下面讲解如果免密部署。</p>
+<h3 id="4、查找并编辑"><a href="#4、查找并编辑" class="headerlink" title="4、查找并编辑"></a>4、查找并编辑</h3><p>新建Edit.bat文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">::设置编码方式</span><br><span class="line">chcp 65001</span><br><span class="line"><span class="built_in">set</span> /p name=input blog name: </span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span> <span class="string">"FileName=*%name%*.md"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"PathName=D:\Blog\blog\source\_posts"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"EditPath=F:\notepad\Notepad++"</span></span><br><span class="line"><span class="keyword">for</span> %%a <span class="keyword">in</span> (%PathName%) <span class="keyword">do</span> <span class="keyword">for</span> /f <span class="string">"delims="</span> %%b <span class="keyword">in</span> (<span class="string">'dir /a-d/b/s %%a\%FileName%'</span>) <span class="keyword">do</span> ( </span><br><span class="line">   start /d %EditPath% notepad++.exe  <span class="string">"%%b"</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>输入需要修改的文件名，会自动查找根文件夹及子文件夹下的所有文件，对文件名进行模糊匹配，<br>匹配成功后自动使用指定的文本编辑器打开。您需要自动配置文件根目录PathName，和编辑器路<br>径EditPath，并且把notepad++.exe修改成对应的文本编辑器可执行文件名。</p>
+<h2 id="二、免密码部署："><a href="#二、免密码部署：" class="headerlink" title="二、免密码部署："></a>二、免密码部署：</h2><p>打开博客根目录的config.yml，查看自己博客的部署方式：我这里部署了双平台。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">   <span class="built_in">type</span>: git</span><br><span class="line">   repo: </span><br><span class="line">      github: https://github.com/ThinkingXuan/thinkingxuan.github.io.git,master</span><br><span class="line">      coding: https://git.coding.net/q1454739828/q1454739828.coding.me.git,master</span><br></pre></td></tr></table></figure>
+
+<p>这是一般的部署方式，git使用https推送代码，保密性不足，所以需要输入用户名密码。<br>所以我们需要做的改成使用ssh认证。</p>
+<p>你需要做的就是在github或者coding中录入你自己的ssh密钥，然后在本地连接认证，一般密钥存<br>储在id_rsa.pub文件。在C:\Users\Administrator.ssh文件夹里面。如果你没有这个文件，请自行<br>百度生成，连接认证。github和coding基本一样。然后修改config.yml文件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">   <span class="built_in">type</span>: git</span><br><span class="line">   repo: </span><br><span class="line">      github: git@github.com:ThinkingXuan/thinkingxuan.github.io.git,master</span><br><span class="line">      coding: git@git.coding.net:q1454739828/q1454739828.coding.me.git</span><br></pre></td></tr></table></figure>
+
+<p>然后运行脚本。<br></font><br>作者原文链接：<a href="https://www.you3xuan.top/2019/02/16/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8bat%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%85%8D%E5%AF%86%E7%A0%81%E9%83%A8%E7%BD%B2/#more" target="_blank" rel="noopener">点击直达</a></p>
+]]></content>
+      <categories>
+        <category>博文</category>
+      </categories>
+      <tags>
+        <tag>bat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装博客</title>
+    <url>/ful/178db9e1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="SSH添加到GitHub"><a href="#SSH添加到GitHub" class="headerlink" title="SSH添加到GitHub"></a>SSH添加到GitHub</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
+<p>yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱</p>
+<h5 id="检查一下你有没有输对"><a href="#检查一下你有没有输对" class="headerlink" title="检查一下你有没有输对"></a>检查一下你有没有输对</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+
+<h5 id="然后创建SSH"><a href="#然后创建SSH" class="headerlink" title="然后创建SSH"></a>然后创建SSH</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
+<h5 id="hexo部署到GitHub"><a href="#hexo部署到GitHub" class="headerlink" title="hexo部署到GitHub"></a>hexo部署到GitHub</h5><p>修改站点 _config.yml</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/账户名/账户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h5 id="安装deploy-git"><a href="#安装deploy-git" class="headerlink" title="安装deploy-git"></a>安装deploy-git</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h6 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h6><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>source中创建一个名为CNAME文件写入域名</p>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="详细查看">原作者</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://blog.csdn.net/sinat_37781304/article/details/82729029</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>安装</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>数字背后的生活</title>
+    <url>/ful/55e14aea.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>  中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。。　</p>
+<a id="more"></a>
+
+<p>第一，南京有800万人口，但是南京一年能吃掉一亿只鸭子，因为南京人非常喜欢吃盐水鸭，也确实特别好吃，基本上每个南京人平均每年要吃12只鸭子。</p>
+<p>第二，四川人每年要吃掉将近2亿只兔子，四川不到一个亿人口。基本上全球兔肉产量200万吨，其中中国的产量大概有30%。但是光四川消耗量就能达到42万吨，这意味着要吃掉2亿只兔子，所以基本上中国产的大部分兔子是被四川人吃掉的。</p>
+<p>第三，中国一年要吃掉500亿只小龙虾。全国有超过5000家的小龙虾养殖社，从业人员超过500万人，而且整个小龙虾所对应的需求量非常非常大，超过200万吨。其中最能吃的是武汉人，武汉一年要吃掉30亿只小龙虾。</p>
+<p>那你想象一下，如果从这个角度来看，小龙虾背后所对应的疫苗饲料，甚至包括专业培训、专家资源，那应该是一个什么样的需求量，甚至包括对应小龙虾的调味料，这些都是巨大的市场。</p>
+<p>第四，中国现在有40万家火锅店，整个规模4800亿，看起来海底捞的占比数量其实不太大，但是海底捞占据了整个市场最牢固的盈利能力，是整个行业的标杆。全国有40万家火锅店，这意味着什么样的机会？假设你去给火锅店做智能洗碗机，你觉得这个生意会不会很好？40万家店需要多少从业人员，这些从业者的培训怎么做？这背后会不会带来相应的机会。</p>
+<p>第五，中国的奶茶店，保守估计应该有50万家以上，而且每年还在以10万家新店的数量增长，虽然每年有很多奶茶店倒闭，但是基本上每年还能以20%的增速进行新开店。而且基本主力用户80%是女性用户，而且基本上现在单杯消费数量以及客单价都在增长。这些休闲饮品类的供应链机会，甚至包括带来的装修类的机会，我们认为这些叫配套产业，也会有源源不断的生意。</p>
+<p>第六，中国每年进口粮食1.08亿吨；谷物进口2000万吨的；大豆进口8000万吨。你想象一下，这些产品如果一旦在上游种子技术有突破，种植技术进一步成熟，与下游的消费进一步结合，一旦推动国产化技术的成熟，这些又意味着国内多大市场的崛起。</p>
+<p>第七，中国快递数量已经达到了507亿件，基本上每个人每一个月平均要寄三个快递，那你想象一下，如果每一个快递都需要2平方米的瓦楞纸进行包装，你想象一下这个消耗量会需要多少木材，我们测算了一下，基本上支持中国物流快递量的瓦楞纸木浆消耗数量，等于一百万颗树木的消耗量。</p>
+<p>第八，中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>小龙虾</tag>
+        <tag>咸水鸭</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1颗高丽菜2个鸡蛋</title>
+    <url>/ful/189804ca.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center><font size=3 > <h1>莲花白和鸡蛋</h1> </font></center>
+
+
+
+<p>　　高丽菜又称为卷心菜，圆白菜等，富含多种维生素和叶酸等营养物质，经常食用有抗衰老和提高人体免疫力的作用。作为一种普通的食材，早已走进千家万户之中，今天就给大家分享一种创意的新吃法，很多人可能都没尝试过，做法非常简单。</p>
+<a id="more"></a>
+<p><img src="/ful/189804ca/1.jpg" alt="tu"></p>
+<p>准备一颗高丽菜两个鸡蛋</p>
+<p><img src="/ful/189804ca/2.jpg" alt="tu"></p>
+<p>高丽菜洗净切成丝</p>
+<p><img src="/ful/189804ca/3.jpg" alt="tu"></p>
+<p>切一点红辣椒丝</p>
+<p><img src="/ful/189804ca/4.jpg" alt="tu"></p>
+<p>打两个鸡蛋</p>
+<p><img src="/ful/189804ca/5.jpg" alt="tu"></p>
+<p>将鸡蛋搅匀倒在高丽菜丝上</p>
+<p><img src="/ful/189804ca/6.jpg" alt="tu"></p>
+<p>放入辣椒丝和一点盐</p>
+<p><img src="/ful/189804ca/7.jpg" alt="tu"></p>
+<p>倒入三勺面粉</p>
+<p><img src="/ful/189804ca/8.jpg" alt="tu"></p>
+<p>搅拌均匀倒入饼锅里面</p>
+<p><img src="/ful/189804ca/9.jpg" alt="tu"></p>
+<p>摊平之后撒上一层黑芝麻，盖上盖子双面烙5分钟</p>
+<p><img src="/ful/189804ca/10.jpg" alt="tu"></p>
+<p>放在案板上切成小块，简单美味的高丽菜煎饼就做好了。</p>
+<p>食用功效</p>
+<p>1、提高免疫力：铜等矿物质形式与免疫机能有关的酵素。</p>
+<p>2、健脑：含钙，钙是脑代谢不可缺少的重要物质。</p>
+<p>3、明目：含钙，增加眼球壁的弹力，防治近视的发生与发展。</p>
+<p>4、祛脂降压：使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。能软化和保护血管，有降低人体中血脂和胆固醇的作用。食可预防动脉粥样硬化或某些心血管病。</p>
+<p>5、减肥：容易有饱足感，还会吸附多余脂肪一起排出。加快新陈代谢、消耗体内脂肪，预防和减少脂肪的堆积。低脂肪、低热量，适宜减肥或是肥胖人士。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>家常菜</tag>
+        <tag>莲花白</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线音乐</title>
+    <url>/ful/b046713.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
+        <div id="aplayer-ExEXfhfK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+			  <script>
+				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
+				  options.element = document.getElementById("aplayer-ExEXfhfK");
+				  var ap = new APlayer(options);
+			    window.aplayers || (window.aplayers = []);
+				  window.aplayers.push(ap);
+			  </script>
+
+
+
+<!--
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&#123;<span class="string">"title"</span>: <span class="string">"吻别"</span>,<span class="string">"author"</span>: <span class="string">"张学友"</span>,<span class="string">"url"</span>: <span class="string">"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"/ctor/1bb1a481/1.JPG"</span>,<span class="string">"lrc"</span>: <span class="string">""</span>&#125;,</span><br><span class="line"></span><br><span class="line">&#123;<span class="string">"title"</span>: <span class="string">"再回到从前"</span>,<span class="string">"author"</span>: <span class="string">"还记得.."</span>,<span class="string">"url"</span>: <span class="string">"http://music.163.com/song/media/outer/url?id=193616.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"/ctor/1bb1a481/1.JPG"</span>,<span class="string">"lrc"</span>: <span class="string">""</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"藕断丝连"</span>,<span class="string">"author"</span>: <span class="string">"陈瑞"</span>,<span class="string">"url"</span>: <span class="string">"http://music.163.com/song/media/outer/url?id=267176.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"http://img.ytmp3.cn/image/89.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">""</span>&#125;,</span><br></pre></td></tr></table></figure>
+<p>–&gt;</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>再回到从前</tag>
+      </tags>
+  </entry>
+</search>
