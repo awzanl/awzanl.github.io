@@ -105,134 +105,12 @@ themes：主题
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>youtube</title>
-    <url>/ful/f0789934.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>油管视频.中天新闻直播.大世界.东森财经</p>
-<a id="more"></a>
-<h2 id="中天新闻直播"><a href="#中天新闻直播" class="headerlink" title="中天新闻直播"></a>中天新闻直播</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/wUPPkSANpyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<h2 id="丫头每天点评时事-周末休镜回家宅"><a href="#丫头每天点评时事-周末休镜回家宅" class="headerlink" title="丫头每天点评时事 **周末休镜回家宅"></a>丫头每天点评时事 **周末休镜回家宅</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/gd0dr1dlOvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-<pre><code class="bash"></code></pre>
-<h2 id="东京大-真大-大而不堵"><a href="#东京大-真大-大而不堵" class="headerlink" title="东京大_ _真大_大而不堵"></a>东京大_ _真大_大而不堵</h2><p>.</p>
-<iframe width="400" height="150" src="https://www.youtube.com/embed/z1obnaqPgMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2 id="邰正宵经典歌曲大全："><a href="#邰正宵经典歌曲大全：" class="headerlink" title="邰正宵经典歌曲大全："></a>邰正宵经典歌曲大全：</h2><iframe width="400" height="50" src="https://www.youtube.com/embed/Mt7q7x4g6Ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2 id="东森财经"><a href="#东森财经" class="headerlink" title="东森财经"></a>东森财经</h2><iframe width="400" height="200" src="https://www.youtube.com/watch?v=q8u9qK5niss&feature=player_embedded_uturn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-<!--
-
-<iframe src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" width="100" height="200" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="640" height="359" src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->
-]]></content>
       <categories>
-        <category>视频</category>
+        <category>代码及命令</category>
       </categories>
       <tags>
-        <tag>直播</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/ful/4a17b156.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post<img src="/ful/4a17b156/2.PNG" alt="2" style="zoom:30%;" /></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>浓缩三句话</title>
-    <url>/ful/b0fd571b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一句话"><a href="#第一句话" class="headerlink" title="第一句话"></a>第一句话</h2><p>　　你的责任就是你的方向， 你的经历就是你的资本， 你的性格就是你的命运。</p>
-<a id="more"></a>
-
-<p><img src="/ful/b0fd571b/1.webp" alt="图片跑了"></p>
-<h2 id="第二句话"><a href="#第二句话" class="headerlink" title="第二句话"></a>第二句话</h2><p>　　复杂的事情简单做，你就是专家；简单的事情重复做， 你就是行家；重复的事情用心做，你就是赢家。</p>
-<p><img src="/ful/b0fd571b/2.webp" alt="图片跑了"></p>
-<h2 id="第三句话"><a href="#第三句话" class="headerlink" title="第三句话"></a>第三句话</h2><p>　　美好是属于自信者的， 机会是属于开拓者的， 奇迹是属于执著者的！<br><img src="/ful/b0fd571b/3.webp" alt="图片跑了"></p>
-<p>　　你若不想做，总会找到借口；你若想做，总会找到方法。</p>
-<p>　　沙子是废物，水泥也是废物，但他们混在一起是混凝土，就是精品；</p>
-<p>　　大米是精品，汽油也是精品，但他们混在一起就是废物。</p>
-<p>　　是精品还是废物不重要，跟谁混，很重要 !<br><img src="/ful/b0fd571b/4.webp" alt="图片跑了"><br>　　朋友不是乱交的，每天在一起喝酒的不一定是真朋友，每天在一起混的也不一定是永远的朋友。</p>
-<p><img src="/ful/b0fd571b/5.webp" alt="图片跑了"></p>
-<p>人生要交的四位朋友：</p>
-<p>1、交一个欣赏你的朋友，即便在你穷困潦倒的时候反而会更安慰你、帮助你。</p>
-<p>2、交一个有正能量的朋友，在你情绪低落的时候陪伴你、 鼓励你。</p>
-<p><img src="/ful/b0fd571b/6.webp" alt="图片跑了"><br>3、交一个为你领路的朋友，自愿做你的垫脚石，带你走过泥泞、拨开迷雾。<br>4、交一个肯指点你的朋友，时刻提醒你、监督你，让你时刻发现自己的不足。</p>
-<h2 id="回家的感觉真好："><a href="#回家的感觉真好：" class="headerlink" title="回家的感觉真好："></a>回家的感觉真好：</h2><video width="480" height="320" controls>
-<source src="/ful/f3e15bcc/2.mp4">
-</video>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>三句话</tag>
-        <tag>奇迹是属于执著者的</tag>
-        <tag>复杂的事情简单做</tag>
-        <tag>简单的事情重复做</tag>
-        <tag>重复的事情用心做</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最基本的烹饪原理</title>
-    <url>/ful/2a535c51.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--
-<center><font size=2 > <h1>最基本的烹饪原理</h1> </font></center>
--->
-<h2 id="01-蚝油的妙用。"><a href="#01-蚝油的妙用。" class="headerlink" title="01.蚝油的妙用。"></a>01.蚝油的妙用。</h2><p>　　蚝油作为一种提鲜调料，有许多妙用。蚝油中盐含量很高，可以代替盐来调味，并且还有一种“鲜味”，特别是在炒肉菜，炒青椒等这些菜品是，出锅前来点蚝油，味道立马提升了上来。</p>
-<p><img src="/ful/2a535c51/1.jpg" alt="图"></p>
-<a id="more"></a>
-<p>　　许多不易入味的素菜中也可以使用蚝油，比如蒜苔、花菜、包菜，蚝油加生抽的组合，对大部分素材都有妙用，不过需要注意的一点是，使用时候最好是在熄火前在添加，因为持续的烹饪高温会导致其鲜味与营养都遭受破坏。</p>
-<h2 id="02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？"><a href="#02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？" class="headerlink" title="02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？"></a>02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？</h2><p>　　肉老分为两种，一种是水分含量少，一种是肉纤维太粗。</p>
-<p>　　针对肉水分含量少的，我们可以通过加入少量的盐，让肉其中的蛋白质产生盐溶反应吸收水分，让肉更加鲜嫩多汁了。</p>
-<p><img src="/ful/2a535c51/2.jpg" alt="图"></p>
-<p>　　针对纤维太粗，用锤子把纤维锤烂、用酶把纤维破坏，是一种让肉从硬到软的一种稚嫩手段。</p>
-<p>　　上浆其实就是给肉加个保护层，淀粉的变性温度低于蛋白质，可以在肉还没有变性之前形成保护膜，防止肉的水分流失。</p>
-<p>　　划重点：想要肉嫩，保持水分，破坏纤维。</p>
-<h2 id="03-肉类食材不要反复冰冻、融化"><a href="#03-肉类食材不要反复冰冻、融化" class="headerlink" title="03.肉类食材不要反复冰冻、融化"></a>03.肉类食材不要反复冰冻、融化</h2><p>　　因为这样水分冷冻形成的冰晶，会将细胞间的间隙撑大，从而导致肉严重失水，再进行加工时就会使口感营养都大打折扣。</p>
-<p><img src="/ful/2a535c51/3.jpg" alt="图"></p>
-<h2 id="04-糖，真的是是万能的。"><a href="#04-糖，真的是是万能的。" class="headerlink" title="04.糖，真的是是万能的。"></a>04.糖，真的是是万能的。</h2><p>　　不管是任何菜式，出锅前放一丢丢，总会遇到你想要的味道。加糖，不是为了让菜变得甜腻，而是作为味引，激发出足以挑拨你味蕾的口感。</p>
-<h2 id="05-蒸鱼的技巧"><a href="#05-蒸鱼的技巧" class="headerlink" title="05.蒸鱼的技巧"></a>05.蒸鱼的技巧</h2><p>　　一般蒸鱼应该是热水下锅，这样才能够缩短蒸鱼的时间，让鱼肉更加鲜嫩，并且蒸鱼完后，应该是先淋酱油再淋热油，这样酱油才能够很好</p>
-<p><img src="/ful/2a535c51/4.jpg" alt="图"></p>
-<h2 id="06-放调料味的先后顺序到底有什么讲究？"><a href="#06-放调料味的先后顺序到底有什么讲究？" class="headerlink" title="06.放调料味的先后顺序到底有什么讲究？"></a>06.放调料味的先后顺序到底有什么讲究？</h2><p>　　先给酱，因为酱又调色又调味，再调味，最后调色和给盐。</p>
-<p>特别是烧菜和卤菜，糖和醋先给后给效果不一样，糖长时间加热会焦糖化，菜的甜度变低颜色变深。醋加热也会挥发，只能其去腥的作用。</p>
-<p>　　所以糖和醋一般分两次给，起锅前补一下味道。</p>
-<p>总结：先调味再调色最后给盐，加热易变味的调料分两次给。</p>
-<h2 id="07-如何让绿叶菜出锅也是美美的？"><a href="#07-如何让绿叶菜出锅也是美美的？" class="headerlink" title="07.如何让绿叶菜出锅也是美美的？"></a>07.如何让绿叶菜出锅也是美美的？</h2><p>　　炒绿叶菜，锅里可以适当地多放一些油，火力一定要用大火，把菜放入锅里后迅速翻炒，水分足的菜炒到八成熟时再放盐，这样不会影响菜的颜色，也不容易出水。</p>
-<p><img src="/ful/2a535c51/5.jpg" alt="图"></p>
-<h2 id="08-如何才能把肉炖得好吃？"><a href="#08-如何才能把肉炖得好吃？" class="headerlink" title="08.如何才能把肉炖得好吃？"></a>08.如何才能把肉炖得好吃？</h2><p>　　炖肉的时候，很多人做的炖肉常常会做的比较干硬，除了炖的时间不够外，制作的过程也忽略了一些技巧，要怎么把炖肉做得又香又酥烂呢？</p>
-<p>　　炖肉时，加水一定要加热水，否则肉不容易炖烂。除了常规的葱、姜、八角、桂皮、香叶，可在锅里加两块陈皮，既能去除油腻，又能增加香味。</p>
-<h2 id="09-放盐的先后有讲究"><a href="#09-放盐的先后有讲究" class="headerlink" title="09.放盐的先后有讲究"></a>09.放盐的先后有讲究</h2><p>　　煮汤一定是最后放盐，俗话说:”吃肉不如喝汤.”嘛，你先给了盐，鱼的鲜味就进不去汤里了，相反卤菜的话就要先给盐让菜先保自己的味道，再让卤水的味道慢慢进来。</p>
-<p><img src="/ful/2a535c51/6.jpg" alt="图"></p>
-<h2 id="10-怎么把汤熬白？"><a href="#10-怎么把汤熬白？" class="headerlink" title="10.怎么把汤熬白？"></a>10.怎么把汤熬白？</h2><p>　　其原理就是，大火让油脂和水在蛋白质的作用下，充分乳化，促成汤色如奶。也有人说厨房会加牛奶，让汤变白，其实加牛奶主要是增加蛋白质，不然要想把汤加到白的程度，那奶味得多大啊。</p>
-<p><img src="/ful/2a535c51/7.jpg" alt="图"></p>
-<p>　　奶汤制作过程中需要大火，水一定要给足，最好不要中途加水，加的话最好加热水。总结一下就是原料上就是蛋白质、脂肪、水，方法就是要煎一下，水要沸腾。这就是制作奶汤的要点。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>烹饪技巧</tag>
+        <tag>代码</tag>
+        <tag>常用</tag>
       </tags>
   </entry>
   <entry>
@@ -315,6 +193,81 @@ themes：主题
       </tags>
   </entry>
   <entry>
+    <title>浓缩三句话</title>
+    <url>/ful/b0fd571b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一句话"><a href="#第一句话" class="headerlink" title="第一句话"></a>第一句话</h2><p>　　你的责任就是你的方向， 你的经历就是你的资本， 你的性格就是你的命运。</p>
+<a id="more"></a>
+
+<p><img src="/ful/b0fd571b/1.webp" alt="图片跑了"></p>
+<h2 id="第二句话"><a href="#第二句话" class="headerlink" title="第二句话"></a>第二句话</h2><p>　　复杂的事情简单做，你就是专家；简单的事情重复做， 你就是行家；重复的事情用心做，你就是赢家。</p>
+<p><img src="/ful/b0fd571b/2.webp" alt="图片跑了"></p>
+<h2 id="第三句话"><a href="#第三句话" class="headerlink" title="第三句话"></a>第三句话</h2><p>　　美好是属于自信者的， 机会是属于开拓者的， 奇迹是属于执著者的！<br><img src="/ful/b0fd571b/3.webp" alt="图片跑了"></p>
+<p>　　你若不想做，总会找到借口；你若想做，总会找到方法。</p>
+<p>　　沙子是废物，水泥也是废物，但他们混在一起是混凝土，就是精品；</p>
+<p>　　大米是精品，汽油也是精品，但他们混在一起就是废物。</p>
+<p>　　是精品还是废物不重要，跟谁混，很重要 !<br><img src="/ful/b0fd571b/4.webp" alt="图片跑了"><br>　　朋友不是乱交的，每天在一起喝酒的不一定是真朋友，每天在一起混的也不一定是永远的朋友。</p>
+<p><img src="/ful/b0fd571b/5.webp" alt="图片跑了"></p>
+<p>人生要交的四位朋友：</p>
+<p>1、交一个欣赏你的朋友，即便在你穷困潦倒的时候反而会更安慰你、帮助你。</p>
+<p>2、交一个有正能量的朋友，在你情绪低落的时候陪伴你、 鼓励你。</p>
+<p><img src="/ful/b0fd571b/6.webp" alt="图片跑了"><br>3、交一个为你领路的朋友，自愿做你的垫脚石，带你走过泥泞、拨开迷雾。<br>4、交一个肯指点你的朋友，时刻提醒你、监督你，让你时刻发现自己的不足。</p>
+<h2 id="回家的感觉真好："><a href="#回家的感觉真好：" class="headerlink" title="回家的感觉真好："></a>回家的感觉真好：</h2><video width="480" height="320" controls>
+<source src="/ful/f3e15bcc/2.mp4">
+</video>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>三句话</tag>
+        <tag>奇迹是属于执著者的</tag>
+        <tag>复杂的事情简单做</tag>
+        <tag>简单的事情重复做</tag>
+        <tag>重复的事情用心做</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最基本的烹饪原理</title>
+    <url>/ful/2a535c51.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!--
+<center><font size=2 > <h1>最基本的烹饪原理</h1> </font></center>
+-->
+<h2 id="01-蚝油的妙用。"><a href="#01-蚝油的妙用。" class="headerlink" title="01.蚝油的妙用。"></a>01.蚝油的妙用。</h2><p>　　蚝油作为一种提鲜调料，有许多妙用。蚝油中盐含量很高，可以代替盐来调味，并且还有一种“鲜味”，特别是在炒肉菜，炒青椒等这些菜品是，出锅前来点蚝油，味道立马提升了上来。</p>
+<p><img src="/ful/2a535c51/1.jpg" alt="图"></p>
+<a id="more"></a>
+<p>　　许多不易入味的素菜中也可以使用蚝油，比如蒜苔、花菜、包菜，蚝油加生抽的组合，对大部分素材都有妙用，不过需要注意的一点是，使用时候最好是在熄火前在添加，因为持续的烹饪高温会导致其鲜味与营养都遭受破坏。</p>
+<h2 id="02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？"><a href="#02-嫩肉粉、上浆、加水哪一种嫩肉方法更好？" class="headerlink" title="02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？"></a>02.嫩肉粉、上浆、加水哪一种嫩肉方法更好？</h2><p>　　肉老分为两种，一种是水分含量少，一种是肉纤维太粗。</p>
+<p>　　针对肉水分含量少的，我们可以通过加入少量的盐，让肉其中的蛋白质产生盐溶反应吸收水分，让肉更加鲜嫩多汁了。</p>
+<p><img src="/ful/2a535c51/2.jpg" alt="图"></p>
+<p>　　针对纤维太粗，用锤子把纤维锤烂、用酶把纤维破坏，是一种让肉从硬到软的一种稚嫩手段。</p>
+<p>　　上浆其实就是给肉加个保护层，淀粉的变性温度低于蛋白质，可以在肉还没有变性之前形成保护膜，防止肉的水分流失。</p>
+<p>　　划重点：想要肉嫩，保持水分，破坏纤维。</p>
+<h2 id="03-肉类食材不要反复冰冻、融化"><a href="#03-肉类食材不要反复冰冻、融化" class="headerlink" title="03.肉类食材不要反复冰冻、融化"></a>03.肉类食材不要反复冰冻、融化</h2><p>　　因为这样水分冷冻形成的冰晶，会将细胞间的间隙撑大，从而导致肉严重失水，再进行加工时就会使口感营养都大打折扣。</p>
+<p><img src="/ful/2a535c51/3.jpg" alt="图"></p>
+<h2 id="04-糖，真的是是万能的。"><a href="#04-糖，真的是是万能的。" class="headerlink" title="04.糖，真的是是万能的。"></a>04.糖，真的是是万能的。</h2><p>　　不管是任何菜式，出锅前放一丢丢，总会遇到你想要的味道。加糖，不是为了让菜变得甜腻，而是作为味引，激发出足以挑拨你味蕾的口感。</p>
+<h2 id="05-蒸鱼的技巧"><a href="#05-蒸鱼的技巧" class="headerlink" title="05.蒸鱼的技巧"></a>05.蒸鱼的技巧</h2><p>　　一般蒸鱼应该是热水下锅，这样才能够缩短蒸鱼的时间，让鱼肉更加鲜嫩，并且蒸鱼完后，应该是先淋酱油再淋热油，这样酱油才能够很好</p>
+<p><img src="/ful/2a535c51/4.jpg" alt="图"></p>
+<h2 id="06-放调料味的先后顺序到底有什么讲究？"><a href="#06-放调料味的先后顺序到底有什么讲究？" class="headerlink" title="06.放调料味的先后顺序到底有什么讲究？"></a>06.放调料味的先后顺序到底有什么讲究？</h2><p>　　先给酱，因为酱又调色又调味，再调味，最后调色和给盐。</p>
+<p>特别是烧菜和卤菜，糖和醋先给后给效果不一样，糖长时间加热会焦糖化，菜的甜度变低颜色变深。醋加热也会挥发，只能其去腥的作用。</p>
+<p>　　所以糖和醋一般分两次给，起锅前补一下味道。</p>
+<p>总结：先调味再调色最后给盐，加热易变味的调料分两次给。</p>
+<h2 id="07-如何让绿叶菜出锅也是美美的？"><a href="#07-如何让绿叶菜出锅也是美美的？" class="headerlink" title="07.如何让绿叶菜出锅也是美美的？"></a>07.如何让绿叶菜出锅也是美美的？</h2><p>　　炒绿叶菜，锅里可以适当地多放一些油，火力一定要用大火，把菜放入锅里后迅速翻炒，水分足的菜炒到八成熟时再放盐，这样不会影响菜的颜色，也不容易出水。</p>
+<p><img src="/ful/2a535c51/5.jpg" alt="图"></p>
+<h2 id="08-如何才能把肉炖得好吃？"><a href="#08-如何才能把肉炖得好吃？" class="headerlink" title="08.如何才能把肉炖得好吃？"></a>08.如何才能把肉炖得好吃？</h2><p>　　炖肉的时候，很多人做的炖肉常常会做的比较干硬，除了炖的时间不够外，制作的过程也忽略了一些技巧，要怎么把炖肉做得又香又酥烂呢？</p>
+<p>　　炖肉时，加水一定要加热水，否则肉不容易炖烂。除了常规的葱、姜、八角、桂皮、香叶，可在锅里加两块陈皮，既能去除油腻，又能增加香味。</p>
+<h2 id="09-放盐的先后有讲究"><a href="#09-放盐的先后有讲究" class="headerlink" title="09.放盐的先后有讲究"></a>09.放盐的先后有讲究</h2><p>　　煮汤一定是最后放盐，俗话说:”吃肉不如喝汤.”嘛，你先给了盐，鱼的鲜味就进不去汤里了，相反卤菜的话就要先给盐让菜先保自己的味道，再让卤水的味道慢慢进来。</p>
+<p><img src="/ful/2a535c51/6.jpg" alt="图"></p>
+<h2 id="10-怎么把汤熬白？"><a href="#10-怎么把汤熬白？" class="headerlink" title="10.怎么把汤熬白？"></a>10.怎么把汤熬白？</h2><p>　　其原理就是，大火让油脂和水在蛋白质的作用下，充分乳化，促成汤色如奶。也有人说厨房会加牛奶，让汤变白，其实加牛奶主要是增加蛋白质，不然要想把汤加到白的程度，那奶味得多大啊。</p>
+<p><img src="/ful/2a535c51/7.jpg" alt="图"></p>
+<p>　　奶汤制作过程中需要大火，水一定要给足，最好不要中途加水，加的话最好加热水。总结一下就是原料上就是蛋白质、脂肪、水，方法就是要煎一下，水要沸腾。这就是制作奶汤的要点。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>烹饪技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中美平民生活对比</title>
     <url>/ful/23616e9c.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　　2018年网上看到的一篇文章，是网站转载没有作者链接的文章，这里就不打链接了。</p>
@@ -375,6 +328,104 @@ themes：主题
         <tag>中美对比</tag>
         <tag>物价</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>1颗高丽菜2个鸡蛋</title>
+    <url>/ful/189804ca.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center><font size=3 > <h1>莲花白和鸡蛋</h1> </font></center>
+
+
+
+<p>　　高丽菜又称为卷心菜，圆白菜等，富含多种维生素和叶酸等营养物质，经常食用有抗衰老和提高人体免疫力的作用。作为一种普通的食材，早已走进千家万户之中，今天就给大家分享一种创意的新吃法，很多人可能都没尝试过，做法非常简单。</p>
+<a id="more"></a>
+<p><img src="/ful/189804ca/1.jpg" alt="tu"></p>
+<p>准备一颗高丽菜两个鸡蛋</p>
+<p><img src="/ful/189804ca/2.jpg" alt="tu"></p>
+<p>高丽菜洗净切成丝</p>
+<p><img src="/ful/189804ca/3.jpg" alt="tu"></p>
+<p>切一点红辣椒丝</p>
+<p><img src="/ful/189804ca/4.jpg" alt="tu"></p>
+<p>打两个鸡蛋</p>
+<p><img src="/ful/189804ca/5.jpg" alt="tu"></p>
+<p>将鸡蛋搅匀倒在高丽菜丝上</p>
+<p><img src="/ful/189804ca/6.jpg" alt="tu"></p>
+<p>放入辣椒丝和一点盐</p>
+<p><img src="/ful/189804ca/7.jpg" alt="tu"></p>
+<p>倒入三勺面粉</p>
+<p><img src="/ful/189804ca/8.jpg" alt="tu"></p>
+<p>搅拌均匀倒入饼锅里面</p>
+<p><img src="/ful/189804ca/9.jpg" alt="tu"></p>
+<p>摊平之后撒上一层黑芝麻，盖上盖子双面烙5分钟</p>
+<p><img src="/ful/189804ca/10.jpg" alt="tu"></p>
+<p>放在案板上切成小块，简单美味的高丽菜煎饼就做好了。</p>
+<p>食用功效</p>
+<p>1、提高免疫力：铜等矿物质形式与免疫机能有关的酵素。</p>
+<p>2、健脑：含钙，钙是脑代谢不可缺少的重要物质。</p>
+<p>3、明目：含钙，增加眼球壁的弹力，防治近视的发生与发展。</p>
+<p>4、祛脂降压：使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。能软化和保护血管，有降低人体中血脂和胆固醇的作用。食可预防动脉粥样硬化或某些心血管病。</p>
+<p>5、减肥：容易有饱足感，还会吸附多余脂肪一起排出。加快新陈代谢、消耗体内脂肪，预防和减少脂肪的堆积。低脂肪、低热量，适宜减肥或是肥胖人士。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>家常菜</tag>
+        <tag>莲花白</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>youtube</title>
+    <url>/ful/f0789934.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>油管视频.中天新闻直播.大世界.东森财经</p>
+<a id="more"></a>
+<h2 id="中天新闻直播"><a href="#中天新闻直播" class="headerlink" title="中天新闻直播"></a>中天新闻直播</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/wUPPkSANpyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h2 id="丫头每天点评时事-周末休镜回家宅"><a href="#丫头每天点评时事-周末休镜回家宅" class="headerlink" title="丫头每天点评时事 **周末休镜回家宅"></a>丫头每天点评时事 **周末休镜回家宅</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/gd0dr1dlOvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<pre><code class="bash"></code></pre>
+<h2 id="东京大-真大-大而不堵"><a href="#东京大-真大-大而不堵" class="headerlink" title="东京大_ _真大_大而不堵"></a>东京大_ _真大_大而不堵</h2><p>.</p>
+<iframe width="400" height="150" src="https://www.youtube.com/embed/z1obnaqPgMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="邰正宵经典歌曲大全："><a href="#邰正宵经典歌曲大全：" class="headerlink" title="邰正宵经典歌曲大全："></a>邰正宵经典歌曲大全：</h2><iframe width="400" height="50" src="https://www.youtube.com/embed/Mt7q7x4g6Ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="东森财经"><a href="#东森财经" class="headerlink" title="东森财经"></a>东森财经</h2><iframe width="400" height="200" src="https://www.youtube.com/watch?v=q8u9qK5niss&feature=player_embedded_uturn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<!--
+
+<iframe src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" width="100" height="200" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="640" height="359" src="https://youai29.tk/5/index.php/watch?RaIJ767Bj_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+]]></content>
+      <categories>
+        <category>视频</category>
+      </categories>
+      <tags>
+        <tag>直播</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/ful/4a17b156.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post<img src="/ful/4a17b156/2.PNG" alt="2" style="zoom:30%;" /></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>管理多个博客</title>
@@ -735,57 +786,13 @@ themes：主题
       </tags>
   </entry>
   <entry>
-    <title>1颗高丽菜2个鸡蛋</title>
-    <url>/ful/189804ca.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center><font size=3 > <h1>莲花白和鸡蛋</h1> </font></center>
-
-
-
-<p>　　高丽菜又称为卷心菜，圆白菜等，富含多种维生素和叶酸等营养物质，经常食用有抗衰老和提高人体免疫力的作用。作为一种普通的食材，早已走进千家万户之中，今天就给大家分享一种创意的新吃法，很多人可能都没尝试过，做法非常简单。</p>
-<a id="more"></a>
-<p><img src="/ful/189804ca/1.jpg" alt="tu"></p>
-<p>准备一颗高丽菜两个鸡蛋</p>
-<p><img src="/ful/189804ca/2.jpg" alt="tu"></p>
-<p>高丽菜洗净切成丝</p>
-<p><img src="/ful/189804ca/3.jpg" alt="tu"></p>
-<p>切一点红辣椒丝</p>
-<p><img src="/ful/189804ca/4.jpg" alt="tu"></p>
-<p>打两个鸡蛋</p>
-<p><img src="/ful/189804ca/5.jpg" alt="tu"></p>
-<p>将鸡蛋搅匀倒在高丽菜丝上</p>
-<p><img src="/ful/189804ca/6.jpg" alt="tu"></p>
-<p>放入辣椒丝和一点盐</p>
-<p><img src="/ful/189804ca/7.jpg" alt="tu"></p>
-<p>倒入三勺面粉</p>
-<p><img src="/ful/189804ca/8.jpg" alt="tu"></p>
-<p>搅拌均匀倒入饼锅里面</p>
-<p><img src="/ful/189804ca/9.jpg" alt="tu"></p>
-<p>摊平之后撒上一层黑芝麻，盖上盖子双面烙5分钟</p>
-<p><img src="/ful/189804ca/10.jpg" alt="tu"></p>
-<p>放在案板上切成小块，简单美味的高丽菜煎饼就做好了。</p>
-<p>食用功效</p>
-<p>1、提高免疫力：铜等矿物质形式与免疫机能有关的酵素。</p>
-<p>2、健脑：含钙，钙是脑代谢不可缺少的重要物质。</p>
-<p>3、明目：含钙，增加眼球壁的弹力，防治近视的发生与发展。</p>
-<p>4、祛脂降压：使血压更易控制，并使毛细管扩张，血黏度降低，微循环改善。能软化和保护血管，有降低人体中血脂和胆固醇的作用。食可预防动脉粥样硬化或某些心血管病。</p>
-<p>5、减肥：容易有饱足感，还会吸附多余脂肪一起排出。加快新陈代谢、消耗体内脂肪，预防和减少脂肪的堆积。低脂肪、低热量，适宜减肥或是肥胖人士。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>家常菜</tag>
-        <tag>莲花白</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在线音乐</title>
     <url>/ful/b046713.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-ExEXfhfK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-hovlfVVf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-ExEXfhfK");
+				  options.element = document.getElementById("aplayer-hovlfVVf");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
