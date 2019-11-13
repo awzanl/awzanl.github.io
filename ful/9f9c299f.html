@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#202020"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+  
+  
+    <meta name="keywords" content="自备bat," />
+  
+
+  
+    <meta name="description" content="bat" />
+  
+  
+  
+  <link rel="icon" type="image/x-icon" href="/images/footer-logo.png">
+  
+  <title>bat [ Hexo ]</title>
+  
+    <!-- stylesheets list from config.yml -->
+    
+      <link rel="stylesheet" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css">
+    
+      <link rel="stylesheet" href="/css/xoxo.css">
+    
+  
+</head>
+
+
+<body>
+  <div class="nav-container">
+    <nav class="home-menu pure-menu pure-menu-horizontal">
+  <a class="pure-menu-heading" href="/">
+    
+    <span class="title" style="text-transform:none">Hexo</span>
+  </a>
+
+  <ul class="pure-menu-list clearfix">
+      
+          
+            
+              <li class="pure-menu-item"><a href="/" class="pure-menu-link">首页</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+              <a href="#" id="post" class="pure-menu-link">文章</a>
+              <ul class="pure-menu-children">
+              
+                  
+                    <li class="pure-menu-item"><a href="/categories" style="color:#202020;" class="pure-menu-link">分类</a></li>
+                  
+              
+                  
+                    <li class="pure-menu-item"><a href="/archives" style="color:#202020;" class="pure-menu-link">归档</a></li>
+                  
+              
+                  
+                    <li class="pure-menu-item"><a href="/tags" style="color:#202020;" class="pure-menu-link">标签</a></li>
+                  
+              
+              </ul>
+            </li>
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/paper" class="pure-menu-link">Papers</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/project" class="pure-menu-link">项目</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/activity" class="pure-menu-link">动态</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/search" class="pure-menu-link">搜索</a></li>
+            
+          
+      
+  </ul>
+   
+</nav>
+
+  </div>
+
+  <div class="container" id="content-outer">
+    <div class="inner" id="content-inner">
+      
+<div class="post-container">
+  <article class="post" id="post">
+    <header class="post-header text-center">
+      <h1 class="title">
+        bat
+      </h1>
+      <span>
+        
+        <time class="time" datetime="2019-11-11T08:10:07.000Z">
+        2019-11-11
+      </time>
+        
+      </span>
+      <span class="slash">/</span>
+      <span class="post-meta">
+      <span class="post-tags">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%87%AA%E5%A4%87bat/" rel="tag">自备bat</a></li></ul>
+      </span>
+    </span>
+      <span class="slash">/</span>
+      <span class="read">
+      <span id="busuanzi_value_page_pv"></span> 点击
+    </span>
+      <span class="slash">/</span>
+      <span class="read">阅读耗时 12 分钟</span>
+    </header>
+
+    <div class="post-content">
+      <h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><h2 id="E-电脑-快捷"><a href="#E-电脑-快捷" class="headerlink" title="E:\电脑\快捷"></a>E:\电脑\快捷</h2><h3 id="posts-d-bat"><a href="#posts-d-bat" class="headerlink" title="posts-d.bat"></a>posts-d.bat</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line">ECHO <span class="string">"D |  xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D |  xcopy <span class="string">"F:\d\source\_posts"</span> <span class="string">"J:\d\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"备份d_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"F:\d"</span> <span class="string">"I:\d"</span> /e /y /J </span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>F:\d<span class="string">" "</span>J:\d<span class="string">" /e /y /J</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>备份d:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+
+<h3 id="posts-f-bat"><a href="#posts-f-bat" class="headerlink" title="posts-f.bat"></a>posts-f.bat</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\f\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"G:\f\source\_posts"</span> <span class="string">"J:\f\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">" 备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO  "</span>D | xcopy <span class="string">"G:\f"</span> <span class="string">"I:\f"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO  <span class="string">"D | xcopy "</span>G:\f<span class="string">" "</span>J:\f<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span> 备份f:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h3 id="复制便签-bat-快捷方式"><a href="#复制便签-bat-快捷方式" class="headerlink" title="复制便签.bat - 快捷方式"></a>复制便签.bat - 快捷方式</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-shm<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-wal"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Bookmarks<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Favicons"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string">echo ----------------------------------------------------------------</span></span><br><span class="line"><span class="string">xcopy "</span>F:\gi\BF\windows10\bianqian<span class="string">"  "</span>J:\BF\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"F:\gi\BF\windows10\bianqian"</span>  <span class="string">"I:\BF\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">echo. &amp; pause</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="E-电脑-hexo快捷"><a href="#E-电脑-hexo快捷" class="headerlink" title="E:\电脑\hexo快捷"></a>E:\电脑\hexo快捷</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo s -p 5000</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h3 id="网卡内存清理E-电脑-1"><a href="#网卡内存清理E-电脑-1" class="headerlink" title="网卡内存清理E:\电脑\1"></a>网卡内存清理E:\电脑\1</h3><p>网卡</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">rem 禁用网卡</span><br><span class="line">ping -n 3 127.0.0.1&gt;nul</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 disabled</span><br><span class="line"><span class="built_in">echo</span> 延时10秒。。。</span><br><span class="line">ping -n 5 127.0.0.1&gt;nul</span><br><span class="line">rem 启用网卡</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 enabled</span><br><span class="line"><span class="built_in">echo</span> 重启操作完成</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<p>内存</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /f /im explorer.exe &amp; start explorer.exe</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-22"><a href="#3-22" class="headerlink" title="3-22"></a>3-22</h1><h3 id="删除27-txt-28-txt"><a href="#删除27-txt-28-txt" class="headerlink" title="删除27.txt 28.txt"></a>删除27.txt 28.txt</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=27.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=28.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br></pre></td></tr></table></figure>
+<p>py最后一行加入下面代码，不用每次清理27 28</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">os.system(r<span class="string">'"28.bat"'</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="选择1-2执行bat"><a href="#选择1-2执行bat" class="headerlink" title="选择1-2执行bat"></a>选择1-2执行bat</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:input</span><br><span class="line">title bat代码</span><br><span class="line">::bat标题</span><br><span class="line"><span class="built_in">set</span> /p <span class="string">"num=请输入“1”或“2”到这里，然后按下回车键："</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"1"</span> cls &amp; goto 1</span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"2"</span> cls &amp; goto 2</span><br><span class="line"><span class="built_in">echo</span>. &amp; <span class="built_in">echo</span> 不能输入除了“1”和“2”之外的其他字符！ &amp; pause&gt;nul &amp; cls &amp; goto input</span><br><span class="line">:1</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码1.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第一个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br><span class="line">:2</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码2.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第二个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br></pre></td></tr></table></figure>
+
+<h1 id="完整部署备份hexo—-bat"><a href="#完整部署备份hexo—-bat" class="headerlink" title="完整部署备份hexo—-bat"></a>完整部署备份hexo—-bat</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:Init</span><br><span class="line">Title CMD</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line"></span><br><span class="line">:BatchGotAdmin</span><br><span class="line">:--------------------------------------</span><br><span class="line"></span><br><span class="line">:--------------------------------------</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">:Start</span><br><span class="line">Color 2f</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line">Set tle=完整备份部署发布</span><br><span class="line">Set var=0</span><br><span class="line"></span><br><span class="line">:Menu</span><br><span class="line">cls</span><br><span class="line"><span class="built_in">echo</span> 标题:「 %tle% 」</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="built_in">echo</span> 菜单:</span><br><span class="line"><span class="built_in">echo</span>       ⑴  部署feichang99  √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑵  备份f_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑶  部署awzanl        √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑷  备份d_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑸  备份整个F</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑹  备份整个D</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       Ｑ  退出</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="keyword">if</span> %var% neq 0 <span class="built_in">echo</span> (输入无效请重新输入)</span><br><span class="line">Set choice=</span><br><span class="line">Set /p choice=选择: </span><br><span class="line">Set <span class="string">"choice=%choice:"</span>=%<span class="string">"</span></span><br><span class="line"><span class="string">if "</span>%choice:~-1%<span class="string">"=="</span>=<span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">"=="</span><span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>1<span class="string">" cls&amp;Goto 部署feichang99</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>2<span class="string">" cls&amp;Goto 备份f_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>3<span class="string">" cls&amp;Goto 部署awzanl</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>4<span class="string">" cls&amp;Goto 备份d_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>5<span class="string">" cls&amp;Goto 备份整个F</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>6<span class="string">" cls&amp;Goto I备份整个D</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>r<span class="string">" cls&amp;Goto RestTeredo</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>q<span class="string">" Popd&amp;Exit</span></span><br><span class="line"><span class="string">Set var=1</span></span><br><span class="line"><span class="string">Goto Menu</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署feichang99</span></span><br><span class="line"><span class="string">正在部署99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">g:</span></span><br><span class="line"><span class="string">CD g:\f</span></span><br><span class="line"><span class="string">call hexo clean </span></span><br><span class="line"><span class="string">call hexo g </span></span><br><span class="line"><span class="string">call hexo d</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">echo 部署feichang99:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份f_posts</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  "</span>D | xcopy <span class="string">"G:\f\source\_posts"</span> <span class="string">"J:\f\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span> 备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line">Goto End</span><br><span class="line"></span><br><span class="line">部署awzanl</span><br><span class="line">正在部署awz，请稍后。。。</span><br><span class="line">MODE con: Cols=88 Lines=32</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">call hexo clean </span><br><span class="line">call hexo g </span><br><span class="line">call hexo d</span><br><span class="line">pause</span><br><span class="line"><span class="built_in">echo</span> 部署awzanl:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line">Goto End</span><br><span class="line"></span><br><span class="line">:备份d_posts</span><br><span class="line"><span class="built_in">echo</span> 正在备份awz，请稍后。。。</span><br><span class="line">MODE con: Cols=88 Lines=32</span><br><span class="line"><span class="built_in">echo</span>  <span class="string">"D | xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>J:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo 备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份整个F</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  "</span>D | xcopy <span class="string">"G:\f\" "</span>J:\f<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo 备份整个F:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份整个D</span></span><br><span class="line"><span class="string">echo 正在备份awz，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  "</span>D | xcopy <span class="string">"F:\d\" "</span>J:\d<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo 备份整个D:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:End</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">" neq "</span><span class="string">" (</span></span><br><span class="line"><span class="string">    cls</span></span><br><span class="line"><span class="string">    Color 2e</span></span><br><span class="line"><span class="string">    MODE con: Cols=40 Lines=23</span></span><br><span class="line"><span class="string">    if "</span>%choice%<span class="string">" neq "</span>3<span class="string">" (</span></span><br><span class="line"><span class="string">        echo 操作完成 !!!</span></span><br><span class="line"><span class="string">        if exist %WINDIR%\System32\timeout.exe (timeout /t 2) else (if exist %WINDIR%\System32\choice.exe (choice /t 2 /d y /n &gt;nul) else (ping 127.1 -n 2 &gt;nul))</span></span><br><span class="line"><span class="string">    )</span></span><br><span class="line"><span class="string">    Goto Start</span></span><br><span class="line"><span class="string">)</span></span><br></pre></td></tr></table></figure>
+    </div>
+
+  </article>
+  <div class="toc-container">
+    
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#快捷键"><span class="toc-text">快捷键</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#E-电脑-快捷"><span class="toc-text">E:\电脑\快捷</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#posts-d-bat"><span class="toc-text">posts-d.bat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#posts-f-bat"><span class="toc-text">posts-f.bat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#复制便签-bat-快捷方式"><span class="toc-text">复制便签.bat - 快捷方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#E-电脑-hexo快捷"><span class="toc-text">E:\电脑\hexo快捷</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网卡内存清理E-电脑-1"><span class="toc-text">网卡内存清理E:\电脑\1</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-22"><span class="toc-text">3-22</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#删除27-txt-28-txt"><span class="toc-text">删除27.txt 28.txt</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#选择1-2执行bat"><span class="toc-text">选择1-2执行bat</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#完整部署备份hexo—-bat"><span class="toc-text">完整部署备份hexo—-bat</span></a></li></ol>
+  </div>
+
+
+  </div>
+</div>
+<div class="copyright">
+    <span>本作品采用</span>
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">知识共享署名 4.0 国际许可协议</a>
+    <span>进行许可。 转载时请注明原文链接。</span>
+</div>
+
+
+  
+    <div class="post-nav">
+      <div class="post-nav-item post-nav-next">
+        
+          <span>〈 </span>
+          <a href="/ful/b7a8ef1d.html" rel="next" title="代码及命令">
+          代码及命令
+          </a>
+        
+      </div>
+  
+      <div class="post-nav-item post-nav-prev">
+          
+          <a href="/ful/d9ddb5a4.html" rel="prev" title="老年痴呆早期信号">
+            老年痴呆早期信号
+          </a>
+          <span>〉</span>
+        
+      </div>
+    </div>
+  
+
+
+    </div>
+
+    
+
+  </div>
+  <footer class="footer text-center">
+    <div id="bottom-inner">
+        <a class="bottom-item" href="https://github.com/fooying" target="_blank">GitHub</a> |
+        <a class="bottom-item" href="/links">友情链接</a> |
+        <a class="bottom-item" href="https://hexo.io" target="_blank">Powered by hexo</a> |
+        <a class="bottom-item" href="https://github.com/fooying/hexo-theme-xoxo-plus" target="_blank">Theme xoxo-plus</a> |
+        <a class="bottom-item" href="/atom.xml">RSS</a>
+    </div>
+</footer>
+
+  
+
+<script>
+  (function(window, document, undefined) {
+
+    var timer = null;
+
+    function returnTop() {
+      cancelAnimationFrame(timer);
+      timer = requestAnimationFrame(function fn() {
+        var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+        if (oTop > 0) {
+          document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+          timer = requestAnimationFrame(fn);
+        } else {
+          cancelAnimationFrame(timer);
+        }
+      });
+    }
+
+    var hearts = [];
+    window.requestAnimationFrame = (function() {
+      return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback) {
+          setTimeout(callback, 1000 / 60);
+        }
+    })();
+    init();
+
+    function init() {
+      css(".heart{z-index:9999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+      attachEvent();
+      gameloop();
+      addMenuEvent();
+    }
+
+    function gameloop() {
+      for (var i = 0; i < hearts.length; i++) {
+        if (hearts[i].alpha <= 0) {
+          document.body.removeChild(hearts[i].el);
+          hearts.splice(i, 1);
+          continue;
+        }
+        hearts[i].y--;
+        hearts[i].scale += 0.004;
+        hearts[i].alpha -= 0.013;
+        hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
+      }
+      requestAnimationFrame(gameloop);
+    }
+
+    /**
+     * 给logo设置点击事件
+     * 
+     * - 回到顶部
+     * - 出现爱心
+     */
+    function attachEvent() {
+      var old = typeof window.onclick === "function" && window.onclick;
+      var logo = document.getElementById("logo");
+      if (logo) {
+        logo.onclick = function(event) {
+          returnTop();
+          old && old();
+          createHeart(event);
+        }
+      }
+      
+    }
+
+    function createHeart(event) {
+      var d = document.createElement("div");
+      d.className = "heart";
+      hearts.push({
+        el: d,
+        x: event.clientX - 5,
+        y: event.clientY - 5,
+        scale: 1,
+        alpha: 1,
+        color: randomColor()
+      });
+      document.body.appendChild(d);
+    }
+
+    function css(css) {
+      var style = document.createElement("style");
+      style.type = "text/css";
+      try {
+        style.appendChild(document.createTextNode(css));
+      } catch (ex) {
+        style.styleSheet.cssText = css;
+      }
+      document.getElementsByTagName('head')[0].appendChild(style);
+    }
+
+    function randomColor() {
+      // return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
+      return "#F44336";
+    }
+
+    function addMenuEvent() {
+      var menu = document.getElementById('menu-main-post');
+      if (menu) {
+        var toc = document.getElementById('toc');
+        if (toc) {
+          menu.onclick = function() {
+            if (toc) {
+              if (toc.style.display == 'block') {
+                toc.style.display = 'none';
+              } else {
+                toc.style.display = 'block';
+              }
+            }
+          };
+        } else {
+          menu.style.display = 'none';
+        }
+      }
+    }
+
+  })(window, document);
+</script>
+
+  
+
+
+
+  
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+
+</body>
+</html>
