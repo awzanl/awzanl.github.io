@@ -15,7 +15,7 @@
   
 
   
-    <meta name="description" content="在windows下用bat脚本搭建了一个自动化部署的操作" />
+    <meta name="description" content="Hexo博客使用bat脚本自动创建、部署、编辑和免密码部署" />
   
   
   
@@ -140,6 +140,7 @@
       <h2 id="一、Hexo-bat脚本："><a href="#一、Hexo-bat脚本：" class="headerlink" title="一、Hexo bat脚本："></a>一、Hexo bat脚本：</h2><font size=1 color="＃0EEC1D"> 
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> /p name=input pages name:</span><br><span class="line"><span class="built_in">echo</span> name:%name%</span><br><span class="line"><span class="built_in">echo</span> please <span class="built_in">wait</span></span><br><span class="line">start /d <span class="string">"F:\notepad\Notepad++"</span>   notepad++.exe  <span class="string">"D:\Blog\blog\source\_posts\%name%.md"</span></span><br></pre></td></tr></table></figure>
 
+<a id="more"></a>
 
 <p>@echo off表示不回显，意思就是说在命令提示符中输入的命令不显示。你也可以设置为 @echo on。<br>set /p name=input pages name: 表示你要输入这篇博客的文件名。使用name变量存储。<br>start /d “F:\notepad\Notepad++”   notepad++.exe  “D:\Blog\blog\source_posts%name%.md”<br>表示使用这个notepad++来新建这个.md文件。<br>其中”F:\notepad\Notepad++”表示nodepad++的安装位置。D:\Blog\blog\source_posts%name%.md表示这个文件的存放位置。<br>博客路径和文本编辑器位置请改成你自己的。</p>
 <h3 id="2、调试"><a href="#2、调试" class="headerlink" title="2、调试"></a>2、调试</h3><p>新建debug.bat文件<br>内容如下：</p>

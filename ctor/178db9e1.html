@@ -135,6 +135,9 @@
     <div class="post-content">
       <h3 id="SSH添加到GitHub"><a href="#SSH添加到GitHub" class="headerlink" title="SSH添加到GitHub"></a>SSH添加到GitHub</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
 <p>yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱</p>
+<a id="more"></a>
+
+
 <h5 id="检查一下你有没有输对"><a href="#检查一下你有没有输对" class="headerlink" title="检查一下你有没有输对"></a>检查一下你有没有输对</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
 <h5 id="然后创建SSH"><a href="#然后创建SSH" class="headerlink" title="然后创建SSH"></a>然后创建SSH</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
 <h5 id="hexo部署到GitHub"><a href="#hexo部署到GitHub" class="headerlink" title="hexo部署到GitHub"></a>hexo部署到GitHub</h5><p>修改站点 _config.yml</p>
