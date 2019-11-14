@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#202020"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+  
+  
+    <meta name="keywords" content="命令," />
+  
+
+  
+    <meta name="description" content="Hexo博客常用命令备份" />
+  
+  
+  
+  <link rel="icon" type="image/x-icon" href="/images/footer-logo.png">
+  
+  <title>Hexo常用命令博客 [ Hexo ]</title>
+  
+    <!-- stylesheets list from config.yml -->
+    
+      <link rel="stylesheet" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css">
+    
+      <link rel="stylesheet" href="/css/xoxo.css">
+    
+  
+</head>
+
+
+<body>
+  <div class="nav-container">
+    <nav class="home-menu pure-menu pure-menu-horizontal">
+  <a class="pure-menu-heading" href="/">
+    
+    <span class="title" style="text-transform:none">Hexo</span>
+  </a>
+
+  <ul class="pure-menu-list clearfix">
+      
+          
+            
+              <li class="pure-menu-item"><a href="/" class="pure-menu-link">首页</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+              <a href="#" id="post" class="pure-menu-link">文章</a>
+              <ul class="pure-menu-children">
+              
+                  
+                    <li class="pure-menu-item"><a href="/categories" style="color:#202020;" class="pure-menu-link">分类</a></li>
+                  
+              
+                  
+                    <li class="pure-menu-item"><a href="/archives" style="color:#202020;" class="pure-menu-link">归档</a></li>
+                  
+              
+                  
+                    <li class="pure-menu-item"><a href="/tags" style="color:#202020;" class="pure-menu-link">标签</a></li>
+                  
+              
+              </ul>
+            </li>
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/paper" class="pure-menu-link">Papers</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/project" class="pure-menu-link">项目</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/activity" class="pure-menu-link">动态</a></li>
+            
+          
+      
+          
+            
+              <li class="pure-menu-item"><a href="/search" class="pure-menu-link">搜索</a></li>
+            
+          
+      
+  </ul>
+   
+</nav>
+
+  </div>
+
+  <div class="container" id="content-outer">
+    <div class="inner" id="content-inner">
+      
+<div class="post-container">
+  <article class="post" id="post">
+    <header class="post-header text-center">
+      <h1 class="title">
+        Hexo常用命令博客
+      </h1>
+      <span>
+        
+        <time class="time" datetime="2019-10-23T12:06:22.000Z">
+        2019-10-23
+      </time>
+        
+      </span>
+      <span class="slash">/</span>
+      <span class="post-meta">
+      <span class="post-tags">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a></li></ul>
+      </span>
+    </span>
+      <span class="slash">/</span>
+      <span class="read">
+      <span id="busuanzi_value_page_pv"></span> 点击
+    </span>
+      <span class="slash">/</span>
+      <span class="read">阅读耗时 12 分钟</span>
+    </header>
+
+    <div class="post-content">
+      <h2 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">npm update hexo -g 	  //升级 </span><br><span class="line">hexo version  	      //查看hexo的版本</span><br><span class="line">hexo init nodejs-hexo   //创建nodejs-hexo 名字的本地文件</span><br><span class="line">hexo init nodejs-hexo    //创建博客</span><br><span class="line">hexo init blog          //初始化，生成文件夹为blog</span><br><span class="line"><span class="built_in">cd</span> blog  	             //进入blog文件夹</span><br><span class="line">npm install            //安装依赖库</span><br><span class="line">hexo generate           //生成一套静态网页</span><br><span class="line">hexo server         //运行测试,浏览器打开地址，http://localhost:4000/</span><br><span class="line">hexo deploy         //进行部署</span><br><span class="line"></span><br><span class="line">hexo new <span class="string">"new article"</span>  //新建文章‘new article’</span><br><span class="line">hexo new page <span class="string">"about"</span>  //新建页面 ‘about’</span><br><span class="line"></span><br><span class="line">hexo n <span class="string">"我的博客"</span>` == `hexo new` <span class="string">"我的博客"</span>    //新建文章</span><br><span class="line">hexo g == hexo generate        //生成`</span><br><span class="line">hexo s == hexo server          //启动服务预览</span><br><span class="line">hexo d == hexo deploy          //部署</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>新建的笔记文件路径：source/_posts 目录下, <a href="http://new-article.md/" target="_blank" rel="nofollow noopener" data-token="981c499f69f886627b108dd01aa48a71">new-article.md</a> 的文件, 打开文件, 文件开头采用的是yaml格式，用三条短横线分隔。下面是文章正文，采用用的是markdown格式。</p>
+</blockquote>
+<p><strong>新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。</strong></p>
+<h2><a name="t0"></a><a id="Hexo_26"></a>Hexo起服务</h2>
+<p>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。 hexo server -s #静态模式 hexo server -p 5000 #更改端口 hexo server -i 192.168.1.1 #自定义 IP<br>
+hexo clean #清除缓存 网页正常情况下可以忽略此条命令 hexo g #生成静态网页 hexo d #开始部署`</p>
+<h1><a name="t1"></a><a id="Hexo_30"></a>Hexo写博客常用方法</h1>
+<h2><a name="t2"></a><a id="Hexo_31"></a>Hexo文章属性设置</h2>
+<p>设置    - - - -    描述 - - - -    Default<br>
+layout    - - - -    Layout - - - -        post或page<br>
+title    - - - -    文章的标题 - - - -    <br>
+date    - - - -    创建日期     - - - -    文件的创建日期<br>
+updated        - - - -    修改日期     - - - -    文件的修改日期<br>
+comments    - - - -    是否开启评论 - - - -    true<br>
+tags    - - - -    标签    <br>
+categories    - - - -    分类    <br>
+permalink    - - - -    url中的名字 - - - -    文件名</p>
+### Hexo摘要
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;pre class=<span class="string">"prettyprint"</span>&gt;&lt;code class=<span class="string">"has-numbering"</span> onclick=<span class="string">"mdcp.signin(event)"</span> style=<span class="string">"position: unset;"</span>&gt;这里是文章的摘要部分&amp;lt;!--more--&amp;gt;后面才是文章的正文内容</span><br><span class="line">&amp;lt;blockquote&amp;gt;在 markdown 文件顶部添加 description 属性，可以在首页文章列表显示文章的描述，如果没有这个属性，会自动截取文章内容作为文章的描述。&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="更换皮肤"><a href="#更换皮肤" class="headerlink" title="更换皮肤"></a>更换皮肤</h3><li><a href="https://hexo.io/themes/" target="_blank" rel="nofollow noopener" data-token="55f3f064406105a07e406f9688eba328">hexo官网选择皮肤:</a>  <code>git clone</code></li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;li&gt;放到themes目录下&lt;/li&gt;</span><br><span class="line">&lt;li&gt;编辑文件_config.yml，找到theme一行，改成 theme: pacman&lt;/li&gt;</span><br><span class="line">&lt;li&gt;本地启动hexo服务器，打开浏览器  href=<span class="string">"http://localhost:4000/"</span></span><br></pre></td></tr></table></figure>
+</ol>
+<h2><a name="t5"></a><a id="git_56"></a>找不到git部署</h2>
+<p>ERROR Deployer not found: git<br>
+解决方法：npm install hexo-deployer-git --save</p>
+<h2><a name="t6"></a><a id="Hexo_60"></a>Hexo不常用的命令</h2>
+<hr>
+<h2><a name="t7"></a><a id="render_62"></a>render</h2>
+<p>渲染文件： <code>hexo render &lt;file1&gt; [file2] ...</code><br>
+参数 <code>-o(--output)</code> 设置输出路径</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo render path1/xxx.md -o path2/xxx.yyy</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>hexo-render命令其实就是把我们的文章通过模板渲染成html代码，当然渲染完成后是可以输出到另一个文件的</p>
+</blockquote>
+<h2><a name="t8"></a><a id="list_73"></a>list</h2>
+<p>列出网站资料：<code>hexo list &lt;type&gt;</code></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo list page</span><br></pre></td></tr></table></figure>
+
+<h3 id="Hexo草稿"><a href="#Hexo草稿" class="headerlink" title="Hexo草稿"></a>Hexo草稿</h3><p>草稿相当于很多博客都有的“私密文章”功能。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft <span class="string">"new draft"</span></span><br></pre></td></tr></table></figure>
+<p>草稿会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
+<p>如果你希望强行预览草稿，更改配置文件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">render_drafts: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>或者，如下方式启动预览：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server --drafts</span><br></pre></td></tr></table></figure>
+<p>下面这条命令可以把草稿变成文章，或者页面：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<p>github上hexo搭建博客-绑定域名<br>这里选择阿里云域名</p>
+<p>登陆阿里云控制台，选择域名，选择要绑定的域名，点解析<br>解析页，添加记录，<br>记录类型 A<br>主机记录 WWW, @<br>记录值 填写对应的github的ip地址<br>Github的ip地址获取<br>clone 你创建的仓库, 用户名.github.io<br>输入 ping www.用户名.github.io<br>Ping sni.github.map.fastly.net [151.202.68.147], IP地址<br>在source目录下创建这个CNAME文件，输入域名<br>提交代码，点击域名，一般很快就生效。<br>标签插件<br>Hexo 的标签插件是独立于 Markdown 的渲染引擎的，标签插件采用独有的方式渲染,虽然有的时候可能和 Markdown 渲染效果一样，在这里我就不说 Markdown 的渲染方式了，如果想要了解 Markdown 的请参考这篇文章 MarkDown语法指南</p>
+<p>引用块<br>-在文章中插入引言，可包含作者、来源和标题。</p>
+<p>语法格式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote [author[, <span class="built_in">source</span>]] [link] [source_link_title] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>例子1: 引用书上的句子</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote David Levithan, Wide Awake %&#125;</span><br><span class="line">Do not just seek happiness <span class="keyword">for</span> yourself. Seek happiness <span class="keyword">for</span> all. Through kindness. Through mercy.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>例子2: 引用Twitter</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %&#125;</span><br><span class="line">NEW: DevDocs now comes with syntax highlighting. http://devdocs.io</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>例子3: 引用网络上的文章</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %&#125;</span><br><span class="line">Every interaction is both precious and an opportunity to delight.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>代码块<br>语法格式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>例子1: 普通的代码块</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br><span class="line">alert(<span class="string">'Hello World!'</span>);</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>例子2: 指定语言</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock lang:objc %&#125;</span><br><span class="line">[rectangle setX: 10 y: 10 width: 20 height: 20];</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>例子3: 附加说明和网址</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock _.compact http://underscorejs.org/<span class="comment">#compact Underscore.js %&#125;</span></span><br><span class="line">_.compact([0, 1, <span class="literal">false</span>, 2, <span class="string">''</span>, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>iframe<br>在文章中插入 iframe</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% iframe url [width] [height] %&#125; 	//语法</span><br><span class="line">&#123;% iframe https://www.xgqq.com/ 960 500 %&#125;  //实例</span><br></pre></td></tr></table></figure>
+<p>Image<br>在文章中插入指定大小的图片。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% img [class names] /path/to/image [width] [height] [title text [alt text]] %&#125; 	//语法</span><br><span class="line">&#123;% img [class names] /yn.jpeg [300] [height] [云南风景 [风景图片]] %&#125; 	//实例</span><br></pre></td></tr></table></figure>
+<p>Link<br>在文章中插入链接，并自动给外部链接添加 target=”_blank” 属性。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% link 百度一下 http://www.baidu.com [external] [超链接] %&#125;	//语法</span><br><span class="line">&#123;% link 百度一下 http://www.baidu.com [这是什么] [超链接] %&#125;	//实例</span><br></pre></td></tr></table></figure>
+<a href="http://www.baidu.com/" title="[external] [超链接]" target="">百度一下</a>    //语法
+<a href="http://www.baidu.com/" title="[这是什么] [超链接]" target="">百度一下</a>    //实例
+<p>include Code<br>插入 source 文件夹内的代码文件。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% include_code [title] [lang:language] path/to/file %&#125;	 //语法</span><br><span class="line">&#123;% include_code appjs lang:javascript /app.js %&#125;	//实例</span><br></pre></td></tr></table></figure>
+<p>Youtube<br>在文章中插入 Youtube 视频。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% youtube video_id %&#125; 	//语法</span><br><span class="line">&#123;% youtube ICkxRE_GdgI %&#125;  //id在Url中</span><br></pre></td></tr></table></figure>
+<p>引用文章<br>引用其他文章的链接。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_path slug %&#125;</span><br><span class="line">&#123;% post_link slug [title] %&#125;</span><br></pre></td></tr></table></figure>
+<p>引用资源<br>引用文章的资源。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure>
+<p>RSS不显示<br>安装RSS插件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save  //安装RSS插件</span><br></pre></td></tr></table></figure>
+<p>开启RSS功能<br>编辑hexo/_config.yml</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rss: /atom.xml <span class="comment">#rss地址   //默认即可</span></span><br></pre></td></tr></table></figure>
+<p>开启评论<br>1.我使用多说代替自带的评论，在多说 网站注册 &gt; 后台管理 &gt; 添加新站点 &gt; 工具 === 复制通用代码 里面有 short_name</p>
+<p>在根目录 _config.yml 添加一行 disqus_shortname: jslite 是在多说注册时产生的<br>复制到 themes\landscape\layout_partial\article.ejs把</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.disqus_shortname)&#123; %&gt;</span><br><span class="line">&lt;section id=<span class="string">"comments"</span>&gt;</span><br><span class="line">&lt;div id=<span class="string">"disqus_thread"</span>&gt;</span><br><span class="line">  &lt;noscript&gt;Please <span class="built_in">enable</span> JavaScript to view the &lt;a href=<span class="string">"//disqus.com/?ref_noscript"</span>&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/section&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.disqus_shortname)&#123; %&gt;</span><br><span class="line">  &lt;section id=<span class="string">"comments"</span>&gt;</span><br><span class="line">    &lt;!-- 多说评论框 start --&gt;</span><br><span class="line">    &lt;div class=<span class="string">"ds-thread"</span> data-thread-key=<span class="string">"&lt;%= post.layout %&gt;-&lt;%= post.slug %&gt;"</span> data-title=<span class="string">"&lt;%= post.title %&gt;"</span> data-url=<span class="string">"&lt;%= page.permalink %&gt;"</span>&gt;&lt;/div&gt;</span><br><span class="line">    &lt;!-- 多说评论框 end --&gt;</span><br><span class="line">    &lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</span><br><span class="line">    &lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line">    var duoshuoQuery = &#123;short_name:<span class="string">'&lt;%= config.disqus_shortname %&gt;'</span>&#125;;</span><br><span class="line">      (<span class="function"><span class="title">function</span></span>() &#123;</span><br><span class="line">        var ds = document.createElement(<span class="string">'script'</span>);</span><br><span class="line">        ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</span><br><span class="line">        ds.src = (document.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</span><br><span class="line">        ds.charset = <span class="string">'UTF-8'</span>;</span><br><span class="line">        (document.getElementsByTagName(<span class="string">'head'</span>)[0] </span><br><span class="line">         || document.getElementsByTagName(<span class="string">'body'</span>)[0]).appendChild(ds);</span><br><span class="line">      &#125;)();</span><br><span class="line">      &lt;/script&gt;</span><br><span class="line">    &lt;!-- 多说公共JS代码 end --&gt;</span><br><span class="line">  &lt;/section&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>其他</p>
+<p><a href="https://blog.csdn.net/gqzydh/article/details/86569300" target="_blank" rel="noopener">原文作者：gqzydh－－点击进入</a></p>
+
+    </div>
+
+  </article>
+  <div class="toc-container">
+    
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo常用命令"><span class="toc-text">Hexo常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">Hexo起服务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#null"><span class="toc-text">Hexo写博客常用方法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">Hexo文章属性设置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#更换皮肤"><span class="toc-text">更换皮肤</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">找不到git部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">Hexo不常用的命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">render</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#null"><span class="toc-text">list</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo草稿"><span class="toc-text">Hexo草稿</span></a></li></ol></li></ol>
+  </div>
+
+
+  </div>
+</div>
+<div class="copyright">
+    <span>本作品采用</span>
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">知识共享署名 4.0 国际许可协议</a>
+    <span>进行许可。 转载时请注明原文链接。</span>
+</div>
+
+
+  
+    <div class="post-nav">
+      <div class="post-nav-item post-nav-next">
+        
+          <span>〈 </span>
+          <a href="/ctor/1bb1a481.html" rel="next" title="浏览器扩展">
+          浏览器扩展
+          </a>
+        
+      </div>
+  
+      <div class="post-nav-item post-nav-prev">
+          
+          <a href="/ctor/31bcf49f.html" rel="prev" title="管理多个博客">
+            管理多个博客
+          </a>
+          <span>〉</span>
+        
+      </div>
+    </div>
+  
+
+
+    </div>
+
+    
+
+  </div>
+  <footer class="footer text-center">
+    <div id="bottom-inner">
+        <a class="bottom-item" href="https://github.com/fooying" target="_blank">GitHub</a> |
+        <a class="bottom-item" href="/links">友情链接</a> |
+        <a class="bottom-item" href="https://hexo.io" target="_blank">Powered by hexo</a> |
+        <a class="bottom-item" href="https://github.com/fooying/hexo-theme-xoxo-plus" target="_blank">Theme xoxo-plus</a> |
+        <a class="bottom-item" href="/atom.xml">RSS</a>
+    </div>
+</footer>
+
+  
+
+<script>
+  (function(window, document, undefined) {
+
+    var timer = null;
+
+    function returnTop() {
+      cancelAnimationFrame(timer);
+      timer = requestAnimationFrame(function fn() {
+        var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+        if (oTop > 0) {
+          document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+          timer = requestAnimationFrame(fn);
+        } else {
+          cancelAnimationFrame(timer);
+        }
+      });
+    }
+
+    var hearts = [];
+    window.requestAnimationFrame = (function() {
+      return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback) {
+          setTimeout(callback, 1000 / 60);
+        }
+    })();
+    init();
+
+    function init() {
+      css(".heart{z-index:9999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+      attachEvent();
+      gameloop();
+      addMenuEvent();
+    }
+
+    function gameloop() {
+      for (var i = 0; i < hearts.length; i++) {
+        if (hearts[i].alpha <= 0) {
+          document.body.removeChild(hearts[i].el);
+          hearts.splice(i, 1);
+          continue;
+        }
+        hearts[i].y--;
+        hearts[i].scale += 0.004;
+        hearts[i].alpha -= 0.013;
+        hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
+      }
+      requestAnimationFrame(gameloop);
+    }
+
+    /**
+     * 给logo设置点击事件
+     * 
+     * - 回到顶部
+     * - 出现爱心
+     */
+    function attachEvent() {
+      var old = typeof window.onclick === "function" && window.onclick;
+      var logo = document.getElementById("logo");
+      if (logo) {
+        logo.onclick = function(event) {
+          returnTop();
+          old && old();
+          createHeart(event);
+        }
+      }
+      
+    }
+
+    function createHeart(event) {
+      var d = document.createElement("div");
+      d.className = "heart";
+      hearts.push({
+        el: d,
+        x: event.clientX - 5,
+        y: event.clientY - 5,
+        scale: 1,
+        alpha: 1,
+        color: randomColor()
+      });
+      document.body.appendChild(d);
+    }
+
+    function css(css) {
+      var style = document.createElement("style");
+      style.type = "text/css";
+      try {
+        style.appendChild(document.createTextNode(css));
+      } catch (ex) {
+        style.styleSheet.cssText = css;
+      }
+      document.getElementsByTagName('head')[0].appendChild(style);
+    }
+
+    function randomColor() {
+      // return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
+      return "#F44336";
+    }
+
+    function addMenuEvent() {
+      var menu = document.getElementById('menu-main-post');
+      if (menu) {
+        var toc = document.getElementById('toc');
+        if (toc) {
+          menu.onclick = function() {
+            if (toc) {
+              if (toc.style.display == 'block') {
+                toc.style.display = 'none';
+              } else {
+                toc.style.display = 'block';
+              }
+            }
+          };
+        } else {
+          menu.style.display = 'none';
+        }
+      }
+    }
+
+  })(window, document);
+</script>
+
+  
+
+
+
+  
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+
+</body>
+</html>
