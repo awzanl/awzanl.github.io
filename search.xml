@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>图库</title>
-    <url>/ctor/743592bd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>看图.</p>
-<a id="more"></a>
-
-<p><img src="/ctor/743592bd/qiao.PNG" alt="qiao"></p>
-<p><img src="/ctor/743592bd/%E8%A7%86%E8%A7%89.PNG" alt="俯视"></p>
-]]></content>
-      <categories>
-        <category>库</category>
-      </categories>
-  </entry>
-  <entry>
     <title>代码及命令</title>
     <url>/ctor/b7a8ef1d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
@@ -1455,67 +1442,6 @@ themes：主题
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/ctor/4a17b156.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate stat<a href="/ctor/8ffa1d55.html">i</a>c files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>手机查看网页html源代码</title>
-    <url>/ctor/90d431a7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>手机浏览器网页地址栏最前端添加命令：</p>
-<a id="more"></a>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">view-source:</span><br></pre></td></tr></table></figure>
-<p>例如：<br>view-source:<a href="https://www.google.com.hk/" target="_blank" rel="noopener">https://www.google.com.hk/</a></p>
-]]></content>
-      <categories>
-        <category>手机</category>
-      </categories>
-      <tags>
-        <tag>手机浏览器</tag>
-        <tag>手机浏览器查看网页代码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Google</title>
-    <url>/ctor/62b0f067.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Google-chrome"><a href="#Google-chrome" class="headerlink" title="Google chrome"></a>Google chrome</h1><h3 id="chrome自带深色模式："><a href="#chrome自带深色模式：" class="headerlink" title="chrome自带深色模式："></a>chrome自带深色模式：</h3><p>在“快捷方式”选项中“目标”一栏中末尾空格后添加“参数”保存之后在该快捷方式下打开均会强制启用Chrome的暗黑模式。</p>
-<a id="more"></a>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">--<span class="built_in">enable</span>-features=WebUIDarkMode --force-dark-mode</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="hosts–Google翻译"><a href="#hosts–Google翻译" class="headerlink" title="hosts–Google翻译"></a>hosts–Google翻译</h3><p>指向国内谷歌服务器</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">203.208.40.55 translate.google.com</span><br></pre></td></tr></table></figure>
-
-<h3 id="谷歌扩展："><a href="#谷歌扩展：" class="headerlink" title="谷歌扩展："></a>谷歌扩展：</h3><p><a href="https://laokgg.tk/ctor/1bb1a481.html" target="_blank" rel="noopener">点击查看介绍</a></p>
-<h3 id="无痕窗口及bat打开指定网页"><a href="#无痕窗口及bat打开指定网页" class="headerlink" title="无痕窗口及bat打开指定网页"></a>无痕窗口及bat打开指定网页</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"</span> -incognito http://localhost:500</span><br><span class="line">快捷方式目标填写参数 -incognito</span><br></pre></td></tr></table></figure>
-<p>bat打开指定网页：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">start http://localhost:5000</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Google</category>
-      </categories>
-      <tags>
-        <tag>无痕窗口</tag>
-        <tag>hosts–Google翻译</tag>
-        <tag>chrome自带深色模式</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不能说的</title>
     <url>/ctor/8cabc7cc.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人活一世，如露水一朝。做一个如水的人，心安理得，轻松快活！</p>
@@ -1978,6 +1904,23 @@ themes：主题
         <tag>证件照</tag>
         <tag>打绳结</tag>
         <tag>打领带</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机查看网页html源代码</title>
+    <url>/ctor/90d431a7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>手机浏览器网页地址栏最前端添加命令：</p>
+<a id="more"></a>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">view-source:</span><br></pre></td></tr></table></figure>
+<p>例如：<br>view-source:<a href="https://www.google.com.hk/" target="_blank" rel="noopener">https://www.google.com.hk/</a></p>
+]]></content>
+      <categories>
+        <category>手机</category>
+      </categories>
+      <tags>
+        <tag>手机浏览器</tag>
+        <tag>手机浏览器查看网页代码</tag>
       </tags>
   </entry>
   <entry>
@@ -2618,10 +2561,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-OsDGnWwj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-ckkmnlZf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-OsDGnWwj");
+				  options.element = document.getElementById("aplayer-ckkmnlZf");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -2744,6 +2687,19 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
       </tags>
   </entry>
   <entry>
+    <title>图库</title>
+    <url>/ctor/743592bd.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>看图.</p>
+<a id="more"></a>
+
+<p><img src="/ctor/743592bd/qiao.PNG" alt="qiao"></p>
+<p><img src="/ctor/743592bd/%E8%A7%86%E8%A7%89.PNG" alt="俯视"></p>
+]]></content>
+      <categories>
+        <category>库</category>
+      </categories>
+  </entry>
+  <entry>
     <title>v2ray</title>
     <url>/ctor/e8d8fd18.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>233一键安装.</p>
@@ -2767,5 +2723,49 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
         <tag>233</tag>
         <tag>v2ray</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Google</title>
+    <url>/ctor/62b0f067.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Google-chrome"><a href="#Google-chrome" class="headerlink" title="Google chrome"></a>Google chrome</h1><h3 id="chrome自带深色模式："><a href="#chrome自带深色模式：" class="headerlink" title="chrome自带深色模式："></a>chrome自带深色模式：</h3><p>在“快捷方式”选项中“目标”一栏中末尾空格后添加“参数”保存之后在该快捷方式下打开均会强制启用Chrome的暗黑模式。</p>
+<a id="more"></a>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">--<span class="built_in">enable</span>-features=WebUIDarkMode --force-dark-mode</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="hosts–Google翻译"><a href="#hosts–Google翻译" class="headerlink" title="hosts–Google翻译"></a>hosts–Google翻译</h3><p>指向国内谷歌服务器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">203.208.40.55 translate.google.com</span><br></pre></td></tr></table></figure>
+
+<h3 id="谷歌扩展："><a href="#谷歌扩展：" class="headerlink" title="谷歌扩展："></a>谷歌扩展：</h3><p><a href="https://laokgg.tk/ctor/1bb1a481.html" target="_blank" rel="noopener">点击查看介绍</a></p>
+<h3 id="无痕窗口及bat打开指定网页"><a href="#无痕窗口及bat打开指定网页" class="headerlink" title="无痕窗口及bat打开指定网页"></a>无痕窗口及bat打开指定网页</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"</span> -incognito http://localhost:500</span><br><span class="line">快捷方式目标填写参数 -incognito</span><br></pre></td></tr></table></figure>
+<p>bat打开指定网页：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">start http://localhost:5000</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Google</category>
+      </categories>
+      <tags>
+        <tag>无痕窗口</tag>
+        <tag>hosts–Google翻译</tag>
+        <tag>chrome自带深色模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/ctor/4a17b156.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate stat<a href="/ctor/8ffa1d55.html">i</a>c files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
 </search>
