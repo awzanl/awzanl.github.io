@@ -5,6 +5,8 @@
     <url>/ctor/e8d8fd18.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>233一键安装.</p>
 <h2 id="233版一键安装"><a href="#233版一键安装" class="headerlink" title="233版一键安装"></a>233版一键安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo su <span class="comment">#获权</span></span><br><span class="line">$ bash &lt;(curl -s -L https://git.io/Jezk0)</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hv2ray tg  <span class="comment">#安装tg</span></span><br></pre></td></tr></table></figure>
 <h3 id="管理"><a href="#管理" class="headerlink" title="管理"></a>管理</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ v2ray  <span class="comment">#管理v2ray</span></span><br></pre></td></tr></table></figure>
@@ -26,8 +28,7 @@
   <entry>
     <title>网址目录</title>
     <url>/ctor/cf988555.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>网址导航.</p>
-<h1 id="音乐在线分享链接"><a href="#音乐在线分享链接" class="headerlink" title="音乐在线分享链接"></a>音乐在线分享链接</h1><h3 id="ytmp3网分享链接"><a href="#ytmp3网分享链接" class="headerlink" title="ytmp3网分享链接"></a>ytmp3网分享链接</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ http://www.ytmp3.cn</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="音乐在线分享链接"><a href="#音乐在线分享链接" class="headerlink" title="音乐在线分享链接"></a>音乐在线分享链接</h1><h3 id="ytmp3网分享链接"><a href="#ytmp3网分享链接" class="headerlink" title="ytmp3网分享链接"></a>ytmp3网分享链接</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ http://www.ytmp3.cn</span><br></pre></td></tr></table></figure>
 
 
 
@@ -59,12 +60,14 @@
   <entry>
     <title>在线音乐</title>
     <url>/ctor/b046713.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>目前收录两首.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>
 
-        <div id="aplayer-EBcbhVHh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+<p>目前收录两首.</p>
+
+        <div id="aplayer-JRXMqlof" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-EBcbhVHh");
+				  options.element = document.getElementById("aplayer-JRXMqlof");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -87,7 +90,9 @@
     <title>youtube</title>
     <url>/ctor/f0789934.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>油管视频.</p>
-<h2 id="中天新闻直播"><a href="#中天新闻直播" class="headerlink" title="中天新闻直播"></a>中天新闻直播</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/wUPPkSANpyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="中天新闻直播"><a href="#中天新闻直播" class="headerlink" title="中天新闻直播"></a>中天新闻直播</h2><a id="more"></a>
+
+<iframe width="224" height="126" src="https://www.youtube.com/embed/wUPPkSANpyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <h2 id="丫头每天点评时事-周末休镜回家宅"><a href="#丫头每天点评时事-周末休镜回家宅" class="headerlink" title="丫头每天点评时事 **周末休镜回家宅"></a>丫头每天点评时事 **周末休镜回家宅</h2><iframe width="224" height="126" src="https://www.youtube.com/embed/gd0dr1dlOvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -135,6 +140,8 @@
     <title>代码及命令</title>
     <url>/ctor/b7a8ef1d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
+<a id="more"></a>
+
 <h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
 
@@ -2179,6 +2186,8 @@ themes：主题
     <title>windows10</title>
     <url>/ctor/ae3ae278.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>备份一些windows</p>
+<a id="more"></a>
+
 <h2 id="便签备份"><a href="#便签备份" class="headerlink" title="便签备份"></a>便签备份</h2><p>路径：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">%LocalAppData%\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState</span><br></pre></td></tr></table></figure>
 <p><img src="/ctor/ae3ae278/1.JPG" alt="plum.sqlite plum.sqlite-shm plum.sqlite-wal"><br>只备份plum.sqlite 似乎不行。</p>
