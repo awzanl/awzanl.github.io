@@ -29,114 +29,314 @@
       </tags>
   </entry>
   <entry>
-    <title>代码及命令</title>
-    <url>/ctor/b7a8ef1d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
+    <title>不能说的</title>
+    <url>/ctor/8cabc7cc.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人活一世，如露水一朝。做一个如水的人，心安理得，轻松快活！</p>
+<p>佛说十种恶业之中，恶口是最大的恶。足以说明，口业的重要性。</p>
+<p>看似微不足道的言语，其实最能体现一个人的所有。</p>
+<p>嘴是心之门户，所想之事，由心而露。说话的分寸，尤为重要。</p>
+<p>生活中，有些话是不适合说出口的，想要福气越来越多，就少说…</p>
 <a id="more"></a>
 
-<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
 
 
-<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"480"</span> height=<span class="string">"320"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"/ful/f3e15bcc/1.mp4"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>001</strong></p>
+<p><strong><em>秘密不能逢人便说</em></strong></p>
+<img src="/ctor/8cabc7cc/01.gif" width="320" height="437">
 
-<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">项目组</a><br>插件安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<p>安装完成后，在需要添加音乐的地方加上：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/ctor/b7a8ef1d/3.PNG" alt="图"><br>　　想加入歌单，把上面的代码换成下面代码就行，参数的用法可以参照插件的使用说明</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;&#123;<span class="string">"narrow"</span>: <span class="literal">false</span>,<span class="string">"autoplay"</span>: <span class="literal">true</span>,<span class="string">"showlrc"</span>: 3,<span class="string">"mode"</span>: <span class="string">"random"</span>,<span class="string">"music"</span>: [&#123;<span class="string">"title"</span>: <span class="string">"平凡之路"</span>,<span class="string">"author"</span>: <span class="string">"朴树"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"https://ogd99kckh.qnssl.com/1.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"野子"</span>,<span class="string">"author"</span>: <span class="string">"苏运莹"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a"</span>,<span class="string">"pic"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg"</span>,<span class="string">"lrc"</span>:<span class="string">"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"</span>&#125;]&#125;&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+<p>佛曰：不可说，不可说，一说即是错。</p>
+<p>生而为人，或多或少都有些许只有自己知道的“秘密”。</p>
+<p>但这些事，不可与外人道也。而说的越多，只会给自己招来灾殃。</p>
+<p>沧州有位姓蒲的商人，其实是山间的精怪所化。但因其为人处事皆正派，大家也就不忌讳。</p>
+<p>有一天，一位乡人因偶听得邻家房中秘事，还将此事公之于众，被有心人告上衙门。</p>
+<p>大众纷纷议论此事，这时，有一人便问蒲商人：“你既是精怪，也有几番本事，肯定知道其中真情，那房中究竟有何实情，何不说来听听？”</p>
+<p>蒲商人听完此话，十分生气：“我辈修道之人，岂可干预、探听人家的隐私？人人议论此事，却不知一犬吠影，百犬吠生！多少事都是互相谣传而来。</p>
+<p>那人逞一时口快，得此下场，自会招来鬼神降祸！你听到这样的事，原本不应理会，现在竟还想探听房内之事？房间本是秘密之地，你有何目的？”</p>
+<p>说完，转身离去，再无踪迹。</p>
+<p>所谓秘密，一旦说出口，便不再是了。你无法保证听到的人，是否能为你保守秘密。其实，连我们自己都守不住的秘密，又怎么能指望别人替我们保密呢？</p>
+<p>人与人，最忌交浅言深。别人的隐私，我们不谈，自己的隐私，我们也不要到处乱说。</p>
+<p>在不议论不谈论别人的隐私时，也不要把自己的隐私到处乱说，跟别人谈论自己的隐私不仅不会增进双方感情。</p>
+<p>人和人之间，要有分寸。万事有度，不该说出口的话，不说。</p>
+<p><strong>002</strong></p>
+<p><strong><em>旧事别翻来覆去的说</em></strong></p>
+<img src="/ctor/8cabc7cc/02.gif" width="320" height="437">
 
-<h1 id="插入视频："><a href="#插入视频：" class="headerlink" title="插入视频："></a>插入视频：</h1><p>1、方式一：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% iframe 地址 100 200 %&#125;</span><br></pre></td></tr></table></figure>
-<p>2、方式二：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"640"</span> height=<span class="string">"359"</span> src=<span class="string">"地址"</span> frameborder=<span class="string">"0"</span> allow=<span class="string">"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<p>一辈子，经历的事情多了，回忆也就多了。</p>
+<p>过去的遗憾、苦楚，留在心间，就像那解不开的结，越动，越错。</p>
+<p>放下执念，心不起，身不动，口不乱言，方是福气。</p>
+<p>明朝开国皇帝朱元璋，少年时当过放牛郎，交了一些穷朋友。</p>
+<p>称帝后，有个从前的穷朋友来见他。</p>
+<p>这人一进宫，便坐下指手划脚地说：“我主万岁！皇上你还记得吗？从前咱们一起给财主放牛，我在芦花荡里，把偷来的青豆放在瓦罐里煮，可大家都饿得等不及，没等煮熟就抢着吃。</p>
+<p>你把罐子都打烂了，撒了满地的青豆，汤都泼在地上了。你只顾从地上抓豆吃，不小心把草叶送进嘴里，卡住了喉咙。还是我的主意，叫你把青菜叶吞下，才把卡在喉头的草叶咽进肚里去。”</p>
+<p>朱元璋听完他的话，脸色很是不好看。为了保住体面，他沉声喝道：“哪来的疯子，替我乱棍打出去！”</p>
+<p>好事坏事，终成往事。提的多了，只会误事。</p>
+<p>人啊，沉湎于过往，只会耽误明天的幸福。日子是往前看的，一味重提往事，回忆过往风雨，只会将自己的心困在自设的牢笼中。</p>
+<p>昨日已是过去，明天会有更多的希望。就将昨日的不快，留给昨日吧，这样，才能有空下的心，来迎接明天的幸福。</p>
+<p>无论发生什么事，那都是应该会发生的。执着再多，也终成过往。就将往事随风而去，放下执着，与自己和解，才能开阔眼界。</p>
+<p>那些过往的经历，都是明日的智慧。旧事重提，心生执念，消耗的是自己的明天。</p>
+<p>既已成过往，便不再迷恋。放下过去，活好当下。</p>
+<p><strong>003</strong></p>
+<p><strong><em>炫耀的话少说</em></strong></p>
+<p><img src="/ctor/8cabc7cc/3.gif" alt="图片跑了哦"></p>
+<p>佛说：口不可妄语，夙生造口业，久后终受报。</p>
+<p>口出狂言，最损福报。</p>
+<p>沈万三是明朝初期的一个大富豪。《明史》中记载了朱元璋与沈万三这样一段对话：</p>
+<p>朱元璋问：朕有百万军，汝能遍济之乎?</p>
+<p>沈万三说：每一军犒金一两。</p>
+<p>朱元璋说：此虽汝至意，不须汝也!</p>
+<p>朱元璋有心试探沈万三，便问沈万三钱财可够养得起所有的军队。沈万三得意之下，竟没有察觉到朱元璋的话外音，甚至还说，管够，每人都可得一两银子！</p>
+<p>沈万三的这份狂妄，让朱元璋很是不喜。一次，他召见沈万三，给了他一文钱，要他用这个做本钱来放债。还要求他：要求他：一变二，二变四，一天一变，一个月为期。</p>
+<p>沈万三不以为然，当下便答应了。等到回家之后，让管家算账，才发现数额庞大，足有五亿多！这时，他才意识到自己不仅钱财难保，性命也危在旦夕，于是感慨道：“吾命休矣”！</p>
+<p>果然，没过多久，朱元璋便抄了沈万三的家。</p>
+<p>一个人的成绩，不过只是他的过去，再辉煌，也代表不了明天的命运。</p>
+<p>人生在世，炫耀和显摆只会给自己带来灾祸，只会让身边的人，与你越来越远。</p>
+<p>人若优秀，自会发光。真正有能力的人，习惯的是低调；内心自卑的人，才总会炫耀。</p>
+<p>地低为海，人低为王，越谦卑的人越高贵。</p>
+<p>钱财不过纸一张，名利不过梦一场，百年之后，皆是空，万般放不下，却也一件带不走。这辈子，真正属于你的，只有你的人品。</p>
+<p>做人，无需炫耀。灾祸全由嘴引来，谦虚，才能走得更远。</p>
+<p><strong>004</strong></p>
+<p><strong><em>说话，就是给自己积福</em></strong></p>
+<img src="/ctor/8cabc7cc/4.gif" width="320" height="437">
 
-
-<h1 id="bat命令："><a href="#bat命令：" class="headerlink" title="bat命令："></a>bat命令：</h1><p>发布：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">d:</span><br><span class="line">CD d:\m</span><br><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<p>启动localhost4000.bat</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line">CD D:\m</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<h2 id="文字剧中-左对齐-右对齐"><a href="#文字剧中-左对齐-右对齐" class="headerlink" title="文字剧中 左对齐 右对齐"></a>文字剧中 左对齐 右对齐</h2><h3 id="居中："><a href="#居中：" class="headerlink" title="居中："></a>居中：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;剧中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="左对齐："><a href="#左对齐：" class="headerlink" title="左对齐："></a>左对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"left"</span>&gt;左对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="右对齐："><a href="#右对齐：" class="headerlink" title="右对齐："></a>右对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"right"</span>&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="标题居中放大"><a href="#标题居中放大" class="headerlink" title="标题居中放大"></a>标题居中放大</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font size=3 &gt; &lt;h1&gt;标题居中放大&lt;/h1&gt; &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<center><font size=3 > <h1>标题居中放大</h1> </font></center>
-
-<h1 id="删除符号："><a href="#删除符号：" class="headerlink" title="删除符号："></a>删除符号：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~删除部分~</span><br></pre></td></tr></table></figure>
-<p><del>删除部分</del></p>
-<h1 id="Hexo-Next修改永久链接的默认格式"><a href="#Hexo-Next修改永久链接的默认格式" class="headerlink" title="Hexo Next修改永久链接的默认格式"></a>Hexo Next修改永久链接的默认格式</h1><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<h3 id="修改-config-yml："><a href="#修改-config-yml：" class="headerlink" title="修改_config.yml："></a>修改_config.yml：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  rep: hex    <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
-<p><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/advanced/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5RST.html" target="_blank" rel="noopener">原文链接</a></p>
-<h3 id="在文章插入标签链接："><a href="#在文章插入标签链接：" class="headerlink" title="在文章插入标签链接："></a>在文章插入标签链接：</h3><p>文件在同一目录下（不输入后缀）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 管理多个博客 %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-
-<p>（可点击直达）</p>
-<h3 id="文章插入围绕图片字体围绕："><a href="#文章插入围绕图片字体围绕：" class="headerlink" title="文章插入围绕图片字体围绕："></a>文章插入围绕图片字体围绕：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Imagus _  https://hexo.io/zh-cn/docs/tag-plugins 点击进入谷歌商店安装  %&#125;</span><br><span class="line">[&lt;div style=<span class="string">"float:left;border:solid 1px 000;margin:2px;"</span>&gt;&lt;img src= 代码及命令/1.PNG   width=<span class="string">"100"</span> height=<span class="string">"100"</span> &gt;&lt;/div&gt;][T1]</span><br><span class="line"></span><br><span class="line">[T1]: /ctor/b7a8ef1d/1.JPG</span><br><span class="line"> <span class="string">"***Magic Actions for YouTube*** </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"</span> </span><br><span class="line">Imagus 概述</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Enlarge thumbnails, and show images/videos from links with a mouse hover.</span><br><span class="line">鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</span><br><span class="line"></span><br><span class="line">扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">选项页面上的分类和它们的简单描述：</span><br><span class="line"></span><br><span class="line">▪ 筛选规则</span><br><span class="line">一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果显示：</p>
-<blockquote><p><a href="/ctor/b7a8ef1d/1.JPG" title="***Magic Actions for YouTube*** 
-
-![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/b7a8ef1d/1.PNG   width="100" height="100" ></div></a></p>
-<p>Imagus 概述</p>
-<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
-<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
-<p>选项页面上的分类和它们的简单描述：</p>
-<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</p>
-<footer><strong>Imagus _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
-
-<h3 id="分割符"><a href="#分割符" class="headerlink" title="分割符"></a>分割符</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="注释（不显示的部分）"><a href="#注释（不显示的部分）" class="headerlink" title="注释（不显示的部分）"></a>注释（不显示的部分）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="插入文字链接："><a href="#插入文字链接：" class="headerlink" title="插入文字链接："></a>插入文字链接：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 这个位置-1。 _  https://hexo.io/zh-cn/docs/tag-plugins 位置-3。  %&#125;</span><br><span class="line">这一行文字的显示位置-2。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果显示：</p>
-<blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
-<footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
-
-<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>安装好后，用git –version 来查看一下版本</p>
-<p>接下来初始化一下hexo</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init 文件夹名</span><br></pre></td></tr></table></figure>
-<p>这个文件夹名自己取可以自己取什么名字都行，然后</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹名 //进入这个文件夹</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<font size=1 color="＃0EEC1D">
-新建完成后，指定文件夹目录下有：
-node_modules: 依赖包
-public：存放生成的页面
-scaffolds：生成文章的一些模板
-source：用来存放你的文章
-themes：主题
-** _config.yml: 博客的配置文件**
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-打开hexo的服务，在浏览器输入localhost:4000就可以看到你生成的博客了
-</font>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s </span><br><span class="line">$ hexo s -p 5000</span><br></pre></td></tr></table></figure>
-<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="点击原创直达原文">以上部分来源–原文链接点击</a></p>
-<h3 id="我的网址"><a href="#我的网址" class="headerlink" title="我的网址"></a>我的网址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ https://laokgg.tk</span><br></pre></td></tr></table></figure>
-<h3 id="音乐播放器-来源点击"><a href="#音乐播放器-来源点击" class="headerlink" title="音乐播放器 来源点击"></a>音乐播放器 <a href="http://npm.taobao.org/package/hexo-tag-aplayer" target="_blank" rel="noopener" title="点击原创直达原文">来源点击</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<h3 id="不显示图片"><a href="#不显示图片" class="headerlink" title="不显示图片"></a>不显示图片</h3><p>具体做法：</p>
-<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
-<h2 id="博文顶置（2种方式）"><a href="#博文顶置（2种方式）" class="headerlink" title="博文顶置（2种方式）"></a>博文顶置（2种方式）</h2><p>1、目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
-
-<p>2、手动方式： 来源：点击原创直达原文：<a href="https://www.jianshu.com/p/a5d85680722e" target="_blank" rel="noopener"点击直达原作者"">原创</a><br>修改<br>找到node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
-<p>在</p>
-<p>var posts = locals.posts;<br>下面添加</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<p>完整代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>使用</p>
-<p>在文章添加 top 标签可以设置置顶顺序。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+<p>《四十二章经》里曾提到：助之欢善。得福甚大。</p>
+<p>助人之人，福报自来。</p>
+<p>掌握说话的艺术，令人心生欢喜，也是积福。</p>
+<p>冯骥才在《俗世奇人》曾记载了一个故事叫“好嘴杨巴”。</p>
+<p>说是天津有个卖茶汤的手艺人，名叫杨巴，茶汤手艺远近闻名。李鸿章巡查时，当地官员便送上了这地道的天津茶汤。</p>
+<p>不料，李鸿章看了一眼杨巴端上来的茶汤，顿时眉头一皱掀翻汤碗。在座官员不明所以，杨巴却看出可能是李大人没喝过茶汤，看见汤上漂浮的芝麻碎末还以为是什么脏东西才这么生气。</p>
+<p>杨巴想了又想：若说这不是脏东西，岂不是说中堂大人孤陋寡闻？若不解释清楚，岂不是承认给中堂大人吃了脏东西？这说不说，都是砸饭碗的事！眼下最要紧的，是不能叫李中堂开口说那是脏东西。大人说话，不能改口。必须赶紧想辙，抢在前头说。</p>
+<p>于是，杨巴立即跪地磕头，口中叫道：“大人息怒！小人不知大人不爱吃这压碎的芝麻粒，惹恼了大人。大人不记小人过，饶了小人这次，今后一定痛改前非！”</p>
+<p>李鸿章这才明白茶汤上的脏物是此来由。明白过后，便看出来这杨巴心灵嘴巧，三两句话，就让自己明白，又给了自己面子。于是对他心生欢喜，很是嘉奖了一番。</p>
+<p>看穿不说穿，给人面子的同时，也为自己保了命。会说话，真的很重要。</p>
+<p>嘴是存钱罐，嘴若富贵，福气便来了。口吐芬芳之人，一生顺遂。</p>
+<p>说话，看似简单，但会说话，却非常难。人们常说“两年学说话,一生学闭嘴”，话不在多，在精。一个会说话的人，能让自己轻松，让别人舒服。</p>
+<p>会说话的人，就是在给自己结善缘。得道者多助，善缘多了，好运也就来了。</p>
 ]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>不要说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数字背后的生活</title>
+    <url>/ctor/55e14aea.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。。　</p>
+<a id="more"></a>
+
+<p><img src="/ctor/55e14aea/1.jfif" alt="图片跑了哦"></p>
+<p>第一，南京有800万人口，但是南京一年能吃掉一亿只鸭子，因为南京人非常喜欢吃盐水鸭，也确实特别好吃，基本上每个南京人平均每年要吃12只鸭子。</p>
+<p><img src="/ctor/55e14aea/1.gif" alt="图片跑了哦"></p>
+<p>第二，四川人每年要吃掉将近2亿只兔子，四川不到一个亿人口。基本上全球兔肉产量200万吨，其中中国的产量大概有30%。但是光四川消耗量就能达到42万吨，这意味着要吃掉2亿只兔子，所以基本上中国产的大部分兔子是被四川人吃掉的。</p>
+<p><img src="/ctor/55e14aea/1.jpg" alt="图片跑了哦"></p>
+<p>第三，中国一年要吃掉500亿只小龙虾。全国有超过5000家的小龙虾养殖社，从业人员超过500万人，而且整个小龙虾所对应的需求量非常非常大，超过200万吨。其中最能吃的是武汉人，武汉一年要吃掉30亿只小龙虾。</p>
+<p>那你想象一下，如果从这个角度来看，小龙虾背后所对应的疫苗饲料，甚至包括专业培训、专家资源，那应该是一个什么样的需求量，甚至包括对应小龙虾的调味料，这些都是巨大的市场。</p>
+<p><img src="/ctor/55e14aea/2.gif" alt="图片跑了哦"></p>
+<p>第四，中国现在有40万家火锅店，整个规模4800亿，看起来海底捞的占比数量其实不太大，但是海底捞占据了整个市场最牢固的盈利能力，是整个行业的标杆。全国有40万家火锅店，这意味着什么样的机会？假设你去给火锅店做智能洗碗机，你觉得这个生意会不会很好？40万家店需要多少从业人员，这些从业者的培训怎么做？这背后会不会带来相应的机会。</p>
+<p><img src="/ctor/55e14aea/3.gif" alt="图片跑了哦"></p>
+<p>第五，中国的奶茶店，保守估计应该有50万家以上，而且每年还在以10万家新店的数量增长，虽然每年有很多奶茶店倒闭，但是基本上每年还能以20%的增速进行新开店。而且基本主力用户80%是女性用户，而且基本上现在单杯消费数量以及客单价都在增长。这些休闲饮品类的供应链机会，甚至包括带来的装修类的机会，我们认为这些叫配套产业，也会有源源不断的生意。</p>
+<p><img src="/ctor/55e14aea/4.gif" alt="图片跑了哦"></p>
+<p>第六，中国每年进口粮食1.08亿吨；谷物进口2000万吨的；大豆进口8000万吨。你想象一下，这些产品如果一旦在上游种子技术有突破，种植技术进一步成熟，与下游的消费进一步结合，一旦推动国产化技术的成熟，这些又意味着国内多大市场的崛起。</p>
+<p><img src="/ctor/55e14aea/5.gif" alt="图片跑了哦"></p>
+<p>第七，中国快递数量已经达到了507亿件，基本上每个人每一个月平均要寄三个快递，那你想象一下，如果每一个快递都需要2平方米的瓦楞纸进行包装，你想象一下这个消耗量会需要多少木材，我们测算了一下，基本上支持中国物流快递量的瓦楞纸木浆消耗数量，等于一百万颗树木的消耗量。</p>
+<p><img src="/ctor/55e14aea/6.gif" alt="图片跑了哦"></p>
+<p>第八，中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。<br><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>小龙虾</tag>
+        <tag>咸水鸭</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日本点滴</title>
+    <url>/ctor/1467c0cc.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>环境优美，文明有序，日本这个国度有很多值得夸赞的优点。樱花、动漫、和果子…无不让国外游客心驰神往。每个人都有不同的理由喜欢日本，也出于不同的原因学习日语，来感受日本文化与风情。</p>
+<p>在亚洲，日本的确是一个神奇的国度，有很多优点与特色。日媒曾通过街头采访以及网络投票的方式，评选出了“日本最值得向外国人夸耀的10大优点”，一起来看看日本人最值得骄傲的是什么吧！</p>
+<a id="more"></a>
+
+<p>001</p>
+<p>治安良好</p>
+<p><img src="/ctor/1467c0cc/1.webp" alt="图片跑了哦"></p>
+<p>很少有国家，民众在深夜出行也不用担心</p>
+<p>遇到灾害时，外国常会哄抢便利店。但日本人会排长队有序购物</p>
+<p>岛国人特有的温和性格，保证了良好的治安</p>
+<p>掉了的钱包也能原样找回来。东西落在座位上也不用担心</p>
+<p>002</p>
+<p>交通准时</p>
+<p><img src="/ctor/1467c0cc/1.jpg" alt="图片跑了哦"></p>
+<p>准确安全地运行的新干线，值得信赖</p>
+<p>电车的时刻表很准确，以前去美国出差，电车或者地铁晚点的现象实在太多。</p>
+<p>以分和秒运行单位的公共交通吧，国外很少有能做到这一点的</p>
+<p>003</p>
+<p>环境整洁</p>
+<p><img src="/ctor/1467c0cc/2.jpg" alt="图片跑了哦"></p>
+<p>公共场所比我去过的很多国家都干净</p>
+<p>外国的话，除了大街之外，小巷给人的印象笔记脏</p>
+<p>004</p>
+<p>可直饮自来水</p>
+<p><img src="/ctor/1467c0cc/2.webp" alt="图片跑了哦"></p>
+<p>直接喝自来水，也不会拉肚子；我去过中国和印度，那边的朋友都曾告诫我千万不要直接和自来水……</p>
+<p>不用喝瓶装水也没关系</p>
+<p>当听到别的国家不能直接饮用自来水时，才感觉到日本的厉害</p>
+<p>005</p>
+<p>产品质量好</p>
+<p><img src="/ctor/1467c0cc/3.jpg" alt="图片跑了哦"></p>
+<p>一般只要是日本国产的东西，无论用的还是吃的，质量都比外国产的好。</p>
+<p>006</p>
+<p>多彩的饮食文化</p>
+<p><img src="/ctor/1467c0cc/3.webp" alt="图片跑了哦"></p>
+<p>在日本不但能吃到正宗的日本料理，还能吃到正宗的中华料理和韩国料理，甚至地球另一端的土耳其烤肉也很容易找到。</p>
+<p>007</p>
+<p>拥有温泉与入浴文化</p>
+<p><img src="/ctor/1467c0cc/4.jpg" alt="图片跑了哦"></p>
+<p>我不敢想象在没有温泉的地方我该如何生活下去……</p>
+<p>008</p>
+<p>丰富的亚文化</p>
+<p><img src="/ctor/1467c0cc/5.jpg" alt="图片跑了哦"></p>
+<p>漫画，手办，同人，游戏机……没有这些的话世界会变得很无聊。</p>
+<p>009</p>
+<p>便利店很多</p>
+<p><img src="/ctor/1467c0cc/6.jpg" alt="图片跑了哦"></p>
+<p>就算半夜两三点饿了也能很方便的找到一家便利店买到好吃的。</p>
+<p>010</p>
+<p>自动贩卖机很普及</p>
+<p><img src="/ctor/1467c0cc/7.jpg" alt="图片跑了哦"></p>
+<p>到处都是自动贩卖机，既方便又节省人力资源，而且失窃率也是世界上最低的，这点最让我自豪。</p>
+<p><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>安逸</tag>
+        <tag>日本</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老年痴呆早期信号</title>
+    <url>/ctor/d9ddb5a4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>痴呆的来临</p>
+<p>1、爱忘事</p>
+<p>老年痴呆最典型的症状就是爱忘事，这和平时的丢三落四还不一样。老年痴呆引起的爱忘事的现象，会随着病情加重会越来越严重。</p>
+<p>开始的症状都是一些近期的小事，吃完饭了忘记了已经吃过了，还可能会见到熟悉的人叫不出名字等。</p>
+<p>这些现象都是开始很常见的，后期可能会出现记忆力减退严重，不知道自己身边的人叫什么?或是和自己是什么关系，这些事情会统统忘记。</p>
+<a id="more"></a>
+
+<p><img src="/ctor/d9ddb5a4/1.jpg" alt="图片跑了哦"></p>
+<p>2、处理事情能力减退</p>
+<p>处事能力的减退，也是老年痴呆常见的现象。随着人的成长，我们自己会穿衣服、会做一个数学题、会使用微信、会修理坏掉的水管等等，这些都是我们处理事情的能力的体现。</p>
+<p>老年痴呆患者会出现明显的处理事情能力减退的现象，以前会修水管，现在不会了。</p>
+<p>以前会自己到银行取钱，现在可能都找不到银行，找到银行自己也不会取钱，即使是在别人教的情况下，自己也不会取钱。</p>
+<p>3、视觉障碍</p>
+<p>老年痴呆还会引发视觉障碍，这是老年痴呆常见的现象，但是易被很多人忽视，大家会以为是老了出现的眼疾引起的。</p>
+<p>其实在老年痴呆出现时，也会出现视觉障碍，可能会出现想拿杯子喝水倒水烫到了自己的手，或是倒水倒满了自己还看不见等，这些都是常见的现象。</p>
+<p>4、运动能力减退</p>
+<p>现在的很多老年朋友都喜欢运动，来锻炼自己的身体，来让自己的身体更加健康。</p>
+<p>老年痴呆要来之前，会直接的影响到老年朋友的运动，出现明显的行动减少。</p>
+<p>或是行为变得很幼稚，想做什么事情，都不能做成功，无法正常的进行一项运动，这对患者身体健康是很不好的，同时还会影响到心理健康。</p>
+<p>中国工程院院士、复旦大学附属华山医院手外科主任顾玉东教授，经过55年的临床研究和理论工作，研发出了一套“健脑手指操”。</p>
+<p>他自己评价这套操：手是人类神经感觉最为敏感的部位，神经纤维也最集中。</p>
+<p>动手后脑循环会发生改变，手的动作形成大脑新的兴奋点，有利于理解、记忆和思考。记忆力、思考问题都解决了，大脑不断形成新的兴奋点，就不会退化。</p>
+<p>一招远离老年痴呆：健脑手指操</p>
+<center>1、将小指向内折弯，再向后拨，做屈伸运动10次。</center>
+
+
+<p><img src="/ctor/d9ddb5a4/1.webp" alt="图片跑了哦"></p>
+<center>2、用拇指及食指抓住另一只手的小指基部正中，揉捏10次。</center>
+
+
+<p><img src="/ctor/d9ddb5a4/1.gif" alt="图片跑了哦"></p>
+<center>3、将小指按压在桌面上，用手反复刺激之</center>
+
+<p><img src="/ctor/d9ddb5a4/2.webp" alt="图片跑了哦"></p>
+<center>4、双手十指交叉用力相握，然后突然猛力拉开。</center>
+
+<p><img src="/ctor/d9ddb5a4/3.webp" alt="图片跑了哦"></p>
+<center>5、刺激手心，每次捏掐20次。</center>
+
+<p><img src="/ctor/d9ddb5a4/2.gif" alt="图片跑了哦"></p>
+<center>6、经常揉擦中指尖端，每次3分钟。</center>
+
+<p><img src="/ctor/d9ddb5a4/3.gif" alt="图片跑了哦"></p>
+<p>早起、晚睡前各做完整的一次。会觉得手部发热，睡眠好，晚上脑子修复更好。平常也可以选做其中的动作，不会有副作用<br><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>呆痴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bat</title>
+    <url>/ctor/9f9c299f.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><h2 id="E-电脑-快捷"><a href="#E-电脑-快捷" class="headerlink" title="E:\电脑\快捷"></a>E:\电脑\快捷</h2><h3 id="posts-d-bat"><a href="#posts-d-bat" class="headerlink" title="posts-d.bat"></a>posts-d.bat</h3><h3 id="文章创建"><a href="#文章创建" class="headerlink" title="文章创建"></a>文章创建</h3><p>直接输入要创建的文章名：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> /p name=input pages name:</span><br><span class="line"><span class="built_in">echo</span> name:%name%</span><br><span class="line"><span class="built_in">echo</span> please <span class="built_in">wait</span></span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo new %name% </span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<p>另外也可创建带n+打开的，<a href="/ctor/89d235ac.html">点击看文章</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line">ECHO <span class="string">"D |  xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D |  xcopy <span class="string">"F:\d\source\_posts"</span> <span class="string">"J:\d\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"备份d_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"F:\d"</span> <span class="string">"I:\d"</span> /e /y /J </span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>F:\d<span class="string">" "</span>J:\d<span class="string">" /e /y /J</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>备份d:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+
+<h3 id="posts-f-bat"><a href="#posts-f-bat" class="headerlink" title="posts-f.bat"></a>posts-f.bat</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\f\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"G:\f\source\_posts"</span> <span class="string">"J:\f\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">" 备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO  "</span>D | xcopy <span class="string">"G:\f"</span> <span class="string">"I:\f"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO  <span class="string">"D | xcopy "</span>G:\f<span class="string">" "</span>J:\f<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span> 备份f:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h3 id="复制便签-bat-快捷方式"><a href="#复制便签-bat-快捷方式" class="headerlink" title="复制便签.bat - 快捷方式"></a>复制便签.bat - 快捷方式</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-shm<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-wal"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Bookmarks<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Favicons"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string">echo ----------------------------------------------------------------</span></span><br><span class="line"><span class="string">xcopy "</span>F:\gi\BF\windows10\bianqian<span class="string">"  "</span>J:\BF\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"F:\gi\BF\windows10\bianqian"</span>  <span class="string">"I:\BF\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">echo. &amp; pause</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="E-电脑-hexo快捷"><a href="#E-电脑-hexo快捷" class="headerlink" title="E:\电脑\hexo快捷"></a>E:\电脑\hexo快捷</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo s -p 5000</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h3 id="网卡内存清理E-电脑-1"><a href="#网卡内存清理E-电脑-1" class="headerlink" title="网卡内存清理E:\电脑\1"></a>网卡内存清理E:\电脑\1</h3><p>网卡</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rem 禁用网卡</span><br><span class="line">ping -n 3 127.0.0.1&gt;nul</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 disabled</span><br><span class="line"><span class="built_in">echo</span> 延时10秒。。。</span><br><span class="line">ping -n 5 127.0.0.1&gt;nul</span><br><span class="line">rem 启用网卡</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 enabled</span><br><span class="line"><span class="built_in">echo</span> 重启操作完成</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<p>内存</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">taskkill /f /im explorer.exe &amp; start explorer.exe</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-22"><a href="#3-22" class="headerlink" title="3-22"></a>3-22</h1><h3 id="删除27-txt-28-txt"><a href="#删除27-txt-28-txt" class="headerlink" title="删除27.txt 28.txt"></a>删除27.txt 28.txt</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=27.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=28.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br></pre></td></tr></table></figure>
+<p>py最后一行加入下面代码，不用每次清理27 28</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">os.system(r<span class="string">'"28.bat"'</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="选择1-2执行bat"><a href="#选择1-2执行bat" class="headerlink" title="选择1-2执行bat"></a>选择1-2执行bat</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:input</span><br><span class="line">title bat代码</span><br><span class="line">::bat标题</span><br><span class="line"><span class="built_in">set</span> /p <span class="string">"num=请输入“1”或“2”到这里，然后按下回车键："</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"1"</span> cls &amp; goto 1</span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"2"</span> cls &amp; goto 2</span><br><span class="line"><span class="built_in">echo</span>. &amp; <span class="built_in">echo</span> 不能输入除了“1”和“2”之外的其他字符！ &amp; pause&gt;nul &amp; cls &amp; goto input</span><br><span class="line">:1</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码1.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第一个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br><span class="line">:2</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码2.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第二个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br></pre></td></tr></table></figure>
+
+<h1 id="完整部署备份hexo—-bat"><a href="#完整部署备份hexo—-bat" class="headerlink" title="完整部署备份hexo—-bat"></a>完整部署备份hexo—-bat</h1><p><a href="/ctor/9f9c299f/完整部署备份.bat">点击下载文件</a></p>
+<!--注解:  bat集.rar -->
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:Init</span><br><span class="line">Title CMD</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line"></span><br><span class="line">:Start</span><br><span class="line">Color 2f</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line">Set tle=完整备份部署发布</span><br><span class="line">Set var=0</span><br><span class="line"></span><br><span class="line">:Menu</span><br><span class="line">cls</span><br><span class="line"><span class="built_in">echo</span> 标题:「 %tle% 」</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="built_in">echo</span> 菜单:</span><br><span class="line"><span class="built_in">echo</span>       ⑴  部署feichang99  √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑵  备份f_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑶  部署awzanl        √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑷  备份d_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑸  备份整个F</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑹  备份整个D</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑺  部署4000  √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑻  备份5000  √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑼  F传D_posts </span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑽  清理内存</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑾  清理网卡内存重置</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       Ｑ  退出</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="keyword">if</span> %var% neq 0 <span class="built_in">echo</span> (输入无效请重新输入)</span><br><span class="line">Set choice=</span><br><span class="line">Set /p choice=选择: </span><br><span class="line">Set <span class="string">"choice=%choice:"</span>=%<span class="string">"</span></span><br><span class="line"><span class="string">if "</span>%choice:~-1%<span class="string">"=="</span>=<span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">"=="</span><span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>1<span class="string">" cls&amp;Goto 部署feichang99</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>2<span class="string">" cls&amp;Goto 备份f_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>3<span class="string">" cls&amp;Goto 部署awzanl</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>4<span class="string">" cls&amp;Goto 备份d_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>5<span class="string">" cls&amp;Goto 备份整个F</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>6<span class="string">" cls&amp;Goto 备份整个D</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>7<span class="string">" cls&amp;Goto 部署4000</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>8<span class="string">" cls&amp;Goto 部署5000</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>9<span class="string">" cls&amp;Goto F传D_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>10<span class="string">" cls&amp;Goto 清理内存    ⑿  ⒀ ⒁ ⒂ </span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>11<span class="string">" cls&amp;Goto 清理网卡内存重置</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>r<span class="string">" cls&amp;Goto RestTeredo</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>q<span class="string">" Popd&amp;Exit</span></span><br><span class="line"><span class="string">Set var=1</span></span><br><span class="line"><span class="string">Goto Menu</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署feichang99</span></span><br><span class="line"><span class="string">正在部署99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">g:</span></span><br><span class="line"><span class="string">CD g:\f</span></span><br><span class="line"><span class="string">call hexo clean</span></span><br><span class="line"><span class="string">call hexo g</span></span><br><span class="line"><span class="string">call hexo d</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">echo ----------部署feichang99:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份f_posts</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>J:\f\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo -----备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署awzanl</span></span><br><span class="line"><span class="string">正在部署awz，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">f:</span></span><br><span class="line"><span class="string">CD f:\d</span></span><br><span class="line"><span class="string">call hexo clean</span></span><br><span class="line"><span class="string">call hexo g</span></span><br><span class="line"><span class="string">call hexo d</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">echo **********部署awzanl:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份d_posts</span></span><br><span class="line"><span class="string">echo 正在备份awz，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>J:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo *****备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份整个F</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>G:\f\" <span class="string">"J:\f"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span> 备份整个F:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line">pause</span><br><span class="line">Goto End</span><br><span class="line"></span><br><span class="line">:备份整个D</span><br><span class="line"><span class="built_in">echo</span> 正在备份awz，请稍后。。。</span><br><span class="line">MODE con: Cols=88 Lines=32</span><br><span class="line"><span class="built_in">echo</span>  D | xcopy <span class="string">"F:\d\" "</span>J:\d<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo 备份整个D:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署4000</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">start E:\电脑\hexo快捷\启动localhost4000.bat</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署5000</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">start E:\电脑\hexo快捷\启动localhost5000.bat</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:F传D_posts</span></span><br><span class="line"><span class="string">echo 正在F传D，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo +++++F传D_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:清理内存</span></span><br><span class="line"><span class="string">echo 正在清理，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">taskkill /f /im explorer.exe &amp; start explorer.exe</span></span><br><span class="line"><span class="string">ping -n 5 127.0.0.1&gt;nul</span></span><br><span class="line"><span class="string">taskkill /f /im explorer.exe &amp; start explorer.exe</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:清理网卡内存重置</span></span><br><span class="line"><span class="string">echo 正在清理，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">start E:\电脑\1\网卡.lnk</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:End</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">" neq "</span><span class="string">" (</span></span><br><span class="line"><span class="string">    cls</span></span><br><span class="line"><span class="string">    Color 2e</span></span><br><span class="line"><span class="string">    MODE con: Cols=40 Lines=23</span></span><br><span class="line"><span class="string">    if "</span>%choice%<span class="string">" neq "</span>3<span class="string">" (</span></span><br><span class="line"><span class="string">        echo 操作完成 !!!</span></span><br><span class="line"><span class="string">        if exist %WINDIR%\System32\timeout.exe (timeout /t 2) else (if exist %WINDIR%\System32\choice.exe (choice /t 2 /d y /n &gt;nul) else (ping 127.1 -n 2 &gt;nul))</span></span><br><span class="line"><span class="string">    )</span></span><br><span class="line"><span class="string">    Goto Start</span></span><br><span class="line"><span class="string">)</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="打开指定网页："><a href="#打开指定网页：" class="headerlink" title="打开指定网页："></a>打开指定网页：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">start Chrome http://localhost:5000</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>bat</category>
+      </categories>
+      <tags>
+        <tag>自备bat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浓缩三句话</title>
+    <url>/ctor/b0fd571b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一句话"><a href="#第一句话" class="headerlink" title="第一句话"></a>第一句话</h2><p>　　你的责任就是你的方向， 你的经历就是你的资本， 你的性格就是你的命运。</p>
+<a id="more"></a>
+
+<p><img src="/ctor/b0fd571b/1.webp" alt="图片跑了"></p>
+<h2 id="第二句话"><a href="#第二句话" class="headerlink" title="第二句话"></a>第二句话</h2><p>　　复杂的事情简单做，你就是专家；简单的事情重复做， 你就是行家；重复的事情用心做，你就是赢家。</p>
+<p><img src="/ctor/b0fd571b/2.webp" alt="图片跑了"></p>
+<h2 id="第三句话"><a href="#第三句话" class="headerlink" title="第三句话"></a>第三句话</h2><p>　　美好是属于自信者的， 机会是属于开拓者的， 奇迹是属于执著者的！<br><img src="/ctor/b0fd571b/3.webp" alt="图片跑了"></p>
+<p>　　你若不想做，总会找到借口；你若想做，总会找到方法。</p>
+<p>　　沙子是废物，水泥也是废物，但他们混在一起是混凝土，就是精品；</p>
+<p>　　大米是精品，汽油也是精品，但他们混在一起就是废物。</p>
+<p>　　是精品还是废物不重要，跟谁混，很重要 !<br><img src="/ctor/b0fd571b/4.webp" alt="图片跑了"><br>　　朋友不是乱交的，每天在一起喝酒的不一定是真朋友，每天在一起混的也不一定是永远的朋友。</p>
+<p><img src="/ctor/b0fd571b/5.webp" alt="图片跑了"></p>
+<p>人生要交的四位朋友：</p>
+<p>1、交一个欣赏你的朋友，即便在你穷困潦倒的时候反而会更安慰你、帮助你。</p>
+<p>2、交一个有正能量的朋友，在你情绪低落的时候陪伴你、 鼓励你。</p>
+<p><img src="/ctor/b0fd571b/6.webp" alt="图片跑了"><br>3、交一个为你领路的朋友，自愿做你的垫脚石，带你走过泥泞、拨开迷雾。<br>4、交一个肯指点你的朋友，时刻提醒你、监督你，让你时刻发现自己的不足。</p>
+<h2 id="回家的感觉真好："><a href="#回家的感觉真好：" class="headerlink" title="回家的感觉真好："></a>回家的感觉真好：</h2><video width="480" height="320" controls>
+<source src="/ctor/f3e15bcc/2.mp4">
+</video>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>三句话</tag>
+        <tag>奇迹是属于执著者的</tag>
+      </tags>
   </entry>
   <entry>
     <title>RGB颜色对照表</title>
@@ -1470,311 +1670,114 @@ themes：主题
       </tags>
   </entry>
   <entry>
-    <title>不能说的</title>
-    <url>/ctor/8cabc7cc.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人活一世，如露水一朝。做一个如水的人，心安理得，轻松快活！</p>
-<p>佛说十种恶业之中，恶口是最大的恶。足以说明，口业的重要性。</p>
-<p>看似微不足道的言语，其实最能体现一个人的所有。</p>
-<p>嘴是心之门户，所想之事，由心而露。说话的分寸，尤为重要。</p>
-<p>生活中，有些话是不适合说出口的，想要福气越来越多，就少说…</p>
+    <title>代码及命令</title>
+    <url>/ctor/b7a8ef1d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
 <a id="more"></a>
 
+<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
 
 
-<p><strong>001</strong></p>
-<p><strong><em>秘密不能逢人便说</em></strong></p>
-<img src="/ctor/8cabc7cc/01.gif" width="320" height="437">
+<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"480"</span> height=<span class="string">"320"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"/ful/f3e15bcc/1.mp4"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
 
-<p>佛曰：不可说，不可说，一说即是错。</p>
-<p>生而为人，或多或少都有些许只有自己知道的“秘密”。</p>
-<p>但这些事，不可与外人道也。而说的越多，只会给自己招来灾殃。</p>
-<p>沧州有位姓蒲的商人，其实是山间的精怪所化。但因其为人处事皆正派，大家也就不忌讳。</p>
-<p>有一天，一位乡人因偶听得邻家房中秘事，还将此事公之于众，被有心人告上衙门。</p>
-<p>大众纷纷议论此事，这时，有一人便问蒲商人：“你既是精怪，也有几番本事，肯定知道其中真情，那房中究竟有何实情，何不说来听听？”</p>
-<p>蒲商人听完此话，十分生气：“我辈修道之人，岂可干预、探听人家的隐私？人人议论此事，却不知一犬吠影，百犬吠生！多少事都是互相谣传而来。</p>
-<p>那人逞一时口快，得此下场，自会招来鬼神降祸！你听到这样的事，原本不应理会，现在竟还想探听房内之事？房间本是秘密之地，你有何目的？”</p>
-<p>说完，转身离去，再无踪迹。</p>
-<p>所谓秘密，一旦说出口，便不再是了。你无法保证听到的人，是否能为你保守秘密。其实，连我们自己都守不住的秘密，又怎么能指望别人替我们保密呢？</p>
-<p>人与人，最忌交浅言深。别人的隐私，我们不谈，自己的隐私，我们也不要到处乱说。</p>
-<p>在不议论不谈论别人的隐私时，也不要把自己的隐私到处乱说，跟别人谈论自己的隐私不仅不会增进双方感情。</p>
-<p>人和人之间，要有分寸。万事有度，不该说出口的话，不说。</p>
-<p><strong>002</strong></p>
-<p><strong><em>旧事别翻来覆去的说</em></strong></p>
-<img src="/ctor/8cabc7cc/02.gif" width="320" height="437">
+<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">项目组</a><br>插件安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<p>安装完成后，在需要添加音乐的地方加上：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/ctor/b7a8ef1d/3.PNG" alt="图"><br>　　想加入歌单，把上面的代码换成下面代码就行，参数的用法可以参照插件的使用说明</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;&#123;<span class="string">"narrow"</span>: <span class="literal">false</span>,<span class="string">"autoplay"</span>: <span class="literal">true</span>,<span class="string">"showlrc"</span>: 3,<span class="string">"mode"</span>: <span class="string">"random"</span>,<span class="string">"music"</span>: [&#123;<span class="string">"title"</span>: <span class="string">"平凡之路"</span>,<span class="string">"author"</span>: <span class="string">"朴树"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"https://ogd99kckh.qnssl.com/1.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"野子"</span>,<span class="string">"author"</span>: <span class="string">"苏运莹"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a"</span>,<span class="string">"pic"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg"</span>,<span class="string">"lrc"</span>:<span class="string">"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"</span>&#125;]&#125;&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 
-<p>一辈子，经历的事情多了，回忆也就多了。</p>
-<p>过去的遗憾、苦楚，留在心间，就像那解不开的结，越动，越错。</p>
-<p>放下执念，心不起，身不动，口不乱言，方是福气。</p>
-<p>明朝开国皇帝朱元璋，少年时当过放牛郎，交了一些穷朋友。</p>
-<p>称帝后，有个从前的穷朋友来见他。</p>
-<p>这人一进宫，便坐下指手划脚地说：“我主万岁！皇上你还记得吗？从前咱们一起给财主放牛，我在芦花荡里，把偷来的青豆放在瓦罐里煮，可大家都饿得等不及，没等煮熟就抢着吃。</p>
-<p>你把罐子都打烂了，撒了满地的青豆，汤都泼在地上了。你只顾从地上抓豆吃，不小心把草叶送进嘴里，卡住了喉咙。还是我的主意，叫你把青菜叶吞下，才把卡在喉头的草叶咽进肚里去。”</p>
-<p>朱元璋听完他的话，脸色很是不好看。为了保住体面，他沉声喝道：“哪来的疯子，替我乱棍打出去！”</p>
-<p>好事坏事，终成往事。提的多了，只会误事。</p>
-<p>人啊，沉湎于过往，只会耽误明天的幸福。日子是往前看的，一味重提往事，回忆过往风雨，只会将自己的心困在自设的牢笼中。</p>
-<p>昨日已是过去，明天会有更多的希望。就将昨日的不快，留给昨日吧，这样，才能有空下的心，来迎接明天的幸福。</p>
-<p>无论发生什么事，那都是应该会发生的。执着再多，也终成过往。就将往事随风而去，放下执着，与自己和解，才能开阔眼界。</p>
-<p>那些过往的经历，都是明日的智慧。旧事重提，心生执念，消耗的是自己的明天。</p>
-<p>既已成过往，便不再迷恋。放下过去，活好当下。</p>
-<p><strong>003</strong></p>
-<p><strong><em>炫耀的话少说</em></strong></p>
-<p><img src="/ctor/8cabc7cc/3.gif" alt="图片跑了哦"></p>
-<p>佛说：口不可妄语，夙生造口业，久后终受报。</p>
-<p>口出狂言，最损福报。</p>
-<p>沈万三是明朝初期的一个大富豪。《明史》中记载了朱元璋与沈万三这样一段对话：</p>
-<p>朱元璋问：朕有百万军，汝能遍济之乎?</p>
-<p>沈万三说：每一军犒金一两。</p>
-<p>朱元璋说：此虽汝至意，不须汝也!</p>
-<p>朱元璋有心试探沈万三，便问沈万三钱财可够养得起所有的军队。沈万三得意之下，竟没有察觉到朱元璋的话外音，甚至还说，管够，每人都可得一两银子！</p>
-<p>沈万三的这份狂妄，让朱元璋很是不喜。一次，他召见沈万三，给了他一文钱，要他用这个做本钱来放债。还要求他：要求他：一变二，二变四，一天一变，一个月为期。</p>
-<p>沈万三不以为然，当下便答应了。等到回家之后，让管家算账，才发现数额庞大，足有五亿多！这时，他才意识到自己不仅钱财难保，性命也危在旦夕，于是感慨道：“吾命休矣”！</p>
-<p>果然，没过多久，朱元璋便抄了沈万三的家。</p>
-<p>一个人的成绩，不过只是他的过去，再辉煌，也代表不了明天的命运。</p>
-<p>人生在世，炫耀和显摆只会给自己带来灾祸，只会让身边的人，与你越来越远。</p>
-<p>人若优秀，自会发光。真正有能力的人，习惯的是低调；内心自卑的人，才总会炫耀。</p>
-<p>地低为海，人低为王，越谦卑的人越高贵。</p>
-<p>钱财不过纸一张，名利不过梦一场，百年之后，皆是空，万般放不下，却也一件带不走。这辈子，真正属于你的，只有你的人品。</p>
-<p>做人，无需炫耀。灾祸全由嘴引来，谦虚，才能走得更远。</p>
-<p><strong>004</strong></p>
-<p><strong><em>说话，就是给自己积福</em></strong></p>
-<img src="/ctor/8cabc7cc/4.gif" width="320" height="437">
+<h1 id="插入视频："><a href="#插入视频：" class="headerlink" title="插入视频："></a>插入视频：</h1><p>1、方式一：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% iframe 地址 100 200 %&#125;</span><br></pre></td></tr></table></figure>
+<p>2、方式二：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"640"</span> height=<span class="string">"359"</span> src=<span class="string">"地址"</span> frameborder=<span class="string">"0"</span> allow=<span class="string">"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 
-<p>《四十二章经》里曾提到：助之欢善。得福甚大。</p>
-<p>助人之人，福报自来。</p>
-<p>掌握说话的艺术，令人心生欢喜，也是积福。</p>
-<p>冯骥才在《俗世奇人》曾记载了一个故事叫“好嘴杨巴”。</p>
-<p>说是天津有个卖茶汤的手艺人，名叫杨巴，茶汤手艺远近闻名。李鸿章巡查时，当地官员便送上了这地道的天津茶汤。</p>
-<p>不料，李鸿章看了一眼杨巴端上来的茶汤，顿时眉头一皱掀翻汤碗。在座官员不明所以，杨巴却看出可能是李大人没喝过茶汤，看见汤上漂浮的芝麻碎末还以为是什么脏东西才这么生气。</p>
-<p>杨巴想了又想：若说这不是脏东西，岂不是说中堂大人孤陋寡闻？若不解释清楚，岂不是承认给中堂大人吃了脏东西？这说不说，都是砸饭碗的事！眼下最要紧的，是不能叫李中堂开口说那是脏东西。大人说话，不能改口。必须赶紧想辙，抢在前头说。</p>
-<p>于是，杨巴立即跪地磕头，口中叫道：“大人息怒！小人不知大人不爱吃这压碎的芝麻粒，惹恼了大人。大人不记小人过，饶了小人这次，今后一定痛改前非！”</p>
-<p>李鸿章这才明白茶汤上的脏物是此来由。明白过后，便看出来这杨巴心灵嘴巧，三两句话，就让自己明白，又给了自己面子。于是对他心生欢喜，很是嘉奖了一番。</p>
-<p>看穿不说穿，给人面子的同时，也为自己保了命。会说话，真的很重要。</p>
-<p>嘴是存钱罐，嘴若富贵，福气便来了。口吐芬芳之人，一生顺遂。</p>
-<p>说话，看似简单，但会说话，却非常难。人们常说“两年学说话,一生学闭嘴”，话不在多，在精。一个会说话的人，能让自己轻松，让别人舒服。</p>
-<p>会说话的人，就是在给自己结善缘。得道者多助，善缘多了，好运也就来了。</p>
+
+<h1 id="bat命令："><a href="#bat命令：" class="headerlink" title="bat命令："></a>bat命令：</h1><p>发布：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">d:</span><br><span class="line">CD d:\m</span><br><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<p>启动localhost4000.bat</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line">CD D:\m</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h2 id="文字剧中-左对齐-右对齐"><a href="#文字剧中-左对齐-右对齐" class="headerlink" title="文字剧中 左对齐 右对齐"></a>文字剧中 左对齐 右对齐</h2><h3 id="居中："><a href="#居中：" class="headerlink" title="居中："></a>居中：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;剧中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="左对齐："><a href="#左对齐：" class="headerlink" title="左对齐："></a>左对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"left"</span>&gt;左对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="右对齐："><a href="#右对齐：" class="headerlink" title="右对齐："></a>右对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"right"</span>&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="标题居中放大"><a href="#标题居中放大" class="headerlink" title="标题居中放大"></a>标题居中放大</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font size=3 &gt; &lt;h1&gt;标题居中放大&lt;/h1&gt; &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<center><font size=3 > <h1>标题居中放大</h1> </font></center>
+
+<h1 id="删除符号："><a href="#删除符号：" class="headerlink" title="删除符号："></a>删除符号：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~删除部分~</span><br></pre></td></tr></table></figure>
+<p><del>删除部分</del></p>
+<h1 id="Hexo-Next修改永久链接的默认格式"><a href="#Hexo-Next修改永久链接的默认格式" class="headerlink" title="Hexo Next修改永久链接的默认格式"></a>Hexo Next修改永久链接的默认格式</h1><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<h3 id="修改-config-yml："><a href="#修改-config-yml：" class="headerlink" title="修改_config.yml："></a>修改_config.yml：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  rep: hex    <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/advanced/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5RST.html" target="_blank" rel="noopener">原文链接</a></p>
+<h3 id="在文章插入标签链接："><a href="#在文章插入标签链接：" class="headerlink" title="在文章插入标签链接："></a>在文章插入标签链接：</h3><p>文件在同一目录下（不输入后缀）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 管理多个博客 %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+
+<p>（可点击直达）</p>
+<h3 id="文章插入围绕图片字体围绕："><a href="#文章插入围绕图片字体围绕：" class="headerlink" title="文章插入围绕图片字体围绕："></a>文章插入围绕图片字体围绕：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Imagus _  https://hexo.io/zh-cn/docs/tag-plugins 点击进入谷歌商店安装  %&#125;</span><br><span class="line">[&lt;div style=<span class="string">"float:left;border:solid 1px 000;margin:2px;"</span>&gt;&lt;img src= 代码及命令/1.PNG   width=<span class="string">"100"</span> height=<span class="string">"100"</span> &gt;&lt;/div&gt;][T1]</span><br><span class="line"></span><br><span class="line">[T1]: /ctor/b7a8ef1d/1.JPG</span><br><span class="line"> <span class="string">"***Magic Actions for YouTube*** </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"</span> </span><br><span class="line">Imagus 概述</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Enlarge thumbnails, and show images/videos from links with a mouse hover.</span><br><span class="line">鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</span><br><span class="line"></span><br><span class="line">扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">选项页面上的分类和它们的简单描述：</span><br><span class="line"></span><br><span class="line">▪ 筛选规则</span><br><span class="line">一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p><a href="/ctor/b7a8ef1d/1.JPG" title="***Magic Actions for YouTube*** 
+
+![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/b7a8ef1d/1.PNG   width="100" height="100" ></div></a></p>
+<p>Imagus 概述</p>
+<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
+<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
+<p>选项页面上的分类和它们的简单描述：</p>
+<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</p>
+<footer><strong>Imagus _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h3 id="分割符"><a href="#分割符" class="headerlink" title="分割符"></a>分割符</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="注释（不显示的部分）"><a href="#注释（不显示的部分）" class="headerlink" title="注释（不显示的部分）"></a>注释（不显示的部分）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="插入文字链接："><a href="#插入文字链接：" class="headerlink" title="插入文字链接："></a>插入文字链接：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 这个位置-1。 _  https://hexo.io/zh-cn/docs/tag-plugins 位置-3。  %&#125;</span><br><span class="line">这一行文字的显示位置-2。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
+<footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
+
+<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>安装好后，用git –version 来查看一下版本</p>
+<p>接下来初始化一下hexo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init 文件夹名</span><br></pre></td></tr></table></figure>
+<p>这个文件夹名自己取可以自己取什么名字都行，然后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹名 //进入这个文件夹</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<font size=1 color="＃0EEC1D">
+新建完成后，指定文件夹目录下有：
+node_modules: 依赖包
+public：存放生成的页面
+scaffolds：生成文章的一些模板
+source：用来存放你的文章
+themes：主题
+** _config.yml: 博客的配置文件**
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+打开hexo的服务，在浏览器输入localhost:4000就可以看到你生成的博客了
+</font>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s </span><br><span class="line">$ hexo s -p 5000</span><br></pre></td></tr></table></figure>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="点击原创直达原文">以上部分来源–原文链接点击</a></p>
+<h3 id="我的网址"><a href="#我的网址" class="headerlink" title="我的网址"></a>我的网址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ https://laokgg.tk</span><br></pre></td></tr></table></figure>
+<h3 id="音乐播放器-来源点击"><a href="#音乐播放器-来源点击" class="headerlink" title="音乐播放器 来源点击"></a>音乐播放器 <a href="http://npm.taobao.org/package/hexo-tag-aplayer" target="_blank" rel="noopener" title="点击原创直达原文">来源点击</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<h3 id="不显示图片"><a href="#不显示图片" class="headerlink" title="不显示图片"></a>不显示图片</h3><p>具体做法：</p>
+<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
+<h2 id="博文顶置（2种方式）"><a href="#博文顶置（2种方式）" class="headerlink" title="博文顶置（2种方式）"></a>博文顶置（2种方式）</h2><p>1、目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>2、手动方式： 来源：点击原创直达原文：<a href="https://www.jianshu.com/p/a5d85680722e" target="_blank" rel="noopener"点击直达原作者"">原创</a><br>修改<br>找到node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+<p>在</p>
+<p>var posts = locals.posts;<br>下面添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>完整代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>使用</p>
+<p>在文章添加 top 标签可以设置置顶顺序。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
 ]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>不要说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数字背后的生活</title>
-    <url>/ctor/55e14aea.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。。　</p>
-<a id="more"></a>
-
-<p><img src="/ctor/55e14aea/1.jfif" alt="图片跑了哦"></p>
-<p>第一，南京有800万人口，但是南京一年能吃掉一亿只鸭子，因为南京人非常喜欢吃盐水鸭，也确实特别好吃，基本上每个南京人平均每年要吃12只鸭子。</p>
-<p><img src="/ctor/55e14aea/1.gif" alt="图片跑了哦"></p>
-<p>第二，四川人每年要吃掉将近2亿只兔子，四川不到一个亿人口。基本上全球兔肉产量200万吨，其中中国的产量大概有30%。但是光四川消耗量就能达到42万吨，这意味着要吃掉2亿只兔子，所以基本上中国产的大部分兔子是被四川人吃掉的。</p>
-<p><img src="/ctor/55e14aea/1.jpg" alt="图片跑了哦"></p>
-<p>第三，中国一年要吃掉500亿只小龙虾。全国有超过5000家的小龙虾养殖社，从业人员超过500万人，而且整个小龙虾所对应的需求量非常非常大，超过200万吨。其中最能吃的是武汉人，武汉一年要吃掉30亿只小龙虾。</p>
-<p>那你想象一下，如果从这个角度来看，小龙虾背后所对应的疫苗饲料，甚至包括专业培训、专家资源，那应该是一个什么样的需求量，甚至包括对应小龙虾的调味料，这些都是巨大的市场。</p>
-<p><img src="/ctor/55e14aea/2.gif" alt="图片跑了哦"></p>
-<p>第四，中国现在有40万家火锅店，整个规模4800亿，看起来海底捞的占比数量其实不太大，但是海底捞占据了整个市场最牢固的盈利能力，是整个行业的标杆。全国有40万家火锅店，这意味着什么样的机会？假设你去给火锅店做智能洗碗机，你觉得这个生意会不会很好？40万家店需要多少从业人员，这些从业者的培训怎么做？这背后会不会带来相应的机会。</p>
-<p><img src="/ctor/55e14aea/3.gif" alt="图片跑了哦"></p>
-<p>第五，中国的奶茶店，保守估计应该有50万家以上，而且每年还在以10万家新店的数量增长，虽然每年有很多奶茶店倒闭，但是基本上每年还能以20%的增速进行新开店。而且基本主力用户80%是女性用户，而且基本上现在单杯消费数量以及客单价都在增长。这些休闲饮品类的供应链机会，甚至包括带来的装修类的机会，我们认为这些叫配套产业，也会有源源不断的生意。</p>
-<p><img src="/ctor/55e14aea/4.gif" alt="图片跑了哦"></p>
-<p>第六，中国每年进口粮食1.08亿吨；谷物进口2000万吨的；大豆进口8000万吨。你想象一下，这些产品如果一旦在上游种子技术有突破，种植技术进一步成熟，与下游的消费进一步结合，一旦推动国产化技术的成熟，这些又意味着国内多大市场的崛起。</p>
-<p><img src="/ctor/55e14aea/5.gif" alt="图片跑了哦"></p>
-<p>第七，中国快递数量已经达到了507亿件，基本上每个人每一个月平均要寄三个快递，那你想象一下，如果每一个快递都需要2平方米的瓦楞纸进行包装，你想象一下这个消耗量会需要多少木材，我们测算了一下，基本上支持中国物流快递量的瓦楞纸木浆消耗数量，等于一百万颗树木的消耗量。</p>
-<p><img src="/ctor/55e14aea/6.gif" alt="图片跑了哦"></p>
-<p>第八，中国是目前全球最大的原油进口国，基本上中国原油消费对外依赖度已经提高到了70%。2018年，原油进口量为4.6亿吨，对应着每天进口量是920万桶，这个数量基本上是加拿大加上伊拉克的总产量加总还不够，所以从这样一个能源结构上，你能看到什么样的产业机会。<br><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>小龙虾</tag>
-        <tag>咸水鸭</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日本点滴</title>
-    <url>/ctor/1467c0cc.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>环境优美，文明有序，日本这个国度有很多值得夸赞的优点。樱花、动漫、和果子…无不让国外游客心驰神往。每个人都有不同的理由喜欢日本，也出于不同的原因学习日语，来感受日本文化与风情。</p>
-<p>在亚洲，日本的确是一个神奇的国度，有很多优点与特色。日媒曾通过街头采访以及网络投票的方式，评选出了“日本最值得向外国人夸耀的10大优点”，一起来看看日本人最值得骄傲的是什么吧！</p>
-<a id="more"></a>
-
-<p>001</p>
-<p>治安良好</p>
-<p><img src="/ctor/1467c0cc/1.webp" alt="图片跑了哦"></p>
-<p>很少有国家，民众在深夜出行也不用担心</p>
-<p>遇到灾害时，外国常会哄抢便利店。但日本人会排长队有序购物</p>
-<p>岛国人特有的温和性格，保证了良好的治安</p>
-<p>掉了的钱包也能原样找回来。东西落在座位上也不用担心</p>
-<p>002</p>
-<p>交通准时</p>
-<p><img src="/ctor/1467c0cc/1.jpg" alt="图片跑了哦"></p>
-<p>准确安全地运行的新干线，值得信赖</p>
-<p>电车的时刻表很准确，以前去美国出差，电车或者地铁晚点的现象实在太多。</p>
-<p>以分和秒运行单位的公共交通吧，国外很少有能做到这一点的</p>
-<p>003</p>
-<p>环境整洁</p>
-<p><img src="/ctor/1467c0cc/2.jpg" alt="图片跑了哦"></p>
-<p>公共场所比我去过的很多国家都干净</p>
-<p>外国的话，除了大街之外，小巷给人的印象笔记脏</p>
-<p>004</p>
-<p>可直饮自来水</p>
-<p><img src="/ctor/1467c0cc/2.webp" alt="图片跑了哦"></p>
-<p>直接喝自来水，也不会拉肚子；我去过中国和印度，那边的朋友都曾告诫我千万不要直接和自来水……</p>
-<p>不用喝瓶装水也没关系</p>
-<p>当听到别的国家不能直接饮用自来水时，才感觉到日本的厉害</p>
-<p>005</p>
-<p>产品质量好</p>
-<p><img src="/ctor/1467c0cc/3.jpg" alt="图片跑了哦"></p>
-<p>一般只要是日本国产的东西，无论用的还是吃的，质量都比外国产的好。</p>
-<p>006</p>
-<p>多彩的饮食文化</p>
-<p><img src="/ctor/1467c0cc/3.webp" alt="图片跑了哦"></p>
-<p>在日本不但能吃到正宗的日本料理，还能吃到正宗的中华料理和韩国料理，甚至地球另一端的土耳其烤肉也很容易找到。</p>
-<p>007</p>
-<p>拥有温泉与入浴文化</p>
-<p><img src="/ctor/1467c0cc/4.jpg" alt="图片跑了哦"></p>
-<p>我不敢想象在没有温泉的地方我该如何生活下去……</p>
-<p>008</p>
-<p>丰富的亚文化</p>
-<p><img src="/ctor/1467c0cc/5.jpg" alt="图片跑了哦"></p>
-<p>漫画，手办，同人，游戏机……没有这些的话世界会变得很无聊。</p>
-<p>009</p>
-<p>便利店很多</p>
-<p><img src="/ctor/1467c0cc/6.jpg" alt="图片跑了哦"></p>
-<p>就算半夜两三点饿了也能很方便的找到一家便利店买到好吃的。</p>
-<p>010</p>
-<p>自动贩卖机很普及</p>
-<p><img src="/ctor/1467c0cc/7.jpg" alt="图片跑了哦"></p>
-<p>到处都是自动贩卖机，既方便又节省人力资源，而且失窃率也是世界上最低的，这点最让我自豪。</p>
-<p><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>安逸</tag>
-        <tag>日本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>老年痴呆早期信号</title>
-    <url>/ctor/d9ddb5a4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>痴呆的来临</p>
-<p>1、爱忘事</p>
-<p>老年痴呆最典型的症状就是爱忘事，这和平时的丢三落四还不一样。老年痴呆引起的爱忘事的现象，会随着病情加重会越来越严重。</p>
-<p>开始的症状都是一些近期的小事，吃完饭了忘记了已经吃过了，还可能会见到熟悉的人叫不出名字等。</p>
-<p>这些现象都是开始很常见的，后期可能会出现记忆力减退严重，不知道自己身边的人叫什么?或是和自己是什么关系，这些事情会统统忘记。</p>
-<a id="more"></a>
-
-<p><img src="/ctor/d9ddb5a4/1.jpg" alt="图片跑了哦"></p>
-<p>2、处理事情能力减退</p>
-<p>处事能力的减退，也是老年痴呆常见的现象。随着人的成长，我们自己会穿衣服、会做一个数学题、会使用微信、会修理坏掉的水管等等，这些都是我们处理事情的能力的体现。</p>
-<p>老年痴呆患者会出现明显的处理事情能力减退的现象，以前会修水管，现在不会了。</p>
-<p>以前会自己到银行取钱，现在可能都找不到银行，找到银行自己也不会取钱，即使是在别人教的情况下，自己也不会取钱。</p>
-<p>3、视觉障碍</p>
-<p>老年痴呆还会引发视觉障碍，这是老年痴呆常见的现象，但是易被很多人忽视，大家会以为是老了出现的眼疾引起的。</p>
-<p>其实在老年痴呆出现时，也会出现视觉障碍，可能会出现想拿杯子喝水倒水烫到了自己的手，或是倒水倒满了自己还看不见等，这些都是常见的现象。</p>
-<p>4、运动能力减退</p>
-<p>现在的很多老年朋友都喜欢运动，来锻炼自己的身体，来让自己的身体更加健康。</p>
-<p>老年痴呆要来之前，会直接的影响到老年朋友的运动，出现明显的行动减少。</p>
-<p>或是行为变得很幼稚，想做什么事情，都不能做成功，无法正常的进行一项运动，这对患者身体健康是很不好的，同时还会影响到心理健康。</p>
-<p>中国工程院院士、复旦大学附属华山医院手外科主任顾玉东教授，经过55年的临床研究和理论工作，研发出了一套“健脑手指操”。</p>
-<p>他自己评价这套操：手是人类神经感觉最为敏感的部位，神经纤维也最集中。</p>
-<p>动手后脑循环会发生改变，手的动作形成大脑新的兴奋点，有利于理解、记忆和思考。记忆力、思考问题都解决了，大脑不断形成新的兴奋点，就不会退化。</p>
-<p>一招远离老年痴呆：健脑手指操</p>
-<center>1、将小指向内折弯，再向后拨，做屈伸运动10次。</center>
-
-
-<p><img src="/ctor/d9ddb5a4/1.webp" alt="图片跑了哦"></p>
-<center>2、用拇指及食指抓住另一只手的小指基部正中，揉捏10次。</center>
-
-
-<p><img src="/ctor/d9ddb5a4/1.gif" alt="图片跑了哦"></p>
-<center>3、将小指按压在桌面上，用手反复刺激之</center>
-
-<p><img src="/ctor/d9ddb5a4/2.webp" alt="图片跑了哦"></p>
-<center>4、双手十指交叉用力相握，然后突然猛力拉开。</center>
-
-<p><img src="/ctor/d9ddb5a4/3.webp" alt="图片跑了哦"></p>
-<center>5、刺激手心，每次捏掐20次。</center>
-
-<p><img src="/ctor/d9ddb5a4/2.gif" alt="图片跑了哦"></p>
-<center>6、经常揉擦中指尖端，每次3分钟。</center>
-
-<p><img src="/ctor/d9ddb5a4/3.gif" alt="图片跑了哦"></p>
-<p>早起、晚睡前各做完整的一次。会觉得手部发热，睡眠好，晚上脑子修复更好。平常也可以选做其中的动作，不会有副作用<br><img src="/ctor/d9ddb5a4/2.jpg" alt="图片跑了哦"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>呆痴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>bat</title>
-    <url>/ctor/9f9c299f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><h2 id="E-电脑-快捷"><a href="#E-电脑-快捷" class="headerlink" title="E:\电脑\快捷"></a>E:\电脑\快捷</h2><h3 id="posts-d-bat"><a href="#posts-d-bat" class="headerlink" title="posts-d.bat"></a>posts-d.bat</h3><h3 id="文章创建"><a href="#文章创建" class="headerlink" title="文章创建"></a>文章创建</h3><p>直接输入要创建的文章名：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> /p name=input pages name:</span><br><span class="line"><span class="built_in">echo</span> name:%name%</span><br><span class="line"><span class="built_in">echo</span> please <span class="built_in">wait</span></span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo new %name% </span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-<p>另外也可创建带n+打开的，<a href="/ctor/89d235ac.html">点击看文章</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line">ECHO <span class="string">"D |  xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D |  xcopy <span class="string">"F:\d\source\_posts"</span> <span class="string">"J:\d\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"备份d_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"F:\d"</span> <span class="string">"I:\d"</span> /e /y /J </span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>F:\d<span class="string">" "</span>J:\d<span class="string">" /e /y /J</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>备份d:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-
-<h3 id="posts-f-bat"><a href="#posts-f-bat" class="headerlink" title="posts-f.bat"></a>posts-f.bat</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">ECHO <span class="string">"D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>I:\f\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span>D | xcopy <span class="string">"G:\f\source\_posts"</span> <span class="string">"J:\f\source\_posts"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO <span class="string">" 备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO ON --------ECHO ON---------注解不显示（rem）--------------------------</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO  "</span>D | xcopy <span class="string">"G:\f"</span> <span class="string">"I:\f"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line">ECHO  <span class="string">"D | xcopy "</span>G:\f<span class="string">" "</span>J:\f<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo.</span></span><br><span class="line"><span class="string">ECHO "</span> 备份f:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<h3 id="复制便签-bat-快捷方式"><a href="#复制便签-bat-快捷方式" class="headerlink" title="复制便签.bat - 快捷方式"></a>复制便签.bat - 快捷方式</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-shm<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite-wal"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">xcopy "</span>C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Bookmarks<span class="string">"  "</span>F:\gi\BF\windows10\bianqian\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Favicons"</span>  <span class="string">"F:\gi\BF\windows10\bianqian\"  /Y</span></span><br><span class="line"><span class="string">echo ----------------------------------------------------------------</span></span><br><span class="line"><span class="string">xcopy "</span>F:\gi\BF\windows10\bianqian<span class="string">"  "</span>J:\BF\"  /Y</span><br><span class="line"></span><br><span class="line">xcopy <span class="string">"F:\gi\BF\windows10\bianqian"</span>  <span class="string">"I:\BF\"  /Y</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">echo. &amp; pause</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="E-电脑-hexo快捷"><a href="#E-电脑-hexo快捷" class="headerlink" title="E:\电脑\hexo快捷"></a>E:\电脑\hexo快捷</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo s -p 5000</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">f:</span><br><span class="line">CD f:\d</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   &amp;&amp; pause</span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">g:</span><br><span class="line">CD g:\f</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<h3 id="网卡内存清理E-电脑-1"><a href="#网卡内存清理E-电脑-1" class="headerlink" title="网卡内存清理E:\电脑\1"></a>网卡内存清理E:\电脑\1</h3><p>网卡</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rem 禁用网卡</span><br><span class="line">ping -n 3 127.0.0.1&gt;nul</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 disabled</span><br><span class="line"><span class="built_in">echo</span> 延时10秒。。。</span><br><span class="line">ping -n 5 127.0.0.1&gt;nul</span><br><span class="line">rem 启用网卡</span><br><span class="line">netsh interface <span class="built_in">set</span> interface 以太网 enabled</span><br><span class="line"><span class="built_in">echo</span> 重启操作完成</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-<p>内存</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">taskkill /f /im explorer.exe &amp; start explorer.exe</span><br></pre></td></tr></table></figure>
-
-<h1 id="3-22"><a href="#3-22" class="headerlink" title="3-22"></a>3-22</h1><h3 id="删除27-txt-28-txt"><a href="#删除27-txt-28-txt" class="headerlink" title="删除27.txt 28.txt"></a>删除27.txt 28.txt</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=27.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br><span class="line"></span><br><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=Any question&amp;set $=Q&amp;set/az=0x53b7e0b4</span></span><br><span class="line">title %<span class="comment">#% +%$%%$% %z%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=28.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br></pre></td></tr></table></figure>
-<p>py最后一行加入下面代码，不用每次清理27 28</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">os.system(r<span class="string">'"28.bat"'</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="选择1-2执行bat"><a href="#选择1-2执行bat" class="headerlink" title="选择1-2执行bat"></a>选择1-2执行bat</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:input</span><br><span class="line">title bat代码</span><br><span class="line">::bat标题</span><br><span class="line"><span class="built_in">set</span> /p <span class="string">"num=请输入“1”或“2”到这里，然后按下回车键："</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"1"</span> cls &amp; goto 1</span><br><span class="line"><span class="keyword">if</span> <span class="string">"%num%"</span>==<span class="string">"2"</span> cls &amp; goto 2</span><br><span class="line"><span class="built_in">echo</span>. &amp; <span class="built_in">echo</span> 不能输入除了“1”和“2”之外的其他字符！ &amp; pause&gt;nul &amp; cls &amp; goto input</span><br><span class="line">:1</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码1.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第一个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br><span class="line">:2</span><br><span class="line"><span class="built_in">echo</span> 现在正在执行代码2.</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line"><span class="built_in">echo</span> ==============请在这里添加您的第二个命令=============</span><br><span class="line"><span class="built_in">echo</span> =====================================================</span><br><span class="line">pause&gt;nul</span><br><span class="line">cls &amp; goto input</span><br></pre></td></tr></table></figure>
-
-<h1 id="完整部署备份hexo—-bat"><a href="#完整部署备份hexo—-bat" class="headerlink" title="完整部署备份hexo—-bat"></a>完整部署备份hexo—-bat</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">:Init</span><br><span class="line">Title CMD</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line"></span><br><span class="line">:Start</span><br><span class="line">Color 2f</span><br><span class="line">MODE con: Cols=40 Lines=23</span><br><span class="line">Set tle=完整备份部署发布</span><br><span class="line">Set var=0</span><br><span class="line"></span><br><span class="line">:Menu</span><br><span class="line">cls</span><br><span class="line"><span class="built_in">echo</span> 标题:「 %tle% 」</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="built_in">echo</span> 菜单:</span><br><span class="line"><span class="built_in">echo</span>       ⑴  部署feichang99  √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑵  备份f_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑶  部署awzanl        √</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑷  备份d_posts</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑸  备份整个F</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       ⑹  备份整个D</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span>       Ｑ  退出</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span> ---------------------------------------</span><br><span class="line"><span class="keyword">if</span> %var% neq 0 <span class="built_in">echo</span> (输入无效请重新输入)</span><br><span class="line">Set choice=</span><br><span class="line">Set /p choice=选择: </span><br><span class="line">Set <span class="string">"choice=%choice:"</span>=%<span class="string">"</span></span><br><span class="line"><span class="string">if "</span>%choice:~-1%<span class="string">"=="</span>=<span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">"=="</span><span class="string">" Goto Menu</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>1<span class="string">" cls&amp;Goto 部署feichang99</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>2<span class="string">" cls&amp;Goto 备份f_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>3<span class="string">" cls&amp;Goto 部署awzanl</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>4<span class="string">" cls&amp;Goto 备份d_posts</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>5<span class="string">" cls&amp;Goto 备份整个F</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>6<span class="string">" cls&amp;Goto I备份整个D</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>r<span class="string">" cls&amp;Goto RestTeredo</span></span><br><span class="line"><span class="string">if /i "</span>%choice%<span class="string">" == "</span>q<span class="string">" Popd&amp;Exit</span></span><br><span class="line"><span class="string">Set var=1</span></span><br><span class="line"><span class="string">Goto Menu</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署feichang99</span></span><br><span class="line"><span class="string">正在部署99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">g:</span></span><br><span class="line"><span class="string">CD g:\f</span></span><br><span class="line"><span class="string">call hexo clean </span></span><br><span class="line"><span class="string">call hexo g </span></span><br><span class="line"><span class="string">call hexo d</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">echo ----------部署feichang99:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份f_posts</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>G:\f\<span class="built_in">source</span>\_posts<span class="string">" "</span>J:\f\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo -----备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:部署awzanl</span></span><br><span class="line"><span class="string">正在部署awz，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">f:</span></span><br><span class="line"><span class="string">CD f:\d</span></span><br><span class="line"><span class="string">call hexo clean </span></span><br><span class="line"><span class="string">call hexo g </span></span><br><span class="line"><span class="string">call hexo d</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">echo **********部署awzanl:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份d_posts</span></span><br><span class="line"><span class="string">echo 正在备份awz，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>F:\d\<span class="built_in">source</span>\_posts<span class="string">" "</span>J:\d\<span class="built_in">source</span>\_posts<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo *****备份f_posts:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:备份整个F</span></span><br><span class="line"><span class="string">echo 正在备份99，请稍后。。。</span></span><br><span class="line"><span class="string">MODE con: Cols=88 Lines=32</span></span><br><span class="line"><span class="string">echo  D | xcopy "</span>G:\f\" <span class="string">"J:\f"</span> /e /y /h /k /J /v</span><br><span class="line"><span class="built_in">echo</span> 备份整个F:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line"><span class="built_in">echo</span>. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span><br><span class="line">pause</span><br><span class="line">Goto End</span><br><span class="line"></span><br><span class="line">:备份整个D</span><br><span class="line"><span class="built_in">echo</span> 正在备份awz，请稍后。。。</span><br><span class="line">MODE con: Cols=88 Lines=32</span><br><span class="line"><span class="built_in">echo</span>  D | xcopy <span class="string">"F:\d\" "</span>J:\d<span class="string">" /e /y /h /k /J /v</span></span><br><span class="line"><span class="string">echo 备份整个D:&gt;&gt;E:\电脑\快捷\备份df记录.txt  %date% %time%&gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">echo. &gt;&gt;E:\电脑\快捷\备份df记录.txt</span></span><br><span class="line"><span class="string">pause</span></span><br><span class="line"><span class="string">Goto End</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">:End</span></span><br><span class="line"><span class="string">if "</span>%choice%<span class="string">" neq "</span><span class="string">" (</span></span><br><span class="line"><span class="string">    cls</span></span><br><span class="line"><span class="string">    Color 2e</span></span><br><span class="line"><span class="string">    MODE con: Cols=40 Lines=23</span></span><br><span class="line"><span class="string">    if "</span>%choice%<span class="string">" neq "</span>3<span class="string">" (</span></span><br><span class="line"><span class="string">        echo 操作完成 !!!</span></span><br><span class="line"><span class="string">        if exist %WINDIR%\System32\timeout.exe (timeout /t 2) else (if exist %WINDIR%\System32\choice.exe (choice /t 2 /d y /n &gt;nul) else (ping 127.1 -n 2 &gt;nul))</span></span><br><span class="line"><span class="string">    )</span></span><br><span class="line"><span class="string">    Goto Start</span></span><br><span class="line"><span class="string">)</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="打开指定网页："><a href="#打开指定网页：" class="headerlink" title="打开指定网页："></a>打开指定网页：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">start Chrome http://localhost:5000</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>bat</category>
-      </categories>
-      <tags>
-        <tag>自备bat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浓缩三句话</title>
-    <url>/ctor/b0fd571b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一句话"><a href="#第一句话" class="headerlink" title="第一句话"></a>第一句话</h2><p>　　你的责任就是你的方向， 你的经历就是你的资本， 你的性格就是你的命运。</p>
-<a id="more"></a>
-
-<p><img src="/ctor/b0fd571b/1.webp" alt="图片跑了"></p>
-<h2 id="第二句话"><a href="#第二句话" class="headerlink" title="第二句话"></a>第二句话</h2><p>　　复杂的事情简单做，你就是专家；简单的事情重复做， 你就是行家；重复的事情用心做，你就是赢家。</p>
-<p><img src="/ctor/b0fd571b/2.webp" alt="图片跑了"></p>
-<h2 id="第三句话"><a href="#第三句话" class="headerlink" title="第三句话"></a>第三句话</h2><p>　　美好是属于自信者的， 机会是属于开拓者的， 奇迹是属于执著者的！<br><img src="/ctor/b0fd571b/3.webp" alt="图片跑了"></p>
-<p>　　你若不想做，总会找到借口；你若想做，总会找到方法。</p>
-<p>　　沙子是废物，水泥也是废物，但他们混在一起是混凝土，就是精品；</p>
-<p>　　大米是精品，汽油也是精品，但他们混在一起就是废物。</p>
-<p>　　是精品还是废物不重要，跟谁混，很重要 !<br><img src="/ctor/b0fd571b/4.webp" alt="图片跑了"><br>　　朋友不是乱交的，每天在一起喝酒的不一定是真朋友，每天在一起混的也不一定是永远的朋友。</p>
-<p><img src="/ctor/b0fd571b/5.webp" alt="图片跑了"></p>
-<p>人生要交的四位朋友：</p>
-<p>1、交一个欣赏你的朋友，即便在你穷困潦倒的时候反而会更安慰你、帮助你。</p>
-<p>2、交一个有正能量的朋友，在你情绪低落的时候陪伴你、 鼓励你。</p>
-<p><img src="/ctor/b0fd571b/6.webp" alt="图片跑了"><br>3、交一个为你领路的朋友，自愿做你的垫脚石，带你走过泥泞、拨开迷雾。<br>4、交一个肯指点你的朋友，时刻提醒你、监督你，让你时刻发现自己的不足。</p>
-<h2 id="回家的感觉真好："><a href="#回家的感觉真好：" class="headerlink" title="回家的感觉真好："></a>回家的感觉真好：</h2><video width="480" height="320" controls>
-<source src="/ctor/f3e15bcc/2.mp4">
-</video>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>三句话</tag>
-        <tag>奇迹是属于执著者的</tag>
-      </tags>
   </entry>
   <entry>
     <title>最基本的烹饪原理</title>
@@ -2030,6 +2033,7 @@ themes：主题
 </td></tr></table>
 </form>
 
+<p>去原网可自编链接：<a href="https://tinyurl.com" target="_blank" rel="noopener">原网址</a></p>
 <p>.<br>.</p>
 ]]></content>
   </entry>
@@ -2592,10 +2596,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-mYzYefdj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-IvIoFQlI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-mYzYefdj");
+				  options.element = document.getElementById("aplayer-IvIoFQlI");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
