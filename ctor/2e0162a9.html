@@ -11,17 +11,17 @@
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
   
   
-    <meta name="keywords" content="bat创建文章," />
+    <meta name="keywords" content="安装中文,SublimeText," />
   
 
   
-    <meta name="description" content="bat创建打开发布文章一体式" />
+    <meta name="description" content="SublimeText安装中文版" />
   
   
   
   <link rel="icon" type="image/x-icon" href="/images/footer-logo.png">
   
-  <title>bat创建打开发布文章一体式 [ 时游 ]</title>
+  <title>SublimeText安装中文版 [ 时游 ]</title>
   
     <!-- stylesheets list from config.yml -->
     
@@ -109,19 +109,19 @@
   <article class="post" id="post">
     <header class="post-header text-center">
       <h1 class="title">
-        bat创建打开发布文章一体式
+        SublimeText安装中文版
       </h1>
       <span>
         
-        <time class="time" datetime="2019-11-15T05:58:39.000Z">
-        2019-11-15
+        <time class="time" datetime="2019-11-17T11:20:43.000Z">
+        2019-11-17
       </time>
         
       </span>
       <span class="slash">/</span>
       <span class="post-meta">
       <span class="post-tags">
-        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bat%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/" rel="tag">bat创建文章</a></li></ul>
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SublimeText/" rel="tag">SublimeText</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87/" rel="tag">安装中文</a></li></ul>
       </span>
     </span>
       <span class="slash">/</span>
@@ -133,34 +133,23 @@
     </header>
 
     <div class="post-content">
-      <h3 id="一、创建hexo文章（最下方有原文链接地址）"><a href="#一、创建hexo文章（最下方有原文链接地址）" class="headerlink" title="一、创建hexo文章（最下方有原文链接地址）"></a>一、创建hexo文章（最下方有原文链接地址）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> /p name=input pages name:</span><br><span class="line"><span class="built_in">echo</span> name:%name%</span><br><span class="line"><span class="built_in">echo</span> please <span class="built_in">wait</span></span><br><span class="line">hexo new %name% &amp;&amp; call 3.bat %name%</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-
+      <p>　　第一步：如果没有Package Control 去tools那里，要先install</p>
 <a id="more"></a>
 
-<p>命名：创建hexo文章.bat</p>
-<p>接着创建bat：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">start /min /w mshta vbscript:setTimeout(<span class="string">"window.close()"</span>,1000)</span><br><span class="line"><span class="built_in">echo</span> The InputValue is %1</span><br><span class="line"><span class="built_in">set</span> name=%1</span><br><span class="line"><span class="built_in">echo</span> %name%</span><br><span class="line">start /d <span class="string">"C:\asoft\Sublime Text 3"</span>   sublime_text.exe  <span class="string">"D:\Hexo\source\_posts\%name%.md"</span></span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-<p>命名 3.bat</p>
-<p>两个bat如图：<br><img src="/ctor/89d235ac/1.webp" alt=""><br><img src="/ctor/89d235ac/2.webp" alt=""></p>
-<h3 id="二、发布文章到github-bat"><a href="#二、发布文章到github-bat" class="headerlink" title="二、发布文章到github.bat"></a>二、发布文章到github.bat</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">start 1.bat</span><br><span class="line">start /min /w mshta vbscript:setTimeout(<span class="string">"window.close()"</span>,1200)</span><br><span class="line">start 4.bat</span><br></pre></td></tr></table></figure>
-<p>1.bat</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">echo</span> clean</span><br><span class="line"><span class="built_in">echo</span> Please <span class="built_in">wait</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
-
-<p>4.bat</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-<p><img src="/ctor/89d235ac/3.webp" alt=""></p>
-<p><a href="https://www.jianshu.com/p/ab8c4a1d2c13" target="_blank" rel="noopener">原文章链接点击直达</a></p>
+<p><img src="/ctor/2e0162a9/1.png" alt="图片加载中...."></p>
+<p>　　第二步：出现输入框，输入Install package 进行安装</p>
+<p><img src="/ctor/2e0162a9/2.png" alt="图片加载中...."></p>
+<p>　　第三步：安装后，继续在输入框内输入chinese,下面自动出现ChineseLocalizations，点击选择，它会自动进行安装</p>
+<p><img src="/ctor/2e0162a9/3.png" alt="图片加载中...."></p>
+<p>　　第四步：安装好后，界面自动变成中文，文字里有说明，可以变成什么语言和选择路径</p>
+<p><img src="/ctor/2e0162a9/4.png" alt="图片加载中...."><br><img src="/ctor/2e0162a9/5.png" alt="图片加载中...."></p>
+<p><a href="https://blog.csdn.net/aibreaking213/article/details/103097586" target="_blank" rel="noopener">转自：原文地址点击进入</a></p>
 
     </div>
 
   </article>
   <div class="toc-container">
     
-  <div id="toc" class="toc-article">
-    <strong class="toc-title">目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#一、创建hexo文章（最下方有原文链接地址）"><span class="toc-text">一、创建hexo文章（最下方有原文链接地址）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、发布文章到github-bat"><span class="toc-text">二、发布文章到github.bat</span></a></li></ol>
-  </div>
-
 
   </div>
 </div>
@@ -176,19 +165,14 @@
       <div class="post-nav-item post-nav-next">
         
           <span>〈 </span>
-          <a href="/ctor/8cabc7cc.html" rel="next" title="不能说的">
-          不能说的
+          <a href="/ctor/89d235ac.html" rel="next" title="bat创建打开发布文章一体式">
+          bat创建打开发布文章一体式
           </a>
         
       </div>
   
       <div class="post-nav-item post-nav-prev">
           
-          <a href="/ctor/2e0162a9.html" rel="prev" title="SublimeText安装中文版">
-            SublimeText安装中文版
-          </a>
-          <span>〉</span>
-        
       </div>
     </div>
   
