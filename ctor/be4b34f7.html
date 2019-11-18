@@ -11,17 +11,17 @@
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
   
   
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="乱码," />
   
 
   
-    <meta name="description" content="categories" />
+    <meta name="description" content="解决sublime打开TXT文件乱码" />
   
   
   
   <link rel="icon" type="image/x-icon" href="/images/footer-logo.png">
   
-  <title>categories [ 时游 ]</title>
+  <title>解决sublime打开TXT文件乱码 [ 时游 ]</title>
   
     <!-- stylesheets list from config.yml -->
     
@@ -51,13 +51,13 @@
       
           
             
-              <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover actived">
+              <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             
               <a href="#" id="post" class="pure-menu-link">文章</a>
               <ul class="pure-menu-children">
               
                   
-                    <li class="pure-menu-item"><a href="/categories" class="pure-menu-link">分类</a></li>
+                    <li class="pure-menu-item"><a href="/categories" style="color:#202020;" class="pure-menu-link">分类</a></li>
                   
               
                   
@@ -104,15 +104,90 @@
 
   <div class="container" id="content-outer">
     <div class="inner" id="content-inner">
-      <article class="post page" id="page">
-  <header class="post-header text-center">
-  </header>
-  <div class="post-content">
-    
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Google/">Google</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HEXO/">HEXO</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/bat/">bat</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows10/">windows10</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85/">一键安装</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%8D%9A%E6%96%87/">博文</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%89%E8%A3%85/">安装</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BA%93/">库</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%89%8B%E6%9C%BA/">手机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E5%B7%A7/">技巧</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E5%9D%80/">网址</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%84%9A%E6%9C%AC/">脚本</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%A7%86%E9%A2%91/">视频</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐</a><span class="category-list-count">1</span></li></ul>
       
+<div class="post-container">
+  <article class="post" id="post">
+    <header class="post-header text-center">
+      <h1 class="title">
+        解决sublime打开TXT文件乱码
+      </h1>
+      <span>
+        
+        <time class="time" datetime="2019-11-17T19:07:32.000Z">
+        2019-11-18
+      </time>
+        
+      </span>
+      <span class="slash">/</span>
+      <span class="post-meta">
+      <span class="post-tags">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B9%B1%E7%A0%81/" rel="tag">乱码</a></li></ul>
+      </span>
+    </span>
+      <span class="slash">/</span>
+      <span class="read">
+      <span id="busuanzi_value_page_pv"></span> 点击
+    </span>
+      <span class="slash">/</span>
+      <span class="read">阅读耗时 1 分钟</span>
+    </header>
+
+    <div class="post-content">
+      <p>　　电脑自带的TXT记事本的默认保存编码格式是GBK，而Sublime text不支持GB2312和GBK编码，所以会出现打开乱码情况。</p>
+<a id="more"></a>
+
+<p>安装插件：</p>
+<p>　　要安装插件就要通过Package install命令来安装，通过ctrl+shift+p快捷键呼出命令行，输入install进入到Package install模式下，然后查找ConvertToUTF8。</p>
+<p><img src="/ctor/be4b34f7/1.JPG" alt="1"></p>
+<p>接着</p>
+<p><img src="/ctor/be4b34f7/2.JPG" alt="2"></p>
+<p>　　安装成功后会自动打开该插件的介绍，以及配置文件。</p>
+<p><img src="/ctor/be4b34f7/3.JPG" alt="3"></p>
+<p>　　然后我们就能看到刚才乱码的文件，已经可以用正确的编码格式打开了。</p>
+<p>卸载插件：</p>
+<p>　　当然，如果我们想要删掉某些插件，可以通过remove命令来卸载。</p>
+<p><img src="/ctor/be4b34f7/4.JPG" alt="4"></p>
+<p>　　然后选择要卸载的插件点击即可。</p>
+<p><img src="/ctor/be4b34f7/5.JPG" alt="5"></p>
+<p><a href="https://segmentfault.com/a/1190000009611209" target="_blank" rel="noopener">转自：原文地址点击进入</a></p>
+
+    </div>
+
+  </article>
+  <div class="toc-container">
+    
+
   </div>
-</article>
+</div>
+<div class="copyright">
+    <span>本作品采用</span>
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">知识共享署名 4.0 国际许可协议</a>
+    <span>进行许可。 转载时请注明原文链接。</span>
+</div>
+
+
+  
+    <div class="post-nav">
+      <div class="post-nav-item post-nav-next">
+        
+          <span>〈 </span>
+          <a href="/ctor/85b553fb.html" rel="next" title="SublimeText注册码">
+          SublimeText注册码
+          </a>
+        
+      </div>
+  
+      <div class="post-nav-item post-nav-prev">
+          
+          <a href="/ctor/a9d33616.html" rel="prev" title="sublimetext插件安装">
+            sublimetext插件安装
+          </a>
+          <span>〉</span>
+        
+      </div>
+    </div>
+  
+
 
     </div>
 
