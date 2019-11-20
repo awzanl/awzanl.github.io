@@ -1,6 +1,251 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ATOM编写.MD文件,MARKDOWN基本语法</title>
+    <url>/ctor/4c0d66d5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>ATOM介绍：<br>Atom 是 Github 专门为程序员推出的一个跨平台文本编辑器，是当前主流的跨平台的三大编辑器(Atom,sublime,vscode)之一。Atom内置对markdown的支持，能够方便的进行解析预览。</p>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<!-- more  http://www.freesion.com/article/135170776/-->
+
+<h2 id="如何使ATOM能编写-MD文件："><a href="#如何使ATOM能编写-MD文件：" class="headerlink" title="如何使ATOM能编写.MD文件："></a>如何使ATOM能编写.MD文件：</h2><p>首先我们要安装Atom。去官网下载安装对应你平台的Atom版本，安装完成。</p>
+<p>然后打开Atom软件。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/1.png" alt="1"><br>打开任意一个.md文件(markdown格式的文件)，也可以自己新建一个.md文件再打开，打开方式为菜单栏File-&gt;Open file。</p>
+<p>windows下使用快捷键 ctrl + shift + p，打开命令输入框；</p>
+<p>输入 markdown preview toggle，enter安装，然后ctrl+shift+m即实现左边编辑，右边实时预览。</p>
+<p>我们也可以通过菜单栏Packages-&gt;Markdown Preview-&gt;Toggle Treview实现左边编辑，右边实时预览。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/2.png" alt="2"><br>Atom插件分为内置的和扩展的。其中Markdown Preview是Atom的内置插件。</p>
+<p>如果要很好的编写MARKDOWN文件，还要安装下列插件：<br>windows下使用快捷键 ctrl + shift + p，打开命令输入框，输入 settings view install packages and themes，也可以通过菜单栏File-&gt;Setting-&gt;Install；</p>
+<p>打开搜索框在搜索框依次输入下列插件名，点击Packages按钮，在搜索结果中点击Install按钮即可安装。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">markdown-preview-plus(在markdown-preview的基础上做了扩展，支持预览实时渲染，支持Latex公式)</span><br><span class="line">markdown-scroll-sync(同步滚动)</span><br><span class="line">language-markdown(代码增强)</span><br><span class="line">markdown-img-paste(图片粘贴等功能)</span><br><span class="line">qiniu-uploader(可选，可以不安装，图片上传到云空间）</span><br><span class="line">markdown-table-editor(便捷的生成表格)</span><br><span class="line">markdown-themeable-pdf 与 pdf-view(pdf生成导出与pdf预览)</span><br></pre></td></tr></table></figure>
+<p>如：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/3.png" alt="3"></p>
+<h3 id="MARKDOWN-PREVIEW-PLUS："><a href="#MARKDOWN-PREVIEW-PLUS：" class="headerlink" title="MARKDOWN-PREVIEW-PLUS："></a>MARKDOWN-PREVIEW-PLUS：</h3><p>该插件在markdown-preview的基础上做了扩展，支持预览实时渲染，支持Latex公式。</p>
+<p>ctrl + shift + m 打开markdown实时预览</p>
+<p>ctrl + shift + x 开启latex公式支持</p>
+<p>同步滚动：<br>激活 markdown-scroll-sync 插件，可以看到Atom已支持同步滚动功能。同步滚动是Markdown编辑器的必备功能，方便翻阅文档修改时能快速定位到预览的位置。markdown-scroll-sync不仅支持同步滚动，在光标位置发生变更时也会同步滚动，这个功能在很多Markdown编辑器中不具备。</p>
+<p>注意：<br>目前的markdown-scroll-sync不支持markdown-preview-plus，仅支持Atom自带的markdown-preview。</p>
+<h3 id="代码增强："><a href="#代码增强：" class="headerlink" title="代码增强："></a>代码增强：</h3><p>激活 language-markdown 插件。一般的Markdown编辑器提供了代码着色等基本功能，language-markdown除了能给代码着色，还提供了快捷的代码片段生成等功能。</p>
+<p>图片粘贴：<br>在安装插件之前，插入一幅图片需要以下步骤：</p>
+<p>截图-&gt;为文件命名并保存-&gt;整理到当前文件夹下-&gt;在.md文件中插入相应命令</p>
+<p>我们使用一个图片保存在我们.md本地目录的插件markdown-img-paste插件。图片被保存的.md所在目录的assets文件夹中。</p>
+<p>安装完成后插入截图只需要：<br>使用任意截图工具进行截图（无需保存，复制到剪切板就行），然后ctr+shift+v ，会自动粘贴图片链接，并生成一个空白的title让你填写，并在预览中显示出图片。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/4.png" alt="4"><br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/5.png" alt="5"></p>
+<h3 id="QINIU-UPLOADER（只有选择图片粘贴时上传图片到云空间时才要安装和设置）："><a href="#QINIU-UPLOADER（只有选择图片粘贴时上传图片到云空间时才要安装和设置）：" class="headerlink" title="QINIU-UPLOADER（只有选择图片粘贴时上传图片到云空间时才要安装和设置）："></a>QINIU-UPLOADER（只有选择图片粘贴时上传图片到云空间时才要安装和设置）：</h3><p>如使用markdown-assistant插件前必须先设置好qiniu-uploader。</p>
+<p>我们先去七牛云注册一个个人账户。</p>
+<p><a href="https://portal.qiniu.com/create打开七牛云开发者平台。登录账户，选择个人面板-&gt;个人中心" target="_blank" rel="noopener">https://portal.qiniu.com/create打开七牛云开发者平台。登录账户，选择个人面板-&gt;个人中心</a></p>
+<p>然后我们设置qiniu-uploader中的四个参数设置：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/6.png" alt="6"><br>qiniuAK：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/7.png" alt="7"><br>把红线内容复制粘贴到qiniuAK。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/8.png" alt="8"><br>qiniuBucket：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/9.png" alt="9"><br>点击文件夹样式图标，新建一个存储空间（会要你先实名）。然后在下面填入你新建的空间的名称<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/10.png" alt="10"><br>qiniuDomain：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/11.png" alt="11"><br>将测试域名复制粘贴到下面：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/12.png" alt="12"><br>qiniuSK：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/13.png" alt="13"><br>把SK的值复制并粘贴到：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/14.png" alt="14"></p>
+<h3 id="表格编辑："><a href="#表格编辑：" class="headerlink" title="表格编辑："></a>表格编辑：</h3><p>激活 markdown-table-editor 插件。</p>
+<p>在行首输入|，然后按Tab，如果|变粉红则创建了表格。|后可以写这个单元格的内容，写完了一个单元格再按|。即创建了一个单元格。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/15.png" alt="15"></p>
+<h3 id="PDF导出："><a href="#PDF导出：" class="headerlink" title="PDF导出："></a>PDF导出：</h3><p>激活 markdown-themeable-pdf 与 pdf-view。</p>
+<p>先保存文件Ctrl+s，然后在编辑区点击 右键-&gt;Markdown to PDF或者使用快捷键 ctrl + shift + e可以导出PDF并预览，导出的pdf默认与.md在同一文件夹内。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/16.png" alt="16"></p>
+<h3 id="快捷键整理："><a href="#快捷键整理：" class="headerlink" title="快捷键整理："></a>快捷键整理：</h3><p>ctrl + shift + p 打开命令输入框</p>
+<p>ctrl + shift + m 打开markdown实时预览</p>
+<p>ctrl + shift + x 开启latex公式支持</p>
+<p>ctrl+s保存文件然后ctrl+shift+e导出pdf并预览。</p>
+<h3 id="MARKDOWN基本语法："><a href="#MARKDOWN基本语法：" class="headerlink" title="MARKDOWN基本语法："></a>MARKDOWN基本语法：</h3><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+<h4 id="标题："><a href="#标题：" class="headerlink" title="标题："></a>标题：</h4><p>按照字体大小一共有六级标题。注意，<code>#号后必须有空格。</code><br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/17.png" alt="17"><br>效果如下：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/18.png" alt="18"><br>我们可以在标签内容结尾+空格+<code>#</code>来闭合标签，如：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/19.png" alt="19"></p>
+<h3 id="对于一级和二级标题还有另一种表示方法："><a href="#对于一级和二级标题还有另一种表示方法：" class="headerlink" title="对于一级和二级标题还有另一种表示方法："></a>对于一级和二级标题还有另一种表示方法：</h3><p><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/20.png" alt="20"><br>==表示上面一行为一级标题，–表示上面一行为二级标题。=或-至少2个。</p>
+<p>效果如下：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/21.png" alt="21"><br>列表：<br>列表分为有序列表和无序列表。</p>
+<p>无序列表可以用* ， + ， — 来创建，推荐使用*。</p>
+<p>如：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/22.png" alt="22"><br>有序列表只有下面一种方式，注意，数字后面的点只能是英文的点。有序列表的序号是根据第一行列表的数字顺序来的。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/23.png" alt="23"><br>可以看到列表序号我们设为2,4,7，但实际效果是从2（第一项的设定序号）开始，且后面固定依次递增。</p>
+<h3 id="区块的引用："><a href="#区块的引用：" class="headerlink" title="区块的引用："></a>区块的引用：</h3><p>语句前加一个&gt;，这句话就是引用，注意&gt;后要一个空格。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/25.png" alt="25"><br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/26.png" alt="26"><br>引用是一个区块，理论上是应该什么内容都可以放，比如说：标题，列表，引用等等。</p>
+<p>引用可以嵌套使用。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/27.png" alt="27"><br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/28.png" alt="28"></p>
+<h3 id="分割线："><a href="#分割线：" class="headerlink" title="分割线："></a>分割线：</h3><p>分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示且不需要连续，中间有空格也可以。建议用减号。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/29.png" alt="29"></p>
+<h3 id="链接："><a href="#链接：" class="headerlink" title="链接："></a>链接：</h3><p>markdown支持2种链接方式：行内式和参数式，不管是哪一种，链接文字都是用 [方括号] 来标记。</p>
+<p>行内式的链接格式是：链接的文字放在[]中，链接地址放在随后的（）中。链接还可以带title属性，在链接地址后面空一格，然后用引号引起来。</p>
+<p>参数式后面的标签可以用””，’’,或者()括起来均可以。</p>
+<p>如：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/31.png" alt="31"><br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/50.png" alt="50"></p>
+<h3 id="图片："><a href="#图片：" class="headerlink" title="图片："></a>图片：</h3><p>图片也有2种方式：行内式和参数式。</p>
+<p>用法跟链接基本一样，唯一的不同就是，图片前面要写一个！。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/32.png" alt="32"><br>效果如下：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/33.png" alt="33"></p>
+<h3 id="代码框："><a href="#代码框：" class="headerlink" title="代码框："></a>代码框：</h3><p>只有一行代码，可以在代码首尾用``括起来。</p>
+<p>多行代码，则在代码上面一行和代码尾部下面一行都用```。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/35.png" alt="35"><br>效果如下：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/36.png" alt="36"></p>
+<h2 id="表格："><a href="#表格：" class="headerlink" title="表格："></a>表格：</h2><h3 id="写法"><a href="#写法" class="headerlink" title="写法"></a>写法</h3><p>I之间代表一个单元格内的内容。第一行写完后第二行要写|:—– |:— |:—— |表示格式，不写这一行表格外包起来的线框就不全。</p>
+<p>另外:卸载左边表示左对齐，右边表示右对齐，第三行的数据如果第四行不再写类似第二行的格式设置，则继续跟随第二行的格式。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/37.png" alt="37"><br>效果如下：<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/38.png" alt="38"></p>
+<h3 id="加粗和倾斜："><a href="#加粗和倾斜：" class="headerlink" title="加粗和倾斜："></a>加粗和倾斜：</h3><p>加粗：要加粗的语句前后加上两个星号或下划线。</p>
+<p>倾斜：要倾斜的语句前后加上一个星号或下划线。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/39.png" alt="39"></p>
+<h2 id="转义："><a href="#转义：" class="headerlink" title="转义："></a>转义：</h2><p>这里列举一些常用的转义字符。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/40.png" alt="40"></p>
+<h2 id="删除线："><a href="#删除线：" class="headerlink" title="删除线："></a>删除线：</h2><p>在要打上删除线的文字前后加上~~。<br><img src="https://www.laokgg.tk/tuchuang/hexo/ATOM%E7%BC%96%E5%86%99-MD%E6%96%87%E4%BB%B6-MARKDOWN%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/41.png" alt="41"></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>atom</tag>
+        <tag>MARKDOWN基本语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>民间老陈话</title>
+    <url>/ctor/83177de9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>民间常言：不听老人言，吃亏在眼前。</p>
+<p>其实，“老人言”的智慧，不只体现在对人生的描述和认识，更体现在对一种古老智慧的参透。</p>
+<p>老人言，好比陈年佳酿，历久弥新。</p>
+<a id="more"></a>
+<p><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/1.jpg" alt="1"><br>夏不睡石，秋不睡板。</p>
+<p>春不露脐，冬不蒙头。</p>
+<p>白天多动，夜里少梦。</p>
+<p>睡前洗脚，胜吃补药。</p>
+<p>晚上开窗，一觉都香。</p>
+<p>贪凉失盖，不病才怪。</p>
+<p>早睡早起，怡神爽气。</p>
+<p>贪房贪睡，添病减岁。</p>
+<p>夜里磨牙，肚里虫爬。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/2.jpg" alt="2"><br>要想有好身体首先要有一个好的作息规律，昼夜交替、季节变换都需要注意身体。</p>
+<p>一天吃一头猪，不如床上打呼噜。</p>
+<p>三天吃一只羊，不如洗脚再上床。</p>
+<p>枕头不选对，越睡人越累。</p>
+<p>先睡心，后睡人，睡觉睡出大美人。</p>
+<p>头对风，暖烘烘；脚对风，请郎中。</p>
+<p>睡觉莫睡巷，最毒穿堂风。</p>
+<p>睡觉不点灯，早起头不晕。</p>
+<p>要想睡得人轻松，</p>
+<p>切莫脚朝西来头朝东。</p>
+<p>有人说睡觉时“脚朝西、头朝东”相当于看着太阳升起！</p>
+<p>地球自西向东转，这是脑袋跟着地球的方向，就像坐车，人要向着前方坐，才不晕。</p>
+<p>不过也有人说这是一种心理感觉，你认为呢？<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/3.webp" alt="3"><br>千学不如一看，千看不如一练。</p>
+<p>久住坡，不嫌陡。</p>
+<p>马看牙板，人看言行。</p>
+<p>不经冬寒，不知春暖。</p>
+<p>不挑担子不知重，不走长路不知远。</p>
+<p>不在被中睡，不知被儿宽。</p>
+<p>纸上得来终觉浅，绝知此事要躬行。要想真正的了解某一件事或者某一个人一定要有接触才能了解。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/4.webp" alt="4"><br>不下水，一辈子不会游泳；</p>
+<p>不扬帆，一辈子不会撑船。</p>
+<p>不当家，不知柴米贵；</p>
+<p>不生子，不知父母恩。</p>
+<p>不摸锅底手不黑，不拿油瓶手不腻。</p>
+<p>水落现石头，日久见人心。</p>
+<p>打铁的要自己把钳，种地的要自己下田。</p>
+<p>打柴问樵夫，驶船问艄公。</p>
+<p>不管做什么事，都要讲究个方法，讲究个时机，更需要亲自去做。这是成事的智慧，也是省事的智慧。</p>
+<p>宁可做过，不可错过。</p>
+<p>头回上当，二回心亮。</p>
+<p>发回水，积层泥；经一事，长一智。</p>
+<p>耳听为虚，眼见为实。</p>
+<p>老马识路数，老人通世故。</p>
+<p>老人不讲古，后生会失谱。</p>
+<p>老牛肉有嚼头，老人言有听头。</p>
+<p>老姜辣味大，老人经验多。</p>
+<p>老人言，句句散发着泥土的芬芳，洋溢着自然的清新气息。世间上的道理，最平实的即是最伟大的，最伟大的必然是平实的。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/5.webp" alt="5"><br>百闻不如一见，百见不如一干。</p>
+<p>吃一回亏，学一回乖。</p>
+<p>当家才知盐米贵，出门才晓路难行。</p>
+<p>光说不练假把式，光练不说真把式，</p>
+<p>连说带练全把式。</p>
+<p>多锉出快锯，多做长知识。</p>
+<p>树老根多，人老识多。</p>
+<p>砍柴上山，捉鸟上树。</p>
+<p>砍柴砍小头，问路问老头。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/6.jpg" alt="6"><br>毛谤的《寄曹使君》中讲到这么一句话：请同韶采公勿疑，老马由来识途久。</p>
+<p>很多道理都是经过千锤百炼之后沉淀的大智慧，所以在一定的程度上，我们需要学习。</p>
+<p>砂锅不捣不漏，木头不凿不通。</p>
+<p>草遮不住鹰眼，水遮不住鱼眼。</p>
+<p>药农进山见草药，猎人进山见禽兽。</p>
+<p>是蛇一身冷，是狼一身腥。</p>
+<p>香花不一定好看，会说不一定能干。</p>
+<p>经一番挫折，长一番见识。</p>
+<p>汲取过去的成功经验固然重要，但更重要的是把别人的教训也变成自己的经验，“温故而知新”，才能不断进步。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/7.webp" alt="7"><br>一人说话全有理，两人说话见高低。</p>
+<p>一正辟三邪，人正辟百邪。</p>
+<p>一时强弱在于力，万古胜负在于理。</p>
+<p>一理通，百理融。</p>
+<p>人怕没理，狗怕夹尾。</p>
+<p>人怕理，马怕鞭。</p>
+<p>人多出正理，谷多出好米。</p>
+<p>不看人亲不亲，要看理顺不顺。</p>
+<p>有一句老话，叫“有理走遍天下”，做事说话只要有道理，任何地方都行得通。</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/8.jpg" alt="8"><br>天上无云不下雨，世间无理事不成。</p>
+<p>天下的弓都是弯的，世上的理都是直的。</p>
+<p>天无二日，人无二理。</p>
+<p>无理心慌，有理胆壮。</p>
+<p>牛无力拖横耙，人无理说横话。</p>
+<p>认理不认人，不怕不了事。</p>
+<p>认理不认人，帮理不帮亲。</p>
+<p>水大漫不过船，手大遮不住天。</p>
+<p>讲道理，论人情，一人处事百人平。传言语，不能信，阿谀奉承不可听。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/9.webp" alt="9"><br>舌头是肉长的，事实是铁打的。</p>
+<p>灯不亮，要人拨；事不明，要人说。</p>
+<p>灯不拨不亮，理不辩不明。</p>
+<p>好人争理，坏人争嘴。</p>
+<p>好茶不怕细品，好事不怕细论。</p>
+<p>好酒不怕酿，好人不怕讲。</p>
+<p>坛口封得住，人口封不住。</p>
+<p>理不短，嘴不软。</p>
+<p>心头洞明，表面糊涂。不逞利口，不论人短。</p>
+<p>人有志，竹有节。</p>
+<p>人有恒心万事成，人无恒心万事崩。</p>
+<p>人不在大小，马不在高低。</p>
+<p>人往高处走，水往低处流。</p>
+<p>人往大处看，鸟往高处飞。</p>
+<p>人争气，火争焰，佛争一炷香。</p>
+<p>人老心不老，身穷志不穷。</p>
+<p>人往高处走，水往低处流。做人要有力争上游的勇气，更要有愿意低头的大气。</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/10.jpg" alt="10"><br>人要心强，树要皮硬。</p>
+<p>人凭志气，虎凭威势。</p>
+<p>人怕没志，树怕没皮。</p>
+<p>人起心发，树起根发。</p>
+<p>山高有攀头，路远有奔头。</p>
+<p>山高流水长，志大精神旺。</p>
+<p>小人记仇，君子长志。</p>
+<p>学会面对复杂，保持简单，面对挫折，保持坦然，面对逆境，保持乐观，面对刁难，保持喜欢。</p>
+<p>不怕路长，只怕志短。</p>
+<p>不怕百事不利，就怕灰心丧气。</p>
+<p>不怕山高，就怕脚软。</p>
+<p>不怕学不成，就怕心不诚。</p>
+<p>不怕学问浅，就怕志气短。</p>
+<p>不担三分险，难练一身胆。</p>
+<p>不磨不炼，不成好汉。</p>
+<p>梅花香自苦寒来，宝剑锋从磨砺出。所谓成功，并不是看你有多聪明，而是看你能否经得起磨练。<br><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/11.jpg" alt="11"><br>木尺虽短，能量千丈。</p>
+<p>天下无难事，只怕有心人。</p>
+<p>天无一月雨，人无一世穷。</p>
+<p>天不生无用之人，地不长无名之草。</p>
+<p>无志山压头，有志人搬山。</p>
+<p>见强不怕，遇弱不欺。</p>
+<p>月缺不改光，箭折不改钢。</p>
+<p>水深难见底，虎死不倒威。</p>
+<p>不忘初心，方得始终。只有走过弯路，才更确信当初最想要的是什么。真正重要的不是生命里的岁月，而是岁月中的生活。</p>
+<p>水往下流，人争上游。</p>
+<p>只要自己上进，不怕人家看轻。</p>
+<p>只有上不去的天，没有过不去的山。</p>
+<p>只怕不勤，不怕不精；</p>
+<p>只怕无恒，不怕无成。</p>
+<p>人总是在遭遇一次重创之后，才会幡然醒悟，重新认识到自己的坚强和坚韧。人生没有过不去的事，只有过不去的人。</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E7%94%9F%E6%B4%BB/%E6%B0%91%E9%97%B4%E8%80%81%E9%99%88%E8%AF%9D/12.jpg" alt="12"><br>宁可身冷，不可心冷；</p>
+<p>宁可人穷，不可志穷。</p>
+<p>宁可身骨苦，不叫面皮羞。</p>
+<p>宁做蚂蚁腿，不学麻雀嘴。</p>
+<p>宁做穷人脚下土，不做财主席上珍。</p>
+<p>宁愿折断骨头，不愿低头受辱。</p>
+<p>我们都有一颗心，</p>
+<p>需要被人呵护的心，</p>
+<p>也需要给人温暖的心。</p>
+<p>愿有人不怕天黑和鬼，</p>
+<p>只怕你心酸皱眉；</p>
+<p>愿相爱的人各得其所，</p>
+<p>愿放逐的人终获解脱；</p>
+<p>愿有人待你如初，疼你入骨，</p>
+<p>从此深情不被辜负。</p>
+<p>来源民间…..</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>陈年老话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>atom汉化</title>
+    <url>/ctor/cfd2d924.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　　<a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/3228505/172e2180-f4e8-11e9-91fe-6b8dc6863204?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191119T085007Z&X-Amz-Expires=300&X-Amz-Signature=fc1fb0f38c1da9bd328f689db575db6fddba1d8031e4290bff82ec1f14e99cf3&X-Amz-SignedHeaders=host&actor_id=30334910&response-content-disposition=attachment%3B%20filename%3Datom-x64-windows.zip&response-content-type=application%2Foctet-stream" target="_blank" rel="noopener">官网下载便携式免安装 windows*64</a></p>
+<p>打开软件后，依次点击 File&gt; Settings&gt; install 搜索 chinese插件（找到2个，装第1个即可，第2个只是菜单汉化），安装完成后，重启，如下图：</p>
+<a id="more"></a>
+
+<p><img src="https://www.laokgg.tk/tuchuang/%E8%BD%AF%E4%BB%B6/atom%E6%B1%89%E5%8C%96/1.JPG" alt="图片飞跑了"></p>
+<p>因为插件托管在国外，可能因为网速原因，会非常慢，因此推荐下载中文插件包，请看第二种方法。</p>
+<p>在官网下载，先打开（<a href="https://atom.io/packages/），然后搜索【Chinese】" target="_blank" rel="noopener">https://atom.io/packages/），然后搜索【Chinese】</a></p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E8%BD%AF%E4%BB%B6/atom%E6%B1%89%E5%8C%96/2.JPG" alt="图片飞跑了"></p>
+<p>找到【atom-simplified-chinese-menu】点击进入主页（如上图），然后再点【Verions】</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E8%BD%AF%E4%BB%B6/atom%E6%B1%89%E5%8C%96/3.jpg" alt="图片飞跑了"></p>
+<p>之后，找到最新版本，点【zip】包下载即可。</p>
+<p>下载完成后，将下载的 插件包 解压到 C:/user/&lt;用户名&gt;/.atom/packages/目录下面</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E8%BD%AF%E4%BB%B6/atom%E6%B1%89%E5%8C%96/4.jpg" alt="图片飞跑了"></p>
+<p>然后打开atom 就可以实现汉化了！</p>
+<p><img src="https://www.laokgg.tk/tuchuang/%E8%BD%AF%E4%BB%B6/atom%E6%B1%89%E5%8C%96/5.jpg" alt="图片飞跑了"></p>
+<p>转载：<a href="https://www.7down.com/article/253979.html" target="_blank" rel="noopener">原文链接</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>平民智慧</title>
     <url>/ctor/f16c74b2.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　　我们的生活中总是有人讨论著什么样的人聪明，什么样的人智慧，聪明智慧往往体现着一个人的为人处世，让别人高兴了，比人会说你聪明，有眼力劲，惹得别人不高兴了，就会说你固执，不可理喻，其实你只想做好自己，并不想讨好任何人，可是这个社会似乎并不像我们想像的那样，长大以后很难做到如小时候那样的单纯。</p>
@@ -2457,7 +2702,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
   <entry>
     <title>浏览器扩展</title>
     <url>/ctor/1bb1a481.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=3 color="＃0EEC1D">支持 pc版-Chrome、 pc和手机版-Yandex<a href="/ctor/1bb1a481.html" title="浏览器扩展">浏览器扩展</a>、</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font size=3 color="＃0EEC1D">支持 pc版-Chrome、 pc和手机版-Yandex、</p>
 <a href="/ctor/a3557ae1.html" title="记">记</a>
 
 </font>
@@ -2465,9 +2710,9 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <a id="more"></a>
 
 <h2 id="1、youtube插件（Magic-Actions-for-YouTube）"><a href="#1、youtube插件（Magic-Actions-for-YouTube）" class="headerlink" title="1、youtube插件（Magic Actions for YouTube）"></a>1、youtube插件（Magic Actions for YouTube）</h2><p>bug：播放画质不能固定。<br>下载人数多，建议用下面的</p>
-<blockquote><p><a href="/ctor/1bb1a481/1.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/1.PNG   width="100" height="100" ></div></a></p>
+<blockquote><p><a href="https://www.laokgg.tk/tuchuang/Google/浏览器扩展/1.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/1.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Magic Actions for YouTube</em></strong><br>概述</p>
-<p>改善您的YouTube观看体验！电影模式，鼠标滚轮音量控制，AutoHD，扩展，快照…<br>YouTube™Magic Actions是一种轻巧实用的扩展程序，旨在提供更舒适的观看体验。 </p>
+<p>改善您的YouTube观看体验！电影模式，鼠标滚轮音量控制，AutoHD，扩展，快照…<br>YouTube™Magic Actions是一种轻巧实用的扩展程序，旨在提供更舒适的观看体验。</p>
 <p>魔术动作非常易于使用！！！</p>
 <p>最新更新：<br><a href="https://www.mycinema.pro/latest-news.html" target="_blank" rel="noopener">https://www.mycinema.pro/latest-news.html</a></p>
 <p>v7.x的主要功能：</p>
@@ -2478,8 +2723,8 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
 
 <h2 id="2、用户代理切换器"><a href="#2、用户代理切换器" class="headerlink" title="2、用户代理切换器"></a>2、用户代理切换器</h2><p>识别手机，pc及浏览器模式</p>
-<blockquote><p><a href="/ctor/1bb1a481/2.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/2.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>Chrome的用户代理切换器</em></strong> </p>
+<blockquote><p><a href="https://www.laokgg.tk/tuchuang/Google/浏览器扩展/2.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/2.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Chrome的用户代理切换器</em></strong></p>
 <p><strong>概述</strong></p>
 <p>欺骗和模仿用户代理字符串。<br>是否曾经需要快速在用户代理字符串之间快速切换？开发一个需要同时在移动浏览器和桌面浏览器上工作的网站？厌倦了一些古老的网站，因为您没有使用Netscape 4而阻止了您？</p>
 <p>答案就是Chrome的User-Agent Switcher。使用此扩展，您可以在用户代理字符串之间快速轻松地切换。另外，您可以设置每次要欺骗的特定URL。</p>
@@ -2490,29 +2735,29 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
 
 <h2 id="3、恢复关闭标签"><a href="#3、恢复关闭标签" class="headerlink" title="3、恢复关闭标签"></a>3、恢复关闭标签</h2><p>重复点击可恢复删除的所有网页</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/3.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/3.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>恢复关闭标签</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/3.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/3.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>恢复关闭标签</em></strong></p>
 <p>概述</p>
 <p>recover your closed tab<br>在当前浏览器窗口重新打开关闭的标签”</p>
 <footer><strong>恢复关闭标签 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E6%81%A2%E5%A4%8D%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE/fcjlmbbejgnfpcgiigpgfacipckopdkf" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 
 <h2 id="4、百度搜索"><a href="#4、百度搜索" class="headerlink" title="4、百度搜索"></a>4、百度搜索</h2><p>可在网页中选词搜索及快捷</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/4.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/4.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>百度搜索</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/4.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/4.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>百度搜索</em></strong></p>
 <p>概述</p>
 <p>在地址栏旁添加百度图标，点击图标一键到达百度搜索；在浏览网页时，选中您想搜索的文字，点击鼠标右键菜单即可快速发起搜索。本扩展由百度官方提供。<br>下载百度搜索扩展，您可以在浏览网页时更方便地进行搜索。<br>扩展功能：<br>1.在地址栏旁添加百度图标，点击可以打开百度首页。<br>2.在浏览网页时选中您想搜索的文字，点击鼠标右键，在菜单中点击对应的选择，可以快速发起搜索。如没有选中文字，点击右键菜单也可以直达百度首页。<br>来自百度官方的扩展应用，感谢您的使用。<br>百度一下，你就知道”</p>
 <footer><strong>百度搜索 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 <h2 id="5、IDM-Integration-Module"><a href="#5、IDM-Integration-Module" class="headerlink" title="5、IDM Integration Module"></a>5、IDM Integration Module</h2><p>配合软件下载</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/5.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/5.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>IDM Integration Module</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/5.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/5.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>IDM Integration Module</em></strong></p>
 <p>概述</p>
 <p>使用Internet Download Manager下载文件<br>为链接添加“使用IDM下载”上下文菜单项</p>
 <footer><strong>IDM Integration Module _</strong><cite><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="6、Enhancer-for-YouTube™"><a href="#6、Enhancer-for-YouTube™" class="headerlink" title="6、Enhancer for YouTube™"></a>6、Enhancer for YouTube™</h2><p>youtube播放设置同第一个插件（Magic Actions for YouTube）相同，这个没有bug，推荐</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/6.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/6.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>Enhancer for YouTube™</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/6.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/6.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Enhancer for YouTube™</em></strong></p>
 <p>概述</p>
 <p>海量自定义功能提升您的 YouTube™ 用户体验。<br>一个十分易用且高度可定制的扩展程序，它允许您：</p>
 <p>✔ 使用鼠标滚轮控制音量和播放速度</p>
@@ -2523,18 +2768,18 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <footer><strong>Enhancer for YouTube™ _</strong><cite><a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="７、网页主题插件－Dark-Reader"><a href="#７、网页主题插件－Dark-Reader" class="headerlink" title="７、网页主题插件－Dark Reader"></a>７、网页主题插件－Dark Reader</h2><p>这个不错，可选不同网页设置</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/7.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/7.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>Dark Reader</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/7.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/7.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Dark Reader</em></strong></p>
 <p>概述</p>
 <p>黑色主题，适用于任何网站。关爱眼睛，就使用Dark Reader进行夜间和日间浏览。<br>这是一个护眼扩展程序，通过实时生成黑色主题，为每一个网站启用夜间模式。 Dark Reader反转明亮的颜色，使其网页内容具有高对比度并且在易于夜间阅读。</p>
 <p>您可以调整亮度，对比度，应用棕褐色滤镜，黑暗模式，设置字体和忽略的网站列表。</p>
-<p>Dark Reader无广告，也不会在任何地方发送用户的数据。它完全开源 </p>
+<p>Dark Reader无广告，也不会在任何地方发送用户的数据。它完全开源</p>
 <p>安装前请禁用类似的扩展。冲浪愉快！”</p>
 <footer><strong>Dark Reader _</strong><cite><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="8、图片预览放大-——-Imagus"><a href="#8、图片预览放大-——-Imagus" class="headerlink" title="8、图片预览放大 —— Imagus"></a>8、图片预览放大 —— Imagus</h2><p>鼠标停顿放大图片预览效果很好，推荐</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/8.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/8.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>Imagus™</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/8.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/8.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>Imagus™</em></strong></p>
 <p>概述</p>
 <p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
 <p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
@@ -2544,8 +2789,8 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <footer><strong>Imagus _</strong><cite><a href="https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="9、广告拦截器："><a href="#9、广告拦截器：" class="headerlink" title="9、广告拦截器："></a>9、广告拦截器：</h2><p>优点可以阻止预览  推荐</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/9.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/9.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>AdGuard 广告拦截器</em></strong> </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/9.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/9.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>AdGuard 广告拦截器</em></strong></p>
 <p>概述<br>一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。<br>AdGuard 广告拦截器可有效的拦截所有网页上的所有类型的广告，甚至是在 Facebook、Youtube 以及其他万千网站上的广告！</p>
 <p>AdGuard AdBlocker 可以：</p>
 <ol>
@@ -2566,23 +2811,24 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <footer><strong>AdGuard 广告拦截器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?utm_source=chrome-ntp-icon" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="10、广告拦截器（uBlock-Pro）"><a href="#10、广告拦截器（uBlock-Pro）" class="headerlink" title="10、广告拦截器（uBlock Pro）"></a>10、广告拦截器（uBlock Pro）</h2><p>适用于手机，</p>
-<blockquote><p><a href="https://laokgg.tk/ctor/1bb1a481/10.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/10.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>uBlock Pro - #1 Adblocker</em></strong> </p>
-<p>概述<br>一款高效的网络请求过滤工具，占用极低的内存和 CPU。<br>完整的adblock系统，旨在提高效率。 </p>
+<blockquote><p><a href="https://laokgg.tkhttps://www.laokgg.tk/tuchuang/Google/浏览器扩展/10.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/10.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>uBlock Pro - #1 Adblocker</em></strong></p>
+<p>概述<br>一款高效的网络请求过滤工具，占用极低的内存和 CPU。<br>完整的adblock系统，旨在提高效率。</p>
 <p>uBlock Pro是基于uBlock的，并添加了一些额外的阻止列表，特别是对于将来（当前正在进行中）的Fairblock，Sourcepoint，Addefend等adblocker-blocker！</p>
 <p>尽管uBlock的内存和CPU占用空间较小，但与其他流行的阻止程序相比，它可以加载和执行数千个过滤器。</p>
 <p>uBlock不仅是“广告拦截器”：它不仅带有各种内置列表来阻止广告和保护您的隐私，而且还支持灵活的自定义功能-从添加”</p>
 <footer><strong>uBlock Pro - #1 Adblocker _</strong><cite><a href="https://chrome.google.com/webstore/detail/ublock-pro-1-adblocker/fmaicbnbcbjgbpecclcnaehmbpjpdane" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <h2 id="11、捕捉网页截图："><a href="#11、捕捉网页截图：" class="headerlink" title="11、捕捉网页截图："></a>11、捕捉网页截图：</h2><p>录屏、截屏等，可保存为pdf</p>
-<blockquote><p><a href="/ctor/1bb1a481/11.JPG"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/1bb1a481/11.PNG   width="100" height="100" ></div></a></p>
-<p> “<strong><em>捕捉网页截图 - FireShot</em></strong> </p>
-<p>概述<br>捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件<br>FireShot的抓住了Chrome浏览器的网页截图。您可以编辑和注释您的截图。 </p>
-<p>该截图是即时和不产生流量。无第三方网站和登录所需！ </p>
-<p>“最好的免费谷歌Chrome扩展2013”由PCMAG.COM（<a href="http://www.pcmag.com/article2/0,2817,2397682,00.asp）" target="_blank" rel="noopener">http://www.pcmag.com/article2/0,2817,2397682,00.asp）</a> </p>
-<p>你可以用FireShot的网页截图做了什么： </p>
+<blockquote><p><a href="https://www.laokgg.tk/tuchuang/Google/浏览器扩展/11.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.laokgg.tk/tuchuang/Google/浏览器扩展/11.PNG   width="100" height="100" ></div></a></p>
+<p> “<strong><em>捕捉网页截图 - FireShot</em></strong></p>
+<p>概述<br>捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件<br>FireShot的抓住了Chrome浏览器的网页截图。您可以编辑和注释您的截图。</p>
+<p>该截图是即时和不产生流量。无第三方网站和登录所需！</p>
+<p>“最好的免费谷歌Chrome扩展2013”由PCMAG.COM（<a href="http://www.pcmag.com/article2/0,2817,2397682,00.asp）" target="_blank" rel="noopener">http://www.pcmag.com/article2/0,2817,2397682,00.asp）</a></p>
+<p>你可以用FireShot的网页截图做了什么：</p>
 <p>✓捕捉网页完全<br>页面✓捕捉唯一可见的部分<br>✓捕获的选择 “</p>
-<footer><strong>捕捉网页截图 - FireShot _</strong><cite><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>]]></content>
+<footer><strong>捕捉网页截图 - FireShot _</strong><cite><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+]]></content>
       <categories>
         <category>Google</category>
       </categories>
@@ -2749,10 +2995,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-YOBOwQgI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-NFcRvKiy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-YOBOwQgI");
+				  options.element = document.getElementById("aplayer-NFcRvKiy");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -2913,7 +3159,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
       </tags>
   </entry>
   <entry>
-    <title>Google</title>
+    <title>Chrome</title>
     <url>/ctor/62b0f067.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Google-chrome"><a href="#Google-chrome" class="headerlink" title="Google chrome"></a>Google chrome</h1><h3 id="chrome自带深色模式："><a href="#chrome自带深色模式：" class="headerlink" title="chrome自带深色模式："></a>chrome自带深色模式：</h3><p>在“快捷方式”选项中“目标”一栏中末尾空格后添加“参数”保存之后在该快捷方式下打开均会强制启用Chrome的暗黑模式。</p>
 <a id="more"></a>
