@@ -3107,7 +3107,7 @@ themes：主题
 <p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729" target="_blank" rel="noopener">原文参考作者点击</a></p>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
       <tags>
         <tag>多博客</tag>
@@ -3268,7 +3268,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p><a href="https://blog.csdn.net/gqzydh/article/details/86569300" target="_blank" rel="noopener">原文作者：gqzydh－－点击进入</a></p>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
       <tags>
         <tag>命令</tag>
@@ -3445,7 +3445,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <h2 id="Site-整站的基本信息"><a href="#Site-整站的基本信息" class="headerlink" title="Site: 整站的基本信息"></a>Site: 整站的基本信息</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: Edgar<span class="string">'s Blog              # 网站的主标题</span></span><br><span class="line"><span class="string">subtitle: 等待执剑少年修炼归来！     # 网站副标题</span></span><br><span class="line"><span class="string">description:blog | java |        #网站描述，给搜索引擎用的，在生成html中的head-&gt;meta中可看到</span></span><br><span class="line"><span class="string">author: Edger                    # 网站作者</span></span><br><span class="line"><span class="string">email:                           # 联系邮箱</span></span><br><span class="line"><span class="string">language: zh-CN                  # 语言</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># URL                            # 域名和文件结构</span></span><br><span class="line"><span class="string">## If your site is put in a subdirectory, set url as '</span>http://yoursite.com/child<span class="string">' and root as '</span>/child/<span class="string">'</span></span><br><span class="line"><span class="string">url: http://xxxxx.com             # 你的域名</span></span><br><span class="line"><span class="string">root: /</span></span><br><span class="line"><span class="string">permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="string">tag_dir: tags</span></span><br><span class="line"><span class="string">archive_dir: archives</span></span><br><span class="line"><span class="string">category_dir: categories</span></span><br><span class="line"><span class="string">code_dir: downloads/code</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Writing                         # 写文章选项</span></span><br><span class="line"><span class="string">new_post_name: :title.md          # File name of new posts</span></span><br><span class="line"><span class="string">default_layout: post              # 默认layout方式</span></span><br><span class="line"><span class="string">auto_spacing: false               # Add spaces between asian characters and western characters</span></span><br><span class="line"><span class="string">titlecase: false # Transform title into titlecase</span></span><br><span class="line"><span class="string">external_link: true               # Open external links in new tab</span></span><br><span class="line"><span class="string">max_open_file: 100</span></span><br><span class="line"><span class="string">multi_thread: true</span></span><br><span class="line"><span class="string">filename_case: 0</span></span><br><span class="line"><span class="string">render_drafts: false</span></span><br><span class="line"><span class="string">highlight:                        #代码高亮</span></span><br><span class="line"><span class="string">  enable: true                    #是否启用</span></span><br><span class="line"><span class="string">  line_number: false              #是否显示行号</span></span><br><span class="line"><span class="string">  tab_replace:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Category &amp; Tag                  #分类与标签</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">default_category: uncategorized   # default</span></span><br><span class="line"><span class="string">category_map:</span></span><br><span class="line"><span class="string">tag_map:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">archive: 1</span></span><br><span class="line"><span class="string">category: 1</span></span><br><span class="line"><span class="string">tag: 1</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Server                          #本地服务参数</span></span><br><span class="line"><span class="string">## Hexo uses Connect as a server</span></span><br><span class="line"><span class="string">## You can customize the logger format as defined in</span></span><br><span class="line"><span class="string">## http://www.senchalabs.org/connect/logger.html</span></span><br><span class="line"><span class="string">port: 4000</span></span><br><span class="line"><span class="string">logger: true</span></span><br><span class="line"><span class="string">logger_format:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Date / Time format              #日期显示格式</span></span><br><span class="line"><span class="string">## Hexo uses Moment.js to parse and display date</span></span><br><span class="line"><span class="string">## You can customize the date format as defined in</span></span><br><span class="line"><span class="string">## http://momentjs.com/docs/#/displaying/format/</span></span><br><span class="line"><span class="string">date_format: MMM D YYYY</span></span><br><span class="line"><span class="string">time_format: H:mm:ss</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Pagination                      #分页设置</span></span><br><span class="line"><span class="string">## Set per_page to 0 to disable pagination</span></span><br><span class="line"><span class="string">per_page: 10                      #每页10篇文章</span></span><br><span class="line"><span class="string">pagination_dir: page</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Extensions</span></span><br><span class="line"><span class="string">## Plugins: https://github.com/tommy351/hexo/wiki/Plugins</span></span><br><span class="line"><span class="string">## Themes: https://github.com/tommy351/hexo/wiki/Themes</span></span><br><span class="line"><span class="string">## 主题</span></span><br><span class="line"><span class="string">theme: yelee #modernist # raytaylorism # pacman # modernist # light</span></span><br><span class="line"><span class="string">exclude_generator:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># Deployment                        #部署</span></span><br><span class="line"><span class="string">## Docs: http://zespia.tw/hexo/docs/deploy.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="string">  type: github</span></span><br><span class="line"><span class="string">  repository: git@github.com:bruce-sha/bruce-sha.github.com.git #你的GitHub Pages仓库</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
       <tags>
         <tag>_config.yml</tag>
@@ -3525,7 +3525,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>原作者：<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener" title="原作者有图">点击直达</a></p>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
       <tags>
         <tag>主题配置</tag>
@@ -3575,10 +3575,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-grzJBZST" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-bCsutnrs" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-grzJBZST");
+				  options.element = document.getElementById("aplayer-bCsutnrs");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -3629,7 +3629,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>作者原文链接：<a href="https://www.you3xuan.top/2019/02/16/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8bat%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%85%8D%E5%AF%86%E7%A0%81%E9%83%A8%E7%BD%B2/#more" target="_blank" rel="noopener">点击直达</a></p>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
       <tags>
         <tag>bat</tag>
@@ -3654,7 +3654,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://blog.csdn.net/sinat_37781304/article/details/82729029</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>hex</category>
       </categories>
   </entry>
   <entry>
