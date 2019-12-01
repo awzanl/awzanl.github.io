@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>caonima造物主</title>
+    <url>/ctor/e2a01b68.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>653456</p>
+]]></content>
+      <categories>
+        <category>操你妈造物主</category>
+      </categories>
+  </entry>
+  <entry>
     <title>埋没的天才束星北</title>
     <url>/ctor/77e9df9a.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -3575,10 +3584,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-fbtwlSHf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-SzPmOxbz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-fbtwlSHf");
+				  options.element = document.getElementById("aplayer-SzPmOxbz");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -3596,28 +3605,6 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
       <tags>
         <tag>再回到从前</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>安装博客</title>
-    <url>/ctor/178db9e1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="SSH添加到GitHub"><a href="#SSH添加到GitHub" class="headerlink" title="SSH添加到GitHub"></a>SSH添加到GitHub</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
-<p>yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱</p>
-<a id="more"></a>
-
-
-<h5 id="检查一下你有没有输对"><a href="#检查一下你有没有输对" class="headerlink" title="检查一下你有没有输对"></a>检查一下你有没有输对</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
-<h5 id="然后创建SSH"><a href="#然后创建SSH" class="headerlink" title="然后创建SSH"></a>然后创建SSH</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
-<h5 id="hexo部署到GitHub"><a href="#hexo部署到GitHub" class="headerlink" title="hexo部署到GitHub"></a>hexo部署到GitHub</h5><p>修改站点 _config.yml</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/账户名/账户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<h5 id="安装deploy-git"><a href="#安装deploy-git" class="headerlink" title="安装deploy-git"></a>安装deploy-git</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h6 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h6><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>source中创建一个名为CNAME文件写入域名</p>
-<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="详细查看">原作者</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://blog.csdn.net/sinat_37781304/article/details/82729029</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
   </entry>
   <entry>
     <title>Hexo博客使用bat脚本自动创建、部署、编辑和免密码部署</title>
@@ -3656,6 +3643,28 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
       <tags>
         <tag>bat</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>安装博客</title>
+    <url>/ctor/178db9e1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="SSH添加到GitHub"><a href="#SSH添加到GitHub" class="headerlink" title="SSH添加到GitHub"></a>SSH添加到GitHub</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
+<p>yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱</p>
+<a id="more"></a>
+
+
+<h5 id="检查一下你有没有输对"><a href="#检查一下你有没有输对" class="headerlink" title="检查一下你有没有输对"></a>检查一下你有没有输对</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+<h5 id="然后创建SSH"><a href="#然后创建SSH" class="headerlink" title="然后创建SSH"></a>然后创建SSH</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
+<h5 id="hexo部署到GitHub"><a href="#hexo部署到GitHub" class="headerlink" title="hexo部署到GitHub"></a>hexo部署到GitHub</h5><p>修改站点 _config.yml</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/账户名/账户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h5 id="安装deploy-git"><a href="#安装deploy-git" class="headerlink" title="安装deploy-git"></a>安装deploy-git</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h6 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h6><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>source中创建一个名为CNAME文件写入域名</p>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="详细查看">原作者</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://blog.csdn.net/sinat_37781304/article/details/82729029</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
   </entry>
   <entry>
     <title>代理脚本</title>
