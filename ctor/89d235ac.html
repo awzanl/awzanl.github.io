@@ -129,7 +129,7 @@
       <span id="busuanzi_value_page_pv"></span> 点击
     </span>
       <span class="slash">/</span>
-      <span class="read">阅读耗时 1 分钟</span>
+      <span class="read">阅读耗时 2 分钟</span>
     </header>
 
     <div class="post-content">
@@ -141,14 +141,14 @@
 <p>接着创建bat：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">start /min /w mshta vbscript:setTimeout(<span class="string">"window.close()"</span>,1000)</span><br><span class="line"><span class="built_in">echo</span> The InputValue is %1</span><br><span class="line"><span class="built_in">set</span> name=%1</span><br><span class="line"><span class="built_in">echo</span> %name%</span><br><span class="line">start /d <span class="string">"C:\asoft\Sublime Text 3"</span>   sublime_text.exe  <span class="string">"D:\Hexo\source\_posts\%name%.md"</span></span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
 <p>命名 3.bat</p>
-<p>两个bat如图：<br><img src="/ctor/89d235ac/1.webp" alt=""><br><img src="/ctor/89d235ac/2.webp" alt=""></p>
+<p>两个bat如图：<br><img src="https://www.laokgg.tk/tuchuang/bat%E6%96%87%E7%AB%A0/bat%E5%88%9B%E5%BB%BA%E6%89%93%E5%BC%80%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E4%B8%80%E4%BD%93%E5%BC%8F/1.webp" alt=""><br><img src="https://www.laokgg.tk/tuchuang/bat%E6%96%87%E7%AB%A0/bat%E5%88%9B%E5%BB%BA%E6%89%93%E5%BC%80%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E4%B8%80%E4%BD%93%E5%BC%8F/2.webp" alt=""></p>
 <h3 id="二、发布文章到github-bat"><a href="#二、发布文章到github-bat" class="headerlink" title="二、发布文章到github.bat"></a>二、发布文章到github.bat</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">start 1.bat</span><br><span class="line">start /min /w mshta vbscript:setTimeout(<span class="string">"window.close()"</span>,1200)</span><br><span class="line">start 4.bat</span><br></pre></td></tr></table></figure>
 <p>1.bat</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">echo</span> clean</span><br><span class="line"><span class="built_in">echo</span> Please <span class="built_in">wait</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
 
 <p>4.bat</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-<p><img src="/ctor/89d235ac/3.webp" alt=""></p>
+<p><img src="https://www.laokgg.tk/tuchuang/bat%E6%96%87%E7%AB%A0/bat%E5%88%9B%E5%BB%BA%E6%89%93%E5%BC%80%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E4%B8%80%E4%BD%93%E5%BC%8F/3.webp" alt=""></p>
 <p><a href="https://www.jianshu.com/p/ab8c4a1d2c13" target="_blank" rel="noopener">原文章链接点击直达</a></p>
 
     </div>
