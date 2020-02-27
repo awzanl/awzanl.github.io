@@ -39,6 +39,13 @@
 <p>无论是声音吵了，打孩子了</p>
 <p>草坪不整理了等等都会被举报。</p>
 <p>所以晾晒衣服也不例外。</p>
+<video width="480" height="320" controls>
+<source src="https://www.laokgg.tk/shipin/上海电视台专访.mp4">
+</video>
+
+<video width="480" height="320" controls>
+<source src="https://www.laokgg.tk/shipin/美国武汉撤侨.mp4">
+</video>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -3689,6 +3696,9 @@ themes：主题
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>完整代码</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<!--feichang*gg88 -->
+
 <p>使用</p>
 <p>在文章添加 top 标签可以设置置顶顺序。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
@@ -4011,6 +4021,22 @@ themes：主题
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5</span><br><span class="line">a92ea3074e6c437573b1ef6289a8a9bb</span><br><span class="line">SHA1</span><br><span class="line">7ef70da2ba956a432f2f3643e798229a39728269</span><br></pre></td></tr></table></figure>
 <h3 id="sha1下载"><a href="#sha1下载" class="headerlink" title="sha1下载"></a>sha1下载</h3><p>官方兼容windows10 汉化修改版<br><a href="https://www.laokgg.tk/tuchuang/windows/windows10/sha1.rar" target="_blank" rel="noopener">点击下载</a></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5</span><br><span class="line">f429610b4665c14a00608afc38189bec</span><br><span class="line">SHA1</span><br><span class="line">584d105a99f1490d8005b757e44cab74e90227e9</span><br></pre></td></tr></table></figure>
+<h1 id="照片查看器为默认的方法：-方法2方便"><a href="#照片查看器为默认的方法：-方法2方便" class="headerlink" title="照片查看器为默认的方法：(方法2方便)"></a>照片查看器为默认的方法：(方法2方便)</h1><h3 id="方法一：单项修改注册表"><a href="#方法一：单项修改注册表" class="headerlink" title="方法一：单项修改注册表"></a>方法一：单项修改注册表</h3><p>首先，右击左下角的Windows图标，选择弹出菜单中的“运行”命令，在弹出的对话框中输入“regedit”，并按回车键：</p>
+<p><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/075fe71b8f81d4e097b7efa9dfbbd618.png" alt="图片飞跑了"></p>
+<p>在打开的注册表编辑器中，从左侧依次展开：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations：</p>
+<p>双击已经的“.tif”或者“tiff”，打开“编辑字符串”对话框，我们复制其中的“数值数据”：<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/73908c0b538a625b808f4bcd8227e422.png" alt="图片飞跑了"></p>
+<p>然后在右侧空白地方右击，选择“新建”-&gt;“字符串值”，将名称改成你要的图片后缀，如“.jpg”</p>
+<p><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/70bfef5b58ba559897a3f1291a1f2e3b.png" alt="图片飞跑了"></p>
+<p>双击这个新建的字符串值，粘贴“数值数据”并“确定”即可：</p>
+<p><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/cae8b435b77530a7fc0855f9b3872349.png" alt="图片飞跑了"><br>类似的，我们再依次新建 .jpeg、.bmp、.png等图片字符串值并都设置“数值数据”为“PhotoViewer.FileAssoc.Tiff”<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/4ef37f051ad249c905d89992cb5abc60.png" alt="图片飞跑了"><br>这时我们再右击图片，“打开方式”中已经有“Windows照片查看程序”了：<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/8ed7d2ecaf7abbdc332d99a8aeb685cb.png" alt="图片飞跑了"><br>而我们双击图片，则弹出打开方式选择界面，我们选择“Windows照片查看程序”，并勾选下面的“始终使用此应用打开.jpg文件”，再“确定”即可：</p>
+<p>类似的，双击其它格式的图片也按上一步骤设置，则将成功将图片打开程序默认为“Windows照片查看程序”了。<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/3125a9cab58042aef6c8797528a75622.png" alt="图片飞跑了"></p>
+<h3 id="方法二：批处理程序修改"><a href="#方法二：批处理程序修改" class="headerlink" title="方法二：批处理程序修改"></a>方法二：批处理程序修改</h3><p>以上方法只能一个个添加，也有人说不好使，这里给出一个批处理程序，反正我一直用着很好。</p>
+<p>::复制以下内容到记事本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off&amp;<span class="built_in">cd</span>\&amp;color 0a&amp;cls</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 恢复Win10照片查看器</span><br><span class="line"></span><br><span class="line">reg add <span class="string">"HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations"</span> /v <span class="string">".jpg"</span> /t REG_SZ /d PhotoViewer.FileAssoc.Tiff /f</span><br><span class="line"></span><br><span class="line">reg add <span class="string">"HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations"</span> /v <span class="string">".jpeg"</span> /t REG_SZ /d PhotoViewer.FileAssoc.Tiff /f</span><br><span class="line"></span><br><span class="line">reg add <span class="string">"HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations"</span> /v <span class="string">".bmp"</span> /t REG_SZ /d PhotoViewer.FileAssoc.Tiff /f</span><br><span class="line"></span><br><span class="line">reg add <span class="string">"HKLM\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations"</span> /v <span class="string">".png"</span> /t REG_SZ /d PhotoViewer.FileAssoc.Tiff /f</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> 请双击或右击图片，选择“照片查看器”即可</span><br><span class="line"></span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<p>然后再保存为.bat的程序，以管理员方式运行之，第一次打开图片时选择windows照片查看器即可。</p>
+<p>以后重装系统了，或者别人需要设置，直接执行这个批处理程序就好了</p>
+<p>恢复win10照片应用程序</p>
+<p>若需要恢复原win10照片程序，“控制面板”的“应用”中改“默认程序”即可：<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/b9468df9c498485811c0a0c9d8bf414b.png" alt="图片飞跑了"><br>以上介绍的内容就是关于win10系统将照片查看器设置为默认的方法教程</p>
 ]]></content>
       <categories>
         <category>windows10</category>
@@ -4550,10 +4576,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-nympfYJD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-jVLhQRCL" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-nympfYJD");
+				  options.element = document.getElementById("aplayer-jVLhQRCL");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);

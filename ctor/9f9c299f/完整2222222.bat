@@ -4,9 +4,11 @@
 
 Goto Start2
 
+:: m1
 :Start
-Title CMD
-Color 2f
+Title 面板一  部署备份
+:: 绿色 Color 2f
+Color 3f 
 MODE con: Cols=40 Lines=35
 Set tle=完整备份部署发布
 Set var=0
@@ -152,11 +154,29 @@ echo **********部署awzanl:>>E:\电脑\快捷\备份df记录.txt  %date% %time%>>E:\电脑\
 echo. >>E:\电脑\快捷\备份df记录.txt
 Goto End
 
+:部署4000
+MODE con: Cols=40 Lines=32
+echo 正在部署4000，请稍后。。。
+start /min "" "E:\电脑\hexo快捷\启动localhost4000.bat"
+ping 127.1 -n 3 >nul
+start chrome.exe  "http://localhost:4000"
+Goto End
+
+:部署5000
+MODE con: Cols=40 Lines=32
+echo 正在部署5000，请稍后。。。
+start /min "" "E:\电脑\hexo快捷\启动localhost5000.bat"
+ping 127.1 -n 9 >nul
+start chrome.exe  "http://localhost:5000"
+Goto End
+
+
 :备份Chrome书签
 echo 正在备份awz，请稍后。。。
 MODE con: Cols=88 Lines=32
-xcopy "C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"  "G:\f\source\_posts\bat\"  /Y
-xcopy "C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Favicons"  "G:\f\source\_posts\bat\"  /Y
+xcopy "C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"  "G:\f\source\_posts\bat文章\bat\"  /Y
+xcopy "C:\Users\3\AppData\Local\Google\Chrome\User Data\Default\Favicons"  "G:\f\source\_posts\bat文章\bat\"  /Y
+xcopy "E:\zhuomian\完整2222222.bat"  "G:\f\source\_posts\bat文章\bat\"  /Y
 echo *****备份Chrome书签:>>E:\电脑\快捷\备份df记录.txt  %date% %time%>>E:\电脑\快捷\备份df记录.txt
 echo. >>E:\电脑\快捷\备份df记录.txt
 pause
@@ -171,6 +191,7 @@ echo. >>E:\电脑\快捷\备份df记录.txt
 pause
 Goto End
 
+:: 面板 m3 *********************************************************************
 :代理目录
 Color f0
 MODE con: Cols=40 Lines=35
@@ -307,18 +328,21 @@ Set var6=1
 Goto 进入网站目录
 
 :打开网站
-start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%-----%网址变量%"
+start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%-----%网址变量%"
 ::start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --enable-features=WebUIDarkMode --force-dark-mode"  %服务变量%-----%网址变量%
 ::start chrome.exe %服务变量%-----%网址变量%
 Set 网址变量=
 Goto 进入网站目录
 
 :打开网站2
-start chrome.exe %服务变量%
+start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%"
 Goto 进入网站目录
 
+:: 面板 m2 ****************************************************************************
 :Start2
-Color 3f
+Title 面板二  程序相关
+:: 蓝色 Color 3f
+Color 2f  
 MODE con: Cols=40 Lines=42
 Set tle2=打开程序选项
 Set var2=0
@@ -329,10 +353,10 @@ Set 来的窗口=Start2
 Set 微信=E:\Program Files\Tencent\WeChat\WeChat.exe
 Set 关闭微信=WeChat.exe
 ::------------------------------
-Set atom=E:\Program Files\Atom x64\atom.exe
-Set 关闭atom=atom.exe
+Set 大头针=E:\Program Files (x86)\DeskPins-chs 1.30\DeskPins.exe
+Set 关闭大头针=DeskPins.exe
 ::------------------------------
-Set 讯飞语音="E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyVoice.exe"
+Set 讯飞语音=E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyVoice.exe
 Set 关闭讯飞语音=iFlyVoice.exe
 ::------------------------------
 Set v2=E:\V2\v2rayN.exe
@@ -369,6 +393,14 @@ Set 关闭IDM=IDMan.exe
 Set sha1="E:\Program Files (x86)\sha1\HashMyFiles.exe"
 Set 关闭sha1=HashMyFiles.exe
 ::------------------------------
+Set 键盘="%windir%\system32\osk.exe"
+Set 关闭键盘=osk.exe
+::------------------------------
+Set 书签便签=F:\gi\BF\windows10\bat\复制便签.bat
+::------------------------------
+Set BitComet=E:\Program Files\BitComet\BitComet\BitComet.exe
+Set 关闭BitComet=BitComet.exe
+::------------------------------
 cls
 echo 标题:「 %tle2% 」「 %tle6% 」
 echo ---------------------------------------
@@ -377,17 +409,17 @@ echo       00  大头针 任务管理 Chrome
 echo.
 echo       1  打开微信         16  sha1
 echo.
-echo       2  Atom             02  关闭
+echo       2  大头针           17  firefox
 echo.
-echo       3  讯飞语音         03  关闭
+echo       3  讯飞语音         18  N
 echo.
-echo       4  打开v2           04  关闭
+echo       4  打开v2           19  定时57
 echo.
-echo       5  电报2            05  关闭
+echo       5  电报2            20  屏幕键盘
 echo.
-echo       6  PotPlayer        06  关闭
+echo       6  PotPlayer        21  书签便签
 echo.
-echo       7  发布记录         07  关闭
+echo       7  发布记录         22  BitComet
 echo.
 echo       8  17查ip           08  关闭
 echo.
@@ -416,8 +448,8 @@ if /i "%choice2%" == "00" cls&Goto 打开多个程序
 if /i "%choice2%" == "000" cls&Goto 1关闭打开的软件
 if /i "%choice2%" == "1" cls&Set 变量1=%微信%&Goto 1打开软件最小化
 if /i "%choice2%" == "01" cls&Set 变量2=%关闭微信%&Goto 1关闭软件
-if /i "%choice2%" == "2" cls&Set 变量1=%atom%&Goto 1打开软件最小化
-if /i "%choice2%" == "02" cls&Set 变量2=%关闭atom%&Goto 1关闭软件
+if /i "%choice2%" == "2" cls&Set 变量1=%大头针%&Goto 1打开软件最小化
+if /i "%choice2%" == "02" cls&Set 变量2=%关闭大头针%&Goto 1关闭软件
 if /i "%choice2%" == "3" cls&Set 变量1=%讯飞语音%&Goto 1打开软件最小化
 if /i "%choice2%" == "03" cls&Set 变量2=%关闭讯飞语音%&Goto 1关闭软件
 if /i "%choice2%" == "4" cls&Set 变量1=%v2%&Goto 1打开软件最小化
@@ -442,14 +474,25 @@ if /i "%choice2%" == "13" cls&Set 变量1="%IDM%"&Goto 1打开软件最小化
 if /i "%choice2%" == "013" cls&Set 变量2=%关闭IDM%&Goto 1关闭软件
 if /i "%choice2%" == "16" cls&Set 变量3="%sha1%"&Goto 1打开软件常规
 if /i "%choice2%" == "016" cls&Set 变量2=%关闭sha1%&Goto 1关闭软件
+if /i "%choice2%" == "17" cls&start  "" "C:\Program Files (x86)\Mozilla Firefox\firefox.exe"&Goto Start2
+if /i "%choice2%" == "017" cls&taskkill /im firefox.exe /f&Goto Start2
+if /i "%choice2%" == "19" cls&schtasks /create /tn 定时51 /tr  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --enable-features=WebUIDarkMode --force-dark-mode https://www.youtube.com/watch?v=dphWo0r27Z4"  /sc once  /st 19:00:00 /f&Goto Start2
+if /i "%choice2%" == "20" cls&Set 变量3="%键盘%"&Goto 1打开软件常规
+if /i "%choice2%" == "020" cls&Set 变量2=%关闭键盘%&Goto 1关闭软件
+if /i "%choice2%" == "21" cls&Set 变量1="%书签便签%"&Goto 1打开软件最小化
+if /i "%choice2%" == "22" cls&Set 变量3=%BitComet%&Goto 1打开软件常规
+if /i "%choice2%" == "022" cls&Set 变量2=%关闭BitComet%&Goto 1关闭软件
+::删除任务schtasks /delete /tn 定时51  /f
+if /i "%choice2%" == "019" cls&schtasks /delete /tn 定时51  /f&Goto Start2
 if /i "%choice2%" == "0" cls&Goto 回到主菜单
 if /i "%choice2%" == "14" cls&Set 回到来的窗口=Start2&Goto 清理内存
 if /i "%choice2%" == "15" cls&Goto 快速代理面板
-if /i "%choice2%" == "*15" cls&Goto 快速进入网站目录
+if /i "%choice2%" == "155" cls&Goto 快速进入网站目录
 if /i "%choice2%" == "18" cls&Goto 打开双
 if /i "%choice2%" == "99" cls&Goto 新建文章
 if /i "%choice2%" == "150" cls&Goto 代理目录
 if /i "%choice2%" == "**" cls&Goto 简述界面
+if /i "%choice2%" == "***" cls&Goto 系统面板
 if /i "%choice2%" == "001" cls&Goto %来的窗口1%
 if /i "%choice2%" == "r" cls&Goto RestTeredo
 if /i "%choice2%" == "q" Popd&Exit
@@ -467,6 +510,76 @@ if /i "%choice2%" == "*13" cls&Goto 清空回收站及Temp
 if /i "%choice2%" == "*18" cls&Goto 打开双
 Set var2=1
 Goto Menu2
+
+
+
+:1打开软件最小化
+start /min "" "%变量1%"
+Set 变量1=
+Goto Start2
+
+:1打开软件常规
+start  "" "%变量3%"
+Set 变量3=
+Goto Start2
+
+:1打开软件最大化
+start  "" "%变量5%"
+Set 变量5=
+Goto Start2
+
+:打开多个程序
+MODE con: Cols=40 Lines=32
+echo 正在打开中，请稍后。。。
+start /min "" "C:\Windows\System32\Taskmgr.exe"
+start /min "" "E:\Program Files (x86)\DeskPins-chs 1.30\DeskPins.exe"
+start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-features=WebUIDarkMode --force-dark-mode
+Goto End2
+
+:1关闭软件
+::taskkill /f /im %变量2%
+taskkill /im %变量2% /f
+taskkill /im %变量4% /f
+Set 变量2=
+Set 变量4=
+Goto Start2
+
+:1关闭打开的软件
+::taskkill /f /im %变量2%
+@taskkill /im WeChat.exe /f
+cls
+@taskkill /im atom.exe /f
+cls
+@taskkill /im v2rayN.exe /f
+cls
+@taskkill /im wv2ray.exe /f
+cls
+@taskkill /im Telegram.exe /f
+cls
+@taskkill /im PotPlayerMini64.exe /f
+cls
+@taskkill /im notepad.exe /f
+cls
+@taskkill /im 17monipdb.exe /f
+cls
+@taskkill /im Thunder5.exe /f
+@taskkill /im IDMan.exe /f
+@taskkill /im IEMonitor.exe /f
+@taskkill /im ShadowsocksR-dotnet4.0.exe /f
+@taskkill /im ShadowsocksR-dotnet4.0.exe /f
+::@taskkill /im explorer.exe /f
+cls
+@taskkill /im WinRAR.exe /f
+@taskkill /im HashMyFiles.exe /f
+::打开多个程序
+@taskkill /im Taskmgr.exe /f
+cls
+@taskkill /im DeskPins.exe /f
+cls
+@taskkill /im chrome.exe /f
+cls
+@taskkill /im firefox.exe /f
+Goto Start2
 
 :快速代理面板
 Title CMD
@@ -552,7 +665,7 @@ Set var6=1
 Goto 快速进入网站目录1
 
 :快速打开网站
-start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%-----%网址变量%"
+start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%-----%网址变量%"
 ::start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --enable-features=WebUIDarkMode --force-dark-mode"  %服务变量%-----%网址变量%
 ::start chrome.exe %服务变量%-----%网址变量%
 Set 网址变量=
@@ -561,7 +674,7 @@ Set 来的窗口=
 Goto %去的窗口%
 
 :快速打开网站2
-start chrome.exe %服务变量%
+start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  --enable-features=WebUIDarkMode --force-dark-mode  "%服务变量%"
 Set 去的窗口=%来的窗口%
 Set 来的窗口=
 Goto %去的窗口%
@@ -569,86 +682,90 @@ Goto %去的窗口%
 :回到主菜单
 Goto Start
 
-:1打开软件最小化
-start /min "" "%变量1%"
-Set 变量1=
-Goto Menu2
-
-:1打开软件常规
-start  "" "%变量3%"
-Set 变量3=
-Goto Menu2
-
-:1打开软件最大化
-start  "" "%变量5%"
-Set 变量5=
-Goto Menu2
-
-:打开多个程序
-MODE con: Cols=40 Lines=32
-echo 正在打开中，请稍后。。。
-start /min "" "C:\Windows\System32\Taskmgr.exe"
-start /min "" "E:\Program Files (x86)\DeskPins-chs 1.30\DeskPins.exe"
-start /max "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-features=WebUIDarkMode --force-dark-mode
-Goto End2
-
-:1关闭软件
-::taskkill /f /im %变量2%
-taskkill /im %变量2% /f
-taskkill /im %变量4% /f
-Set 变量2=
-Set 变量4=
-Goto Menu2
-
-:1关闭打开的软件
-::taskkill /f /im %变量2%
-@taskkill /im WeChat.exe /f
-cls
-@taskkill /im atom.exe /f
-cls
-@taskkill /im v2rayN.exe /f
-cls
-@taskkill /im wv2ray.exe /f
-cls
-@taskkill /im Telegram.exe /f
-cls
-@taskkill /im PotPlayerMini64.exe /f
-cls
-@taskkill /im notepad.exe /f
-cls
-@taskkill /im 17monipdb.exe /f
-cls
-@taskkill /im Thunder5.exe /f
-cls
-@taskkill /im WinRAR.exe /f
-@taskkill /im HashMyFiles.exe /f
-::打开多个程序
-@taskkill /im Taskmgr.exe /f
-cls
-@taskkill /im DeskPins.exe /f
-cls
-@taskkill /im chrome.exe /f
-Goto Start2
 
 
+:: 面板 m4 ***************************************************************************
 
-:部署4000
-MODE con: Cols=40 Lines=32
-echo 正在部署4000，请稍后。。。
-start /min "" "E:\电脑\hexo快捷\启动localhost4000.bat"
-ping 127.1 -n 9 >nul
-start chrome.exe  "http://localhost:4000"
-Goto End
+:系统面板
+Title 系统
+Color 20
+MODE con: Cols=40 Lines=38
+Set tle=应用
+Set var=0
 
-:部署5000
-MODE con: Cols=40 Lines=32
-echo 正在部署5000，请稍后。。。
-start /min "" "E:\电脑\hexo快捷\启动localhost5000.bat"
-ping 127.1 -n 6 >nul
-start chrome.exe  "http://localhost:5000"
-Goto End
+:系统应用目录
+Set 来的窗口=系统面板
+cls
+echo 标题:「 %tle% 」
+echo ---------------------------------------
+echo 菜单:
+echo       ⑴  服务 services.msc 
+echo.
+echo       ⑵  任务管理器 
+echo.
+echo       ⑶  防火墙
+echo.
+echo       ⑷  本地安全策略
+echo.
+echo       ⑸  本地用户及组
+echo.
+echo       ⑹  本地组策略编辑器
+echo.
+echo       ⑺  磁盘管理器
+echo.
+echo       ⑻  共享文件夹
+echo.
+echo       ⑼  计算机管理
+echo.
+echo       ⑽  设备管理器
+echo.
+echo       ⑾  启动杀软
+echo.
+echo       ⑿  停止杀软
+echo.
+echo       ⒀  打开注册表
+echo.
+echo       14  删除运行记录
+echo.
+echo       Ｑ  退出     15
+echo.
+echo ---------------------------------------
+if %var% neq 0 echo (输入无效请重新输入)
+Set choice=
+Set /p choice=选择:
+Set "choice=%choice:"=%"
+if "%choice:~-1%"=="=" Goto Menu
+if "%choice%"=="" Goto Menu
+if /i "%choice%" == "1" cls&start  "" "E:\工具\services.msc - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "2" cls&start  "" "E:\工具\taskschd.msc - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "3" cls&start  "" "E:\工具\WF.msc - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "4" cls&start  "" "E:\工具\本地安全策略.lnk"&Goto 系统面板
+if /i "%choice%" == "5" cls&start  "" "E:\工具\本地用户及组.lnk"&Goto 系统面板
+if /i "%choice%" == "6" cls&start  "" "E:\工具\本地组策略编辑器.lnk"&Goto 系统面板
+if /i "%choice%" == "7" cls&start  "" "E:\工具\磁盘管理器.lnk"&Goto 系统面板
+if /i "%choice%" == "8" cls&start  "" "E:\工具\共享文件夹.lnk"&Goto 系统面板
+if /i "%choice%" == "9" cls&start  "" "E:\工具\计算机管理.lnk"&Goto 系统面板
+if /i "%choice%" == "10" cls&start  "" "E:\工具\设备管理器.lnk"&Goto 系统面板   
+if /i "%choice%" == "11" cls&start  "" "E:\杀软\启动杀软.bat - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "12" cls&start  "" "E:\杀软\停止杀软.bat - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "13" cls&start  "" "E:\杀软\注册表.bat - 快捷方式.lnk"&Goto 系统面板
+if /i "%choice%" == "14" cls&start  "" "E:\杀软\删除运行记录.bat - 快捷方式"&Goto 系统面板  
+if /i "%choice%" == "15" cls&Goto 代理目录
+if /i "%choice%" == "18" cls&Goto 打开双
+if /i "%choice%" == "r" cls&Goto RestTeredo
+if /i "%choice%" == "q" Popd&Exit
+if /i "%choice%" == "001" cls&Goto %来的窗口1%
+if /i "%choice%" == "*" cls&Goto Start
+if /i "%choice%" == "**" cls&Goto Start2
+Set var=1
+Goto 系统应用目录
 
+
+:: 面板 m5 *********************************************************************
 :新建文章
+Title 面板五  建文件
+Color df
+MODE con: Cols=40 Lines=20
 set 文章数=0
 :新建文章开始
 Color df
@@ -845,6 +962,15 @@ echo 操作完成 !!!
 Goto %去的窗口%
 
 :End2
+Set 去的窗口=%来的窗口%
+Set 来的窗口=
+ping 127.1 -n 1 >nul
+cls
+MODE con: Cols=40 Lines=23
+echo 操作完成 !!!
+Goto %去的窗口%
+
+:End3
 Set choice=0
 if "%choice%" neq "" (
     cls
@@ -857,6 +983,7 @@ if "%choice%" neq "" (
     Goto Start2
 )
 
+:: 面板 m6 ********************************************************************
 :简述界面
 MODE con: Cols=40 Lines=35
 Set tle0=简述说明
