@@ -133,13 +133,15 @@
     </header>
 
     <div class="post-content">
-      <h2 id="创建第二个密钥："><a href="#创建第二个密钥：" class="headerlink" title="创建第二个密钥："></a>创建第二个密钥：</h2><p>1、先将第一个密钥移出到桌面暂时存放（.ssh文件夹下）<br>2、创建第二个密钥和创建第一个密钥一样的顺序。</p>
+      <h2 id="创建第二个密钥："><a href="#创建第二个密钥：" class="headerlink" title="创建第二个密钥："></a>创建第二个密钥：</h2><p>最简单方式：首先使用以下命令进入 SSH根目录下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -f  ~/.ssh/这里是新密钥名称 -C <span class="string">"这里是你的邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>也可这样方式老方式：<br>1、先将第一个密钥移出到桌面暂时存放（.ssh文件夹下）<br>2、创建第二个密钥和创建第一个密钥一样的顺序。</p>
 <a id="more"></a>
 
 <p>回到你的git bash中：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"GitHub用户名"</span></span><br><span class="line">git config --global user.email <span class="string">"GitHub的邮箱"</span></span><br></pre></td></tr></table></figure>
 <p>想和对检查下面命令（可省略）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.emai</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
 <p>3、创建SSH,一路回车：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"GitHub的邮箱"</span></span><br></pre></td></tr></table></figure>
 <p>已经生成了.ssh文件夹里：<br><img src="https://www.laokgg.tk/tuchuang/hexo/%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2/1.jpg" alt="图示"><br>4、新生成的密钥改名后将第一个密钥放回文件夹里（.ssh）<br>5、公钥放GitHub里<br>6、在gitbash中，查看是否成功</p>
