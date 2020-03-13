@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>代码及命令</title>
+    <url>/ctor/b7a8ef1d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p><a href="/ctor/b7a8ef1d.html"><img src="https://www.laokgg.tk/tuchuang/gong/5.jpg" alt=""></a></p>
+</blockquote>
+<a id="more"></a>
+
+<p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
+<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"480"</span> height=<span class="string">"320"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"/ful/f3e15bcc/1.mp4"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">项目组</a><br>插件安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<p>安装完成后，在需要添加音乐的地方加上：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/ctor/b7a8ef1d/3.PNG" alt="图"><br>　　想加入歌单，把上面的代码换成下面代码就行，参数的用法可以参照插件的使用说明</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;&#123;<span class="string">"narrow"</span>: <span class="literal">false</span>,<span class="string">"autoplay"</span>: <span class="literal">true</span>,<span class="string">"showlrc"</span>: 3,<span class="string">"mode"</span>: <span class="string">"random"</span>,<span class="string">"music"</span>: [&#123;<span class="string">"title"</span>: <span class="string">"平凡之路"</span>,<span class="string">"author"</span>: <span class="string">"朴树"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"https://ogd99kckh.qnssl.com/1.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"野子"</span>,<span class="string">"author"</span>: <span class="string">"苏运莹"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a"</span>,<span class="string">"pic"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg"</span>,<span class="string">"lrc"</span>:<span class="string">"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"</span>&#125;]&#125;&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="插入视频：推荐三…"><a href="#插入视频：推荐三…" class="headerlink" title="插入视频：推荐三…"></a>插入视频：推荐三…</h1><p>1、方式一：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% iframe 地址 100 200 %&#125;</span><br></pre></td></tr></table></figure>
+<p>2、方式二：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"640"</span> height=<span class="string">"359"</span> src=<span class="string">"地址"</span> frameborder=<span class="string">"0"</span> allow=<span class="string">"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<p>3、方式三（加载视频不自动播放）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"852"</span> height=<span class="string">"480"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"地址"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="bat命令："><a href="#bat命令：" class="headerlink" title="bat命令："></a>bat命令：</h1><p>发布：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">d:</span><br><span class="line">CD d:\m</span><br><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<p>启动localhost4000.bat</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line">CD D:\m</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
+<h2 id="文字剧中-左对齐-右对齐"><a href="#文字剧中-左对齐-右对齐" class="headerlink" title="文字剧中 左对齐 右对齐"></a>文字剧中 左对齐 右对齐</h2><h3 id="居中："><a href="#居中：" class="headerlink" title="居中："></a>居中：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;剧中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="左对齐："><a href="#左对齐：" class="headerlink" title="左对齐："></a>左对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"left"</span>&gt;左对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="右对齐："><a href="#右对齐：" class="headerlink" title="右对齐："></a>右对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"right"</span>&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="标题居中放大"><a href="#标题居中放大" class="headerlink" title="标题居中放大"></a>标题居中放大</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font size=3 &gt; &lt;h1&gt;标题居中放大&lt;/h1&gt; &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<center><font size=3 > <h1>标题居中放大</h1> </font></center>
+
+<h1 id="删除符号："><a href="#删除符号：" class="headerlink" title="删除符号："></a>删除符号：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~删除部分~</span><br></pre></td></tr></table></figure>
+<p><del>删除部分</del></p>
+<h1 id="Hexo-Next修改永久链接的默认格式"><a href="#Hexo-Next修改永久链接的默认格式" class="headerlink" title="Hexo Next修改永久链接的默认格式"></a>Hexo Next修改永久链接的默认格式</h1><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<h3 id="修改-config-yml："><a href="#修改-config-yml：" class="headerlink" title="修改_config.yml："></a>修改_config.yml：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  rep: hex    <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/advanced/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5RST.html" target="_blank" rel="noopener">原文链接</a></p>
+<h3 id="在文章插入标签链接："><a href="#在文章插入标签链接：" class="headerlink" title="在文章插入标签链接："></a>在文章插入标签链接：</h3><p>文件在同一目录下（不输入后缀）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 管理多个博客 %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+
+<p>（可点击直达）</p>
+<h3 id="文章插入围绕图片字体围绕："><a href="#文章插入围绕图片字体围绕：" class="headerlink" title="文章插入围绕图片字体围绕："></a>文章插入围绕图片字体围绕：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Imagus _  https://hexo.io/zh-cn/docs/tag-plugins 点击进入谷歌商店安装  %&#125;</span><br><span class="line">[&lt;div style=<span class="string">"float:left;border:solid 1px 000;margin:2px;"</span>&gt;&lt;img src= 代码及命令/1.PNG   width=<span class="string">"100"</span> height=<span class="string">"100"</span> &gt;&lt;/div&gt;][T1]</span><br><span class="line"></span><br><span class="line">[T1]: /ctor/b7a8ef1d/1.JPG</span><br><span class="line"> <span class="string">"***Magic Actions for YouTube***</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"</span></span><br><span class="line">Imagus 概述</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Enlarge thumbnails, and show images/videos from links with a mouse hover.</span><br><span class="line">鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</span><br><span class="line"></span><br><span class="line">扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">选项页面上的分类和它们的简单描述：</span><br><span class="line"></span><br><span class="line">▪ 筛选规则</span><br><span class="line">一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p><a href="/ctor/b7a8ef1d/1.JPG" title="***Magic Actions for YouTube***
+
+![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/b7a8ef1d/1.PNG   width="100" height="100" ></div></a></p>
+<p>Imagus 概述</p>
+<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
+<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
+<p>选项页面上的分类和它们的简单描述：</p>
+<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</p>
+<footer><strong>Imagus _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h3 id="文章缩进空格"><a href="#文章缩进空格" class="headerlink" title="文章缩进空格"></a>文章缩进空格</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&amp;nbsp;&amp;nbsp;&amp;nbsp;</span><br></pre></td></tr></table></figure>
+
+<h3 id="分割符"><a href="#分割符" class="headerlink" title="分割符"></a>分割符</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="注释（不显示的部分）"><a href="#注释（不显示的部分）" class="headerlink" title="注释（不显示的部分）"></a>注释（不显示的部分）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="插入文字链接："><a href="#插入文字链接：" class="headerlink" title="插入文字链接："></a>插入文字链接：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 这个位置-1。 _  https://hexo.io/zh-cn/docs/tag-plugins 位置-3。  %&#125;</span><br><span class="line">这一行文字的显示位置-2。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果显示：</p>
+<blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
+<footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
+
+<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>安装好后，用git –version 来查看一下版本</p>
+<p>接下来初始化一下hexo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init 文件夹名</span><br></pre></td></tr></table></figure>
+<p>这个文件夹名自己取可以自己取什么名字都行，然后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹名 //进入这个文件夹</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<font size=1 color="＃0EEC1D">
+新建完成后，指定文件夹目录下有：
+node_modules: 依赖包
+public：存放生成的页面
+scaffolds：生成文章的一些模板
+source：用来存放你的文章
+themes：主题
+** _config.yml: 博客的配置文件**
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+打开hexo的服务，在浏览器输入localhost:4000就可以看到你生成的博客了
+</font>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br><span class="line">$ hexo s -p 5000</span><br></pre></td></tr></table></figure>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="点击原创直达原文">以上部分来源–原文链接点击</a></p>
+<h3 id="我的网址"><a href="#我的网址" class="headerlink" title="我的网址"></a>我的网址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ https://laokgg.tk</span><br></pre></td></tr></table></figure>
+<h3 id="音乐播放器-来源点击"><a href="#音乐播放器-来源点击" class="headerlink" title="音乐播放器 来源点击"></a>音乐播放器 <a href="http://npm.taobao.org/package/hexo-tag-aplayer" target="_blank" rel="noopener" title="点击原创直达原文">来源点击</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+<h3 id="不显示图片"><a href="#不显示图片" class="headerlink" title="不显示图片"></a>不显示图片</h3><p>具体做法：</p>
+<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
+<h2 id="博文顶置（2种方式）"><a href="#博文顶置（2种方式）" class="headerlink" title="博文顶置（2种方式）"></a>博文顶置（2种方式）</h2><p>1、目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>2、手动方式： 来源：点击原创直达原文：<a href="https://www.jianshu.com/p/a5d85680722e" target="_blank" rel="noopener"点击直达原作者"">原创</a><br>修改<br>找到node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+<p>在</p>
+<p>var posts = locals.posts;<br>下面添加</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>完整代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<!--feichang*gg88 -88cd5cc52f36e95cf470f864c1e1724c1c298086->
+
+使用
+
+在文章添加 top 标签可以设置置顶顺序。
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
+]]></content>
+      <categories>
+        <category>代码命令</category>
+      </categories>
+  </entry>
+  <entry>
     <title>RGB颜色对照表</title>
     <url>/ctor/77f1613.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -1326,129 +1449,6 @@
       <tags>
         <tag>RGB颜色对照表</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>代码及命令</title>
-    <url>/ctor/b7a8ef1d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p><a href="/ctor/b7a8ef1d.html"><img src="https://www.laokgg.tk/tuchuang/gong/5.jpg" alt=""></a></p>
-</blockquote>
-<a id="more"></a>
-
-<p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
-<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"480"</span> height=<span class="string">"320"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"/ful/f3e15bcc/1.mp4"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">项目组</a><br>插件安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<p>安装完成后，在需要添加音乐的地方加上：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/ctor/b7a8ef1d/3.PNG" alt="图"><br>　　想加入歌单，把上面的代码换成下面代码就行，参数的用法可以参照插件的使用说明</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;&#123;<span class="string">"narrow"</span>: <span class="literal">false</span>,<span class="string">"autoplay"</span>: <span class="literal">true</span>,<span class="string">"showlrc"</span>: 3,<span class="string">"mode"</span>: <span class="string">"random"</span>,<span class="string">"music"</span>: [&#123;<span class="string">"title"</span>: <span class="string">"平凡之路"</span>,<span class="string">"author"</span>: <span class="string">"朴树"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3"</span>,<span class="string">"pic"</span>: <span class="string">"https://ogd99kckh.qnssl.com/1.jpg"</span>,<span class="string">"lrc"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"</span>&#125;,&#123;<span class="string">"title"</span>: <span class="string">"野子"</span>,<span class="string">"author"</span>: <span class="string">"苏运莹"</span>,<span class="string">"url"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a"</span>,<span class="string">"pic"</span>: <span class="string">"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg"</span>,<span class="string">"lrc"</span>:<span class="string">"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"</span>&#125;]&#125;&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="插入视频：推荐三…"><a href="#插入视频：推荐三…" class="headerlink" title="插入视频：推荐三…"></a>插入视频：推荐三…</h1><p>1、方式一：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% iframe 地址 100 200 %&#125;</span><br></pre></td></tr></table></figure>
-<p>2、方式二：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"640"</span> height=<span class="string">"359"</span> src=<span class="string">"地址"</span> frameborder=<span class="string">"0"</span> allow=<span class="string">"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
-<p>3、方式三（加载视频不自动播放）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;video width=<span class="string">"852"</span> height=<span class="string">"480"</span> controls&gt;</span><br><span class="line">&lt;<span class="built_in">source</span> src=<span class="string">"地址"</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="bat命令："><a href="#bat命令：" class="headerlink" title="bat命令："></a>bat命令：</h1><p>发布：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">d:</span><br><span class="line">CD d:\m</span><br><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<p>启动localhost4000.bat</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">D:</span><br><span class="line">CD D:\m</span><br><span class="line">hexo s</span><br><span class="line"><span class="built_in">echo</span> 完成！</span><br><span class="line"><span class="built_in">echo</span>. &amp; pause</span><br></pre></td></tr></table></figure>
-<h2 id="文字剧中-左对齐-右对齐"><a href="#文字剧中-左对齐-右对齐" class="headerlink" title="文字剧中 左对齐 右对齐"></a>文字剧中 左对齐 右对齐</h2><h3 id="居中："><a href="#居中：" class="headerlink" title="居中："></a>居中：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;剧中&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="左对齐："><a href="#左对齐：" class="headerlink" title="左对齐："></a>左对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"left"</span>&gt;左对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="右对齐："><a href="#右对齐：" class="headerlink" title="右对齐："></a>右对齐：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;p align=<span class="string">"right"</span>&gt;右对齐&lt;/p&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="标题居中放大"><a href="#标题居中放大" class="headerlink" title="标题居中放大"></a>标题居中放大</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font size=3 &gt; &lt;h1&gt;标题居中放大&lt;/h1&gt; &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<center><font size=3 > <h1>标题居中放大</h1> </font></center>
-
-<h1 id="删除符号："><a href="#删除符号：" class="headerlink" title="删除符号："></a>删除符号：</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~删除部分~</span><br></pre></td></tr></table></figure>
-<p><del>删除部分</del></p>
-<h1 id="Hexo-Next修改永久链接的默认格式"><a href="#Hexo-Next修改永久链接的默认格式" class="headerlink" title="Hexo Next修改永久链接的默认格式"></a>Hexo Next修改永久链接的默认格式</h1><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<h3 id="修改-config-yml："><a href="#修改-config-yml：" class="headerlink" title="修改_config.yml："></a>修改_config.yml：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  rep: hex    <span class="comment"># 进制：dec(default) and hex</span></span><br></pre></td></tr></table></figure>
-<p><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/advanced/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5RST.html" target="_blank" rel="noopener">原文链接</a></p>
-<h3 id="在文章插入标签链接："><a href="#在文章插入标签链接：" class="headerlink" title="在文章插入标签链接："></a>在文章插入标签链接：</h3><p>文件在同一目录下（不输入后缀）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 管理多个博客 %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-
-<p>（可点击直达）</p>
-<h3 id="文章插入围绕图片字体围绕："><a href="#文章插入围绕图片字体围绕：" class="headerlink" title="文章插入围绕图片字体围绕："></a>文章插入围绕图片字体围绕：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Imagus _  https://hexo.io/zh-cn/docs/tag-plugins 点击进入谷歌商店安装  %&#125;</span><br><span class="line">[&lt;div style=<span class="string">"float:left;border:solid 1px 000;margin:2px;"</span>&gt;&lt;img src= 代码及命令/1.PNG   width=<span class="string">"100"</span> height=<span class="string">"100"</span> &gt;&lt;/div&gt;][T1]</span><br><span class="line"></span><br><span class="line">[T1]: /ctor/b7a8ef1d/1.JPG</span><br><span class="line"> <span class="string">"***Magic Actions for YouTube***</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"</span></span><br><span class="line">Imagus 概述</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Enlarge thumbnails, and show images/videos from links with a mouse hover.</span><br><span class="line">鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</span><br><span class="line"></span><br><span class="line">扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">选项页面上的分类和它们的简单描述：</span><br><span class="line"></span><br><span class="line">▪ 筛选规则</span><br><span class="line">一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果显示：</p>
-<blockquote><p><a href="/ctor/b7a8ef1d/1.JPG" title="***Magic Actions for YouTube***
-
-![](https://lh3.googleusercontent.com/Df-m4HJub3onzrD-C1av0yJz3mELCiMcmlBcX30OhHdkfYFTcFZz6zeZv0ziLO3bPIg65_9Xfg=w640-h400-e365)"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= /ctor/b7a8ef1d/1.PNG   width="100" height="100" ></div></a></p>
-<p>Imagus 概述</p>
-<p>Enlarge thumbnails, and show images/videos from links with a mouse hover.<br>鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。</p>
-<p>扩展有众多选项可供设置，要了解扩展的所有功能最好是逐个查阅这些选项。</p>
-<p>选项页面上的分类和它们的简单描述：</p>
-<p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。。</p>
-<footer><strong>Imagus _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
-
-<h3 id="文章缩进空格"><a href="#文章缩进空格" class="headerlink" title="文章缩进空格"></a>文章缩进空格</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&amp;nbsp;&amp;nbsp;&amp;nbsp;</span><br></pre></td></tr></table></figure>
-
-<h3 id="分割符"><a href="#分割符" class="headerlink" title="分割符"></a>分割符</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="注释（不显示的部分）"><a href="#注释（不显示的部分）" class="headerlink" title="注释（不显示的部分）"></a>注释（不显示的部分）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="插入文字链接："><a href="#插入文字链接：" class="headerlink" title="插入文字链接："></a>插入文字链接：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote 这个位置-1。 _  https://hexo.io/zh-cn/docs/tag-plugins 位置-3。  %&#125;</span><br><span class="line">这一行文字的显示位置-2。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果显示：</p>
-<blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
-<footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
-
-<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>安装好后，用git –version 来查看一下版本</p>
-<p>接下来初始化一下hexo</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init 文件夹名</span><br></pre></td></tr></table></figure>
-<p>这个文件夹名自己取可以自己取什么名字都行，然后</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹名 //进入这个文件夹</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<font size=1 color="＃0EEC1D">
-新建完成后，指定文件夹目录下有：
-node_modules: 依赖包
-public：存放生成的页面
-scaffolds：生成文章的一些模板
-source：用来存放你的文章
-themes：主题
-** _config.yml: 博客的配置文件**
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-打开hexo的服务，在浏览器输入localhost:4000就可以看到你生成的博客了
-</font>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br><span class="line">$ hexo s -p 5000</span><br></pre></td></tr></table></figure>
-<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener" title="点击原创直达原文">以上部分来源–原文链接点击</a></p>
-<h3 id="我的网址"><a href="#我的网址" class="headerlink" title="我的网址"></a>我的网址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ https://laokgg.tk</span><br></pre></td></tr></table></figure>
-<h3 id="音乐播放器-来源点击"><a href="#音乐播放器-来源点击" class="headerlink" title="音乐播放器 来源点击"></a>音乐播放器 <a href="http://npm.taobao.org/package/hexo-tag-aplayer" target="_blank" rel="noopener" title="点击原创直达原文">来源点击</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<h3 id="不显示图片"><a href="#不显示图片" class="headerlink" title="不显示图片"></a>不显示图片</h3><p>具体做法：</p>
-<p>根目录下的_config.yml文件中post_asset_folder: false设置为true，以此打开文章资源文件夹功能；</p>
-<h2 id="博文顶置（2种方式）"><a href="#博文顶置（2种方式）" class="headerlink" title="博文顶置（2种方式）"></a>博文顶置（2种方式）</h2><p>1、目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
-
-<p>2、手动方式： 来源：点击原创直达原文：<a href="https://www.jianshu.com/p/a5d85680722e" target="_blank" rel="noopener"点击直达原作者"">原创</a><br>修改<br>找到node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
-<p>在</p>
-<p>var posts = locals.posts;<br>下面添加</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">    <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">        <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">        <span class="built_in">return</span> -1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        <span class="built_in">return</span> 1;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<p>完整代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<!--feichang*gg88 -88cd5cc52f36e95cf470f864c1e1724c1c298086->
-
-使用
-
-在文章添加 top 标签可以设置置顶顺序。
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
-]]></content>
-      <categories>
-        <category>代码命令</category>
-      </categories>
   </entry>
   <entry>
     <title>GitHub上传大文件</title>
@@ -4588,10 +4588,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-YZDQmzGT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-cdFTQGNu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-YZDQmzGT");
+				  options.element = document.getElementById("aplayer-cdFTQGNu");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
