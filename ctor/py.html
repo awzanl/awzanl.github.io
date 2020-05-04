@@ -140,6 +140,8 @@
 </ul>
 <p>27.bat</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">set</span> <span class="comment">#=27</span></span><br><span class="line">title %<span class="comment">#%</span></span><br><span class="line"><span class="built_in">cd</span> /d <span class="string">"%~dp0"</span></span><br><span class="line"><span class="built_in">set</span> <span class="string">"file=27.txt"</span></span><br><span class="line">(<span class="keyword">for</span> /f <span class="string">"skip=100 tokens=100* delims=:"</span> %%a <span class="keyword">in</span> (<span class="string">'type "%file%"^|findstr /n .*'</span>) <span class="keyword">do</span> <span class="built_in">echo</span>;%%b)&gt;t.t</span><br><span class="line">move /y t.t <span class="string">"%file%"</span></span><br></pre></td></tr></table></figure>
+<h2 id="语音模块："><a href="#语音模块：" class="headerlink" title="语音模块："></a>语音模块：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##导入包</span></span><br><span class="line">import win32com.client</span><br><span class="line"></span><br><span class="line"><span class="comment">##固定格式</span></span><br><span class="line">speaker = win32com.client.Dispatch(<span class="string">"SAPI.SpVoice"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##要朗读的文本</span></span><br><span class="line">str = <span class="string">''</span><span class="string">'知道了吧</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">。'</span><span class="string">''</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(str)</span><br><span class="line"></span><br><span class="line"><span class="comment">##朗读</span></span><br><span class="line">speaker.Speak(str)</span><br></pre></td></tr></table></figure>
+<p>win32con模块安装下载<a href="https://nchc.dl.sourceforge.net/project/pywin32/pywin32/Build%20221/pywin32-221.win-amd64-py3.7.exe" target="_blank" rel="noopener">(对应64位3.7版)</a></p>
 <!-- flag of hidden posts -->
     </div>
 
@@ -148,7 +150,7 @@
     
   <div id="toc" class="toc-article">
     <strong class="toc-title">目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#运行001"><span class="toc-text">运行001</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#运行001"><span class="toc-text">运行001</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#语音模块："><span class="toc-text">语音模块：</span></a></li></ol></li></ol>
   </div>
 
 
