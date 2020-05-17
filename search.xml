@@ -33,8 +33,7 @@
 <a id="more"></a>
 
 <p><font size=2 color="＃0EEC1D">日常代码、<a href="/ctor/b7a8ef1d.html" title="代码及命令">代码及命令</a>、脚本及演练<a href="/ctor/a3557ae1.html" title="记">记</a></font></p>
-<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><p>##卸载插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
+<h6 id="平时常用…-…"><a href="#平时常用…-…" class="headerlink" title="平时常用…..….."></a>平时常用….<a href="/ctor/38a005da.html">.</a>…..</h6><h2 id="卸载插件："><a href="#卸载插件：" class="headerlink" title="卸载插件："></a>卸载插件：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure>
 
 
 <h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>最简单的：</p>
@@ -135,11 +134,10 @@ themes：主题
 <p>完整代码</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">'use strict'</span>;</span><br><span class="line"></span><br><span class="line">var pagination = require(<span class="string">'hexo-pagination'</span>);</span><br><span class="line"></span><br><span class="line">module.exports = <span class="keyword">function</span>(locals) &#123;</span><br><span class="line">  var config = this.config;</span><br><span class="line">  var posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line">  posts.data = posts.data.sort(<span class="keyword">function</span>(a, b) &#123;</span><br><span class="line">        <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123; // 两篇文章top都有定义</span><br><span class="line">            <span class="keyword">if</span>(a.top == b.top) <span class="built_in">return</span> b.date - a.date; // 若top值一样则按照文章日期降序排</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">return</span> b.top - a.top; // 否则按照top值降序排</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span><br><span class="line">            <span class="built_in">return</span> -1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">            <span class="built_in">return</span> 1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> b.date - a.date; // 都没定义按照文章日期降序排</span><br><span class="line">    &#125;);</span><br><span class="line">  var paginationDir = config.pagination_dir || <span class="string">'page'</span>;</span><br><span class="line">  var path = config.index_generator.path || <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">return</span> pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [<span class="string">'index'</span>, <span class="string">'archive'</span>],</span><br><span class="line">    format: paginationDir + <span class="string">'/%d/'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<!--feichang*gg88 -88cd5cc52f36e95cf470f864c1e1724c1c298086->
+<!--feichang*gg88 -88cd5cc52f36e95cf470f864c1e1724c1c298086-->
 
-使用
-
-在文章添加 top 标签可以设置置顶顺序。
+<p>使用</p>
+<p>在文章添加 top 标签可以设置置顶顺序。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章名</span><br><span class="line">date: 文章发布时间</span><br><span class="line">tags: 文章标签</span><br><span class="line">top: 100(文章置顶)</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <p>注意<br>迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件。</p>
 ]]></content>
@@ -4003,6 +4001,8 @@ color 1F![15](https://www.laokgg.tk/tuchuang/bat文章/bat颜色调配/30.JPG)
 </form>
 
 <p>去原网可自编链接：<a href="https://tinyurl.com" target="_blank" rel="noopener">原网址</a></p>
+<h2 id="youtube"><a href="#youtube" class="headerlink" title="youtube"></a>youtube</h2><p><a href="https://www.youtube.com/watch?v=RaIJ767Bj_M" target="_blank" rel="noopener">东森新闻</a>    <a href="https://www.youtube.com/watch?v=dphWo0r27Z4&feature=youtu.be" target="_blank" rel="noopener">东森财经</a></p>
+<p>反转<br><a href="https://www.nsfwyoutube.com/watch?v=RaIJ767Bj_M" target="_blank" rel="noopener">东森新闻</a>    <a href="https://www.nsfwyoutube.com/watch?v=dphWo0r27Z4&feature=youtu.be" target="_blank" rel="noopener">东森财经</a></p>
 <p>.<br>.</p>
 ]]></content>
   </entry>
@@ -4011,6 +4011,8 @@ color 1F![15](https://www.laokgg.tk/tuchuang/bat文章/bat颜色调配/30.JPG)
     <url>/ctor/ae3ae278.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>备份一些windows</p>
 <a id="more"></a>
+<h2 id="查看所有软件程序"><a href="#查看所有软件程序" class="headerlink" title="查看所有软件程序"></a>查看所有软件程序</h2><p>建快捷方式方便<br>方法：新建文件夹命名为：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">应用：Applications.&#123;4234D49B-0245-4DF3-B780-3893943456E1&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="便签备份"><a href="#便签备份" class="headerlink" title="便签备份"></a>便签备份</h2><p>路径：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">%LocalAppData%\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState</span><br></pre></td></tr></table></figure>
@@ -4073,6 +4075,7 @@ color 1F![15](https://www.laokgg.tk/tuchuang/bat文章/bat颜色调配/30.JPG)
 <p>恢复win10照片应用程序</p>
 <p>若需要恢复原win10照片程序，“控制面板”的“应用”中改“默认程序”即可：<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/b9468df9c498485811c0a0c9d8bf414b.png" alt="图片飞跑了"><br>以上介绍的内容就是关于win10系统将照片查看器设置为默认的方法教程</p>
 <h3 id="上传中心："><a href="#上传中心：" class="headerlink" title="上传中心："></a>上传中心：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">C:\Program Files\Microsoft Office\Office15</span><br></pre></td></tr></table></figure>
+<h1 id="windows10下彻底关闭office-上传中心"><a href="#windows10下彻底关闭office-上传中心" class="headerlink" title="windows10下彻底关闭office 上传中心"></a>windows10下彻底关闭office 上传中心</h1><p>&nbsp;&nbsp;&nbsp;删除上传中心MSOSYNC.EXE和MSOUC.EXE两个文件，新建两个文件名文件去除权限。</p>
 ]]></content>
       <categories>
         <category>windows10</category>
@@ -4614,10 +4617,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-DQyskdlE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-hOqXVSnD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-DQyskdlE");
+				  options.element = document.getElementById("aplayer-hOqXVSnD");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
