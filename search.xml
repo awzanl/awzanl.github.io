@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>注册表</title>
+    <url>/ctor/94584168.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="服务路径："><a href="#服务路径：" class="headerlink" title="服务路径："></a>服务路径：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\</span><br></pre></td></tr></table></figure>
+<h3 id="关闭AppX-Deployment-Service-AppXSVC-服务"><a href="#关闭AppX-Deployment-Service-AppXSVC-服务" class="headerlink" title="关闭AppX Deployment Service(AppXSVC)服务"></a>关闭AppX Deployment Service(AppXSVC)服务</h3><p>是Win10的应用部署服务，当用户初次登录到这台电脑和添加新应用时，使应用进入就绪可用的状态.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1、打开注册表路径：HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppXSvc</span><br><span class="line"></span><br><span class="line">2、双击右侧start 把3改为4重启就可以了。</span><br><span class="line"></span><br><span class="line">3、如果要启用这个功能再改为3即可。</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>windows10</category>
+      </categories>
+      <tags>
+        <tag>注册表</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows用命令打开常用的设置页面和常用快捷键</title>
     <url>/ctor/52283b57.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Win+R输入以下内容来快捷打开常用设置</p>
@@ -145,7 +159,7 @@
 <blockquote><p>这一行文字的显示位置- <font size=3 color="＃0EEC1D"> 2</font>。</p>
 <footer><strong>这个位置-<font size=3 color=＃0EEC1D>1</font>。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-<font size=3 color=＃0EEC1D> 3</font>。</a></cite></footer></blockquote>
 
-<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size= color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="文字大小颜色"><a href="#文字大小颜色" class="headerlink" title="文字大小颜色"></a>文字大小颜色</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font size=3 color=<span class="string">"＃0EEC1D"</span>&gt; 文字大小颜色&lt;/font&gt;</span><br><span class="line"></span><br><span class="line">size=字体大小</span><br><span class="line">color=字体颜色</span><br></pre></td></tr></table></figure>
 <h3 id="调色板"><a href="#调色板" class="headerlink" title="调色板"></a><a href="https://www.color-hex.com/color-palettes/" target="_blank" rel="noopener">调色板</a></h3><p>效果显示：<br><font size=5 color="#E066FF"> 文字大小颜色</font></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new</span><br><span class="line">$ hexo new page <span class="string">"新页面"</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
@@ -1538,43 +1552,43 @@ themes：主题
 <p>但在美国就不一样</p>
 <p>如果在阳台晾晒衣服甚至是会受到罚款！</p>
 <p>为什么会这样呢</p>
-<p><img src="https://feichang99.github.io/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/1.jpg" alt="图片飞跑了"><br>1.不雅观</p>
+<p><img src="https://www.zj0029.ml/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/1.jpg" alt="图片飞跑了"><br>1.不雅观</p>
 <p>对于大部分美国人来说</p>
 <p>将五花八门的内衣外衣晾晒在公众可以看到的地方</p>
 <p>简直就是视觉灾难</p>
 <p>不但破坏整体环境美观</p>
 <p>还十分不雅</p>
-<p><img src="https://feichang99.github.io/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/2.jpg" alt="图片飞跑了"><br>2.影响房屋价值</p>
+<p><img src="https://www.zj0029.ml/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/2.jpg" alt="图片飞跑了"><br>2.影响房屋价值</p>
 <p>为了保证社区环境整齐美观</p>
 <p>社区多会禁止在露天晾晒衣服</p>
 <p>理由是美观的社区不但赏心悦目</p>
 <p>而且有利房价。</p>
-<p><img src="https://feichang99.github.io/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/3.jpg" alt="图片飞跑了"><br>3.不想被人认为是低收入户</p>
+<p><img src="https://www.zj0029.ml/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/3.jpg" alt="图片飞跑了"><br>3.不想被人认为是低收入户</p>
 <p>在许多美国人的想法中</p>
 <p>晾晒衣服往往是为了省钱或买不起烘干机</p>
 <p>是收入低的表现之一。</p>
 <p>美国人内心里觉得在户外晾衣服有种贫民窟的感觉。</p>
-<p><img src="https://feichang99.github.io/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/4.jpg" alt="图片飞跑了"><br>4.住宅宽敞</p>
+<p><img src="https://www.zj0029.ml/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/4.jpg" alt="图片飞跑了"><br>4.住宅宽敞</p>
 <p>美国人住房面积越来越大</p>
 <p>2015年以后新屋平均居住面积为</p>
 <p>250平方米宽敞的住房</p>
 <p>有足够的地方</p>
 <p>可以安放大容量的洗衣机、烘干机。</p>
-<p><img src="https://feichang99.github.io/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/5.jpg" alt="图片飞跑了"><br>5.邻居举报</p>
+<p><img src="https://www.zj0029.ml/tuchuang/%E7%94%9F%E6%B4%BB/%E6%99%92%E8%A1%A3%E6%9C%8D/5.jpg" alt="图片飞跑了"><br>5.邻居举报</p>
 <p>美国邻居维权意识很强</p>
 <p>无论是声音吵了，打孩子了</p>
 <p>草坪不整理了等等都会被举报。</p>
 <p>所以晾晒衣服也不例外。</p>
 <video width="480" height="320" controls>
-<source src="https://feichang99.github.io/shipin/上海电视台专访.mp4">
+<source src="https://www.zj0029.ml/shipin/上海电视台专访.mp4">
 </video>
 
 <video width="480" height="320" controls>
-<source src="https://feichang99.github.io/shipin/美国武汉撤侨.mp4">
+<source src="https://www.zj0029.ml/shipin/美国武汉撤侨.mp4">
 </video>
 
 <video width="480" height="320" controls>
-<source src="https://feichang99.github.io/jin/t.mp4">
+<source src="https://www.zj0029.ml/jin/t.mp4">
 </video>
 ]]></content>
       <categories>
@@ -2075,8 +2089,8 @@ themes：主题
       </categories>
       <tags>
         <tag>旅游</tag>
-        <tag>城市</tag>
         <tag>俄罗斯</tag>
+        <tag>城市</tag>
       </tags>
   </entry>
   <entry>
@@ -2434,8 +2448,8 @@ themes：主题
       </categories>
       <tags>
         <tag>旅游</tag>
-        <tag>西域</tag>
         <tag>城市</tag>
+        <tag>西域</tag>
       </tags>
   </entry>
   <entry>
@@ -2820,8 +2834,8 @@ color 1F![15](https://www.zj0029.ml/tuchuang/bat文章/bat颜色调配/30.JPG)
         <category>Google</category>
       </categories>
       <tags>
-        <tag>AdGuard</tag>
         <tag>Chrome</tag>
+        <tag>AdGuard</tag>
       </tags>
   </entry>
   <entry>
@@ -4124,7 +4138,13 @@ color 1F![15](https://www.zj0029.ml/tuchuang/bat文章/bat颜色调配/30.JPG)
 <p>恢复win10照片应用程序</p>
 <p>若需要恢复原win10照片程序，“控制面板”的“应用”中改“默认程序”即可：<br><img src="http://www.xitongtiandi.net/d/file/wenzhang/win10/2019-05-15/b9468df9c498485811c0a0c9d8bf414b.png" alt="图片飞跑了"><br>以上介绍的内容就是关于win10系统将照片查看器设置为默认的方法教程</p>
 <h3 id="上传中心："><a href="#上传中心：" class="headerlink" title="上传中心："></a>上传中心：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">C:\Program Files\Microsoft Office\Office15</span><br></pre></td></tr></table></figure>
+
 <h1 id="windows10下彻底关闭office-上传中心"><a href="#windows10下彻底关闭office-上传中心" class="headerlink" title="windows10下彻底关闭office 上传中心"></a>windows10下彻底关闭office 上传中心</h1><p>&nbsp;&nbsp;&nbsp;删除上传中心MSOSYNC.EXE和MSOUC.EXE两个文件，新建两个文件名文件去除权限。</p>
+<h2 id="注册表"><a href="#注册表" class="headerlink" title="注册表"></a>注册表</h2><h3 id="服务路径："><a href="#服务路径：" class="headerlink" title="服务路径："></a>服务路径：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\</span><br></pre></td></tr></table></figure>
+<h3 id="关闭AppX-Deployment-Service-AppXSVC-服务"><a href="#关闭AppX-Deployment-Service-AppXSVC-服务" class="headerlink" title="关闭AppX Deployment Service(AppXSVC)服务"></a>关闭AppX Deployment Service(AppXSVC)服务</h3><p>是Win10的应用部署服务，当用户初次登录到这台电脑和添加新应用时，使应用进入就绪可用的状态.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1、打开注册表路径：HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppXSvc</span><br><span class="line"></span><br><span class="line">2、双击右侧start 把3改为4重启就可以了。</span><br><span class="line"></span><br><span class="line">3、如果要启用这个功能再改为3即可。</span><br></pre></td></tr></table></figure>
+<h3 id="停用微软杀软"><a href="#停用微软杀软" class="headerlink" title="停用微软杀软"></a>停用微软杀软</h3><p><a href="https://www.zj0029.ml/ruanjian/杀软1.rar" target="_blank" rel="noopener">点击下载</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5</span><br><span class="line">FC25DF04C8D2CB74C194BA83DCBD3FE3</span><br><span class="line">sha1</span><br><span class="line">130F1769976E269D02E09135D7D589BF1908EECC</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>windows10</category>
@@ -4360,7 +4380,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <a id="more"></a>
 
-<h2 id="1、youtube插件（Magic-Actions-for-YouTube）"><a href="#1、youtube插件（Magic-Actions-for-YouTube）" class="headerlink" title="1、youtube插件（Magic Actions for YouTube）"></a>1、youtube插件（Magic Actions for YouTube）</h2><p>bug：播放画质不能固定。<br>下载人数多，建议用下面的</p>
+<h2 id="1、youtube插件（Magic-Actions-for-YouTube）"><a href="#1、youtube插件（Magic-Actions-for-YouTube）" class="headerlink" title="1、youtube插件（Magic Actions for YouTube）"></a>1、youtube插件（Magic Actions for YouTube）</h2><p>&nbsp;&nbsp;&nbsp;bug：播放画质不能固定。<br>&nbsp;&nbsp;&nbsp;下载人数多，建议用下面的</p>
 <blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/1.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/1.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Magic Actions for YouTube</em></strong><br>概述</p>
 <p>改善您的YouTube观看体验！电影模式，鼠标滚轮音量控制，AutoHD，扩展，快照…<br>YouTube™Magic Actions是一种轻巧实用的扩展程序，旨在提供更舒适的观看体验。</p>
@@ -4368,45 +4388,45 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>最新更新：<br><a href="https://www.mycinema.pro/latest-news.html" target="_blank" rel="noopener">https://www.mycinema.pro/latest-news.html</a></p>
 <p>v7.x的主要功能：</p>
 <p>✔AutoHD功能-开始播放高清的所有YouTube™视频<br>+超高清4k&gt; HD1440p&gt; HD1080p&gt; HD720p&gt; 480p&gt; 360p&gt; 240p&gt; 144p</p>
-<footer><strong>Magic Actions for YouTube _</strong><cite><a href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>Magic Actions for YouTube _</strong><cite><a href="https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <blockquote><p>这一行文字的显示位置-2。</p>
 <footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
 
-<h2 id="2、用户代理切换器"><a href="#2、用户代理切换器" class="headerlink" title="2、用户代理切换器"></a>2、用户代理切换器</h2><p>识别手机，pc及浏览器模式</p>
+<h2 id="2、用户代理切换器"><a href="#2、用户代理切换器" class="headerlink" title="2、用户代理切换器"></a>2、用户代理切换器</h2><p>&nbsp;&nbsp;&nbsp;识别手机，pc及浏览器模式</p>
 <blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/2.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/2.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Chrome的用户代理切换器</em></strong></p>
 <p><strong>概述</strong></p>
 <p>欺骗和模仿用户代理字符串。<br>是否曾经需要快速在用户代理字符串之间快速切换？开发一个需要同时在移动浏览器和桌面浏览器上工作的网站？厌倦了一些古老的网站，因为您没有使用Netscape 4而阻止了您？</p>
 <p>答案就是Chrome的User-Agent Switcher。使用此扩展，您可以在用户代理字符串之间快速轻松地切换。另外，您可以设置每次要欺骗的特定URL。</p>
 <p>请注意，这不会在浏览Internet时提供更好的隐私，并且某些站点可能还有其他手段来确定浏览器不是它的假装。运行此扩展程序可能会影响您的浏览体验，因为它需要拦截和修改传达给服务器的数据。</p>
-<footer><strong>Chrome的用户代理切换器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>Chrome的用户代理切换器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 <blockquote><p>这一行文字的显示位置-2。</p>
 <footer><strong>这个位置-1。 _</strong><cite><a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">位置-3。</a></cite></footer></blockquote>
 
-<h2 id="3、恢复关闭标签"><a href="#3、恢复关闭标签" class="headerlink" title="3、恢复关闭标签"></a>3、恢复关闭标签</h2><p>重复点击可恢复删除的所有网页</p>
+<h2 id="3、恢复关闭标签"><a href="#3、恢复关闭标签" class="headerlink" title="3、恢复关闭标签"></a>3、恢复关闭标签</h2><p>&nbsp;&nbsp;&nbsp;重复点击可恢复删除的所有网页</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/3.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/3.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>恢复关闭标签</em></strong></p>
 <p>概述</p>
 <p>recover your closed tab<br>在当前浏览器窗口重新打开关闭的标签”</p>
-<footer><strong>恢复关闭标签 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E6%81%A2%E5%A4%8D%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE/fcjlmbbejgnfpcgiigpgfacipckopdkf" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>恢复关闭标签 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E6%81%A2%E5%A4%8D%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE/fcjlmbbejgnfpcgiigpgfacipckopdkf" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
 
-<h2 id="4、百度搜索"><a href="#4、百度搜索" class="headerlink" title="4、百度搜索"></a>4、百度搜索</h2><p>可在网页中选词搜索及快捷</p>
+<h2 id="4、百度搜索"><a href="#4、百度搜索" class="headerlink" title="4、百度搜索"></a>4、百度搜索</h2><p>&nbsp;&nbsp;&nbsp;可在网页中选词搜索及快捷</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/4.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/4.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>百度搜索</em></strong></p>
 <p>概述</p>
 <p>在地址栏旁添加百度图标，点击图标一键到达百度搜索；在浏览网页时，选中您想搜索的文字，点击鼠标右键菜单即可快速发起搜索。本扩展由百度官方提供。<br>下载百度搜索扩展，您可以在浏览网页时更方便地进行搜索。<br>扩展功能：<br>1.在地址栏旁添加百度图标，点击可以打开百度首页。<br>2.在浏览网页时选中您想搜索的文字，点击鼠标右键，在菜单中点击对应的选择，可以快速发起搜索。如没有选中文字，点击右键菜单也可以直达百度首页。<br>来自百度官方的扩展应用，感谢您的使用。<br>百度一下，你就知道”</p>
-<footer><strong>百度搜索 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>百度搜索 _</strong><cite><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 <h2 id="5、IDM-Integration-Module"><a href="#5、IDM-Integration-Module" class="headerlink" title="5、IDM Integration Module"></a>5、IDM Integration Module</h2><p>配合软件下载</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/5.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/5.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>IDM Integration Module</em></strong></p>
 <p>概述</p>
 <p>使用Internet Download Manager下载文件<br>为链接添加“使用IDM下载”上下文菜单项</p>
-<footer><strong>IDM Integration Module _</strong><cite><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>IDM Integration Module _</strong><cite><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="6、Enhancer-for-YouTube™"><a href="#6、Enhancer-for-YouTube™" class="headerlink" title="6、Enhancer for YouTube™"></a>6、Enhancer for YouTube™</h2><p>youtube播放设置同第一个插件（Magic Actions for YouTube）相同，这个没有bug，推荐</p>
+<h2 id="6、Enhancer-for-YouTube™"><a href="#6、Enhancer-for-YouTube™" class="headerlink" title="6、Enhancer for YouTube™"></a>6、Enhancer for YouTube™</h2><p>&nbsp;&nbsp;&nbsp;youtube播放设置同第一个插件（Magic Actions for YouTube）相同，这个没有bug，推荐</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/6.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/6.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Enhancer for YouTube™</em></strong></p>
 <p>概述</p>
@@ -4416,9 +4436,9 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>✔ 频道白名单（不自动去广告）</p>
 <p>✔ 屏蔽注解（自动或手动）</p>
 <p>✔ 自动切换视频清晰度（可以设定为 4K、HD 或任意清晰度）</p>
-<footer><strong>Enhancer for YouTube™ _</strong><cite><a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>Enhancer for YouTube™ _</strong><cite><a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="７、网页主题插件－Dark-Reader"><a href="#７、网页主题插件－Dark-Reader" class="headerlink" title="７、网页主题插件－Dark Reader"></a>７、网页主题插件－Dark Reader</h2><p>这个不错，可选不同网页设置</p>
+<h2 id="７、网页主题插件－Dark-Reader"><a href="#７、网页主题插件－Dark-Reader" class="headerlink" title="７、网页主题插件－Dark Reader"></a>７、网页主题插件－Dark Reader</h2><p>&nbsp;&nbsp;&nbsp;这个不错，可选不同网页设置</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/7.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/7.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Dark Reader</em></strong></p>
 <p>概述</p>
@@ -4426,9 +4446,9 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>您可以调整亮度，对比度，应用棕褐色滤镜，黑暗模式，设置字体和忽略的网站列表。</p>
 <p>Dark Reader无广告，也不会在任何地方发送用户的数据。它完全开源</p>
 <p>安装前请禁用类似的扩展。冲浪愉快！”</p>
-<footer><strong>Dark Reader _</strong><cite><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>Dark Reader _</strong><cite><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="8、图片预览放大-——-Imagus"><a href="#8、图片预览放大-——-Imagus" class="headerlink" title="8、图片预览放大 —— Imagus"></a>8、图片预览放大 —— Imagus</h2><p>鼠标停顿放大图片预览效果很好，推荐</p>
+<h2 id="8、图片预览放大-——-Imagus"><a href="#8、图片预览放大-——-Imagus" class="headerlink" title="8、图片预览放大 —— Imagus"></a>8、图片预览放大 —— Imagus</h2><p>&nbsp;&nbsp;&nbsp;鼠标停顿放大图片预览效果很好，推荐</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/8.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/8.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>Imagus™</em></strong></p>
 <p>概述</p>
@@ -4437,9 +4457,9 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>选项页面上的分类和它们的简单描述：</p>
 <p>▪ 筛选规则<br>一系列可扩展的规则，用以获取更好质量的图片、媒体影音或其他内容。</p>
 <p>▪ 黑/白名单<br>列表显示一系列用户自定义规则用于阻止或允许特定站点。”</p>
-<footer><strong>Imagus _</strong><cite><a href="https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>Imagus _</strong><cite><a href="https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="9、广告拦截器："><a href="#9、广告拦截器：" class="headerlink" title="9、广告拦截器："></a>9、广告拦截器：</h2><p>优点可以阻止预览  推荐</p>
+<h2 id="9、广告拦截器："><a href="#9、广告拦截器：" class="headerlink" title="9、广告拦截器："></a>9、广告拦截器：</h2><p>&nbsp;&nbsp;&nbsp;优点可以阻止预览  推荐</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/9.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/9.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>AdGuard 广告拦截器</em></strong></p>
 <p>概述<br>一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。<br>AdGuard 广告拦截器可有效的拦截所有网页上的所有类型的广告，甚至是在 Facebook、Youtube 以及其他万千网站上的广告！</p>
@@ -4459,18 +4479,18 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <li>通过拦截常见第三方跟踪系统保护您的隐私（可选）</li>
 <li>保护您对抗恶意和钓鱼攻击（可选）”</li>
 </ol>
-<footer><strong>AdGuard 广告拦截器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?utm_source=chrome-ntp-icon" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>AdGuard 广告拦截器 _</strong><cite><a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?utm_source=chrome-ntp-icon" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="10、广告拦截器（uBlock-Pro）"><a href="#10、广告拦截器（uBlock-Pro）" class="headerlink" title="10、广告拦截器（uBlock Pro）"></a>10、广告拦截器（uBlock Pro）</h2><p>适用于手机，</p>
+<h2 id="10、广告拦截器（uBlock-Pro）"><a href="#10、广告拦截器（uBlock-Pro）" class="headerlink" title="10、广告拦截器（uBlock Pro）"></a>10、广告拦截器（uBlock Pro）</h2><p>&nbsp;&nbsp;&nbsp;适用于手机，</p>
 <blockquote><p><a href="https://laokgg.tkhttps://www.zj0029.ml/tuchuang/Google/浏览器扩展/10.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/10.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>uBlock Pro - #1 Adblocker</em></strong></p>
 <p>概述<br>一款高效的网络请求过滤工具，占用极低的内存和 CPU。<br>完整的adblock系统，旨在提高效率。</p>
 <p>uBlock Pro是基于uBlock的，并添加了一些额外的阻止列表，特别是对于将来（当前正在进行中）的Fairblock，Sourcepoint，Addefend等adblocker-blocker！</p>
 <p>尽管uBlock的内存和CPU占用空间较小，但与其他流行的阻止程序相比，它可以加载和执行数千个过滤器。</p>
 <p>uBlock不仅是“广告拦截器”：它不仅带有各种内置列表来阻止广告和保护您的隐私，而且还支持灵活的自定义功能-从添加”</p>
-<footer><strong>uBlock Pro - #1 Adblocker _</strong><cite><a href="https://chrome.google.com/webstore/detail/ublock-pro-1-adblocker/fmaicbnbcbjgbpecclcnaehmbpjpdane" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>uBlock Pro - #1 Adblocker _</strong><cite><a href="https://chrome.google.com/webstore/detail/ublock-pro-1-adblocker/fmaicbnbcbjgbpecclcnaehmbpjpdane" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
 
-<h2 id="11、捕捉网页截图："><a href="#11、捕捉网页截图：" class="headerlink" title="11、捕捉网页截图："></a>11、捕捉网页截图：</h2><p>录屏、截屏等，可保存为pdf</p>
+<h2 id="11、捕捉网页截图："><a href="#11、捕捉网页截图：" class="headerlink" title="11、捕捉网页截图："></a>11、捕捉网页截图：</h2><p>&nbsp;&nbsp;&nbsp;录屏、截屏等，可保存为pdf</p>
 <blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/11.JPG" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/11.PNG   width="100" height="100" ></div></a></p>
 <p> “<strong><em>捕捉网页截图 - FireShot</em></strong></p>
 <p>概述<br>捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件<br>FireShot的抓住了Chrome浏览器的网页截图。您可以编辑和注释您的截图。</p>
@@ -4478,7 +4498,29 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <p>“最好的免费谷歌Chrome扩展2013”由PCMAG.COM（<a href="http://www.pcmag.com/article2/0,2817,2397682,00.asp）" target="_blank" rel="noopener">http://www.pcmag.com/article2/0,2817,2397682,00.asp）</a></p>
 <p>你可以用FireShot的网页截图做了什么：</p>
 <p>✓捕捉网页完全<br>页面✓捕捉唯一可见的部分<br>✓捕获的选择 “</p>
-<footer><strong>捕捉网页截图 - FireShot _</strong><cite><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener">点击进入谷歌商店安装</a></cite></footer></blockquote>
+<footer><strong>捕捉网页截图 - FireShot _</strong><cite><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="12、Proxy-SwitchyOmega："><a href="#12、Proxy-SwitchyOmega：" class="headerlink" title="12、Proxy SwitchyOmega："></a>12、Proxy SwitchyOmega：</h2><p>&nbsp;&nbsp;&nbsp;代理</p>
+<blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/12-2.jpg" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/12.jpg   width="100" height="100" ></div></a></p>
+<p> <font size=2 color="＃0EEC1D"> <strong><em>捕捉网页截图 - Proxy SwitchyOmega</em></strong></font></p>
+<p> 概述<br><br>与您的设备兼容<br>轻松快捷地管理和切换多个代理设置。<br>备用下载地址： <a href="https://github.com/FelisCatus/SwitchyOmega/releases" target="_blank" rel="noopener">https://github.com/FelisCatus/SwitchyOmega/releases</a></p>
+<p>此扩展为 SwitchySharp 的升级版，可替代 SwitchyPlus 或 Proxy Switchy. SwitchyOmega 初次安装时会检查是否存在 SwitchySharp ，如果有的话则会自动升级设置，无须手动配置。如果您使用的是非谷歌应用商店版，或者无法自动升级，则可以手动在SwitchySharp导出设置文件后，在SwitchyOmega导入，可兼容配置。升级到SwitchyOmega后请禁用SwitchySharp。</p>
+<p>如有任何问题，请[右键]点击图标，并在菜单中选择“反馈问题”，以便开发人员及时解决。</p>
+<footer><strong>捕捉网页截图 - SwitchyOmega _</strong><cite><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="13、CLEAN-crxMouse-Gestures：（手势）"><a href="#13、CLEAN-crxMouse-Gestures：（手势）" class="headerlink" title="13、CLEAN crxMouse Gestures：（手势）"></a>13、CLEAN crxMouse Gestures：（手势）</h2><p>&nbsp;&nbsp;&nbsp;网页手势</p>
+<blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/13-2.jpg" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/13.jpg   width="100" height="100" ></div></a></p>
+<p><font size=3 color="＃0EEC1D"> <strong><em>捕捉网页截图 - CLEAN crxMouse Gestures</em></strong></font><br> 概述<br> <br> 与您的设备兼容<br> 干净版！ 原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等.<br> 本版本是基于crxMouse Gestures优化的版本，整理优化代码并去除了该版本中在后台上传用户浏览过的网页等隐私数据的代码。<br> 方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表,后台打开标签页等。</p>
+<footer><strong>捕捉网页截图 - 手势扩展 _</strong><cite><a href="https://chrome.google.com/webstore/detail/clean-crxmouse-gestures/mjidkpedjlfnanainpdfnedkdlacidla/related" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>点击进入谷歌商店安装</a></cite></footer></blockquote>
+
+<h2 id="14、Web-Boost-Wait-Less-Browse-Faster-：（谷歌加速兔）"><a href="#14、Web-Boost-Wait-Less-Browse-Faster-：（谷歌加速兔）" class="headerlink" title="14、Web Boost - Wait Less, Browse Faster!：（谷歌加速兔）"></a>14、Web Boost - Wait Less, Browse Faster!：（谷歌加速兔）</h2><p>&nbsp;&nbsp;&nbsp;网页加速、阻止跟踪</p>
+<blockquote><p><a href="https://www.zj0029.ml/tuchuang/Google/浏览器扩展/14-2.jpg" target="_blank" rel="noopener"><div style="float:left;border:solid 1px 000;margin:2px;"><img src= https://www.zj0029.ml/tuchuang/Google/浏览器扩展/14.jpg   width="100" height="100" ></div></a></p>
+<p> <font size=3 color="#FF6A6A"><strong><em>捕捉网页截图 - 谷歌加速兔</em></strong> </font></p>
+<p> 概述<br><br>与您的设备兼容<br>使您的网页加载更快！提高浏览器速度！<br>此扩展程序采用了巧妙的缓存技术（默认情况下浏览器中不提供）并阻止不需要的内容（广告和跟踪器）。</p>
+<p>所有这些使网页加载速度明显加快！</p>
+<p>免费和开源软件。</p>
+<p>权限<br>它需要“读取所有网站数据的访问权限”来分析使用哪些网站构建块来缓存和阻止内容。</p>
+<footer><strong>捕捉网页截图 - 谷歌加速兔 _</strong><cite><a href="https://chrome.google.com/webstore/detail/web-boost-wait-less-brows/ahbkhnpmoamidjgbneafjipbmdfpefad/related" target="_blank" rel="noopener"><font size=5 color=#FF6A6A> 入口 </font>***点击进入谷歌商店安装***</a></cite></footer></blockquote>
 ]]></content>
       <categories>
         <category>Google</category>
@@ -4666,10 +4708,10 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <p>目前收录两首.</p>
 
-        <div id="aplayer-rurlpkya" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-DatAYZNP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"再回到从前","author":"还记得..","url":"http://music.163.com/song/media/outer/url?id=193616.mp3","pic":"/ctor/1bb1a481/1.JPG","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"找一个字代替","author":"邰正宵","url":"http://www.170mv.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40221492&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"九百九十九朵玫瑰","author":"邰正宵","url":"http://www.170hi.com/kw/antiserver.kuwo.cn/anti.s?rid=MUSIC_40960338&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""},{"title":"吻别","author":"张学友","url":"http://nc01-sycdn.kuwo.cn/resource/n3/98/44/246399177.mp3","pic":"https://ss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=4201685188,2067409748&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=536e781571093b0bf621cc5aee9a1326","lrc":""},{"title":"藕断丝连","author":"陈瑞","url":"http://music.163.com/song/media/outer/url?id=267176.mp3","pic":"http://img.ytmp3.cn/image/89.jpg","lrc":""},{"title":"周一","author":"周五","url":"http://np01.sycdn.kuwo.cn/eba22f71fed2b08611007538894b5957/5db1cd4f/resource/n3/25/52/3016535606.mp3","pic":"http://p2.music.126.net/_4CKREVHCT03Ykewht7I9A==/109951163020578001.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-rurlpkya");
+				  options.element = document.getElementById("aplayer-DatAYZNP");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -4815,6 +4857,7 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hv2ray tg  <span class="comment">#安装tg</span></span><br></pre></td></tr></table></figure>
 <h3 id="管理"><a href="#管理" class="headerlink" title="管理"></a>管理</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ v2ray  <span class="comment">#管理v2ray</span></span><br></pre></td></tr></table></figure>
+<h3 id="链接导入"><a href="#链接导入" class="headerlink" title="链接导入"></a>链接导入</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ v2ray url <span class="comment">#生成链接</span></span><br></pre></td></tr></table></figure>
 <h3 id="其他指令"><a href="#其他指令" class="headerlink" title="其他指令"></a>其他指令</h3><p>查看 V2Ray 配置信息： v2ray info<br>修改 V2Ray 配置： v2ray config<br>生成 V2Ray 配置文件链接： v2ray link<br>生成 V2Ray 配置信息链接： v2ray infolink<br>生成 V2Ray 配置二维码链接： v2ray qr<br>修改 Shadowsocks 配置： v2ray ss<br>查看 Shadowsocks 配置信息： v2ray ssinfo<br>生成 Shadowsocks 配置二维码链接： v2ray ssqr<br>查看 V2Ray 运行状态： v2ray status<br>启动 V2Ray： v2ray start<br>停止 V2Ray： v2ray stop<br>重启 V2Ray： v2ray restart<br>查看 V2Ray 运行日志： v2ray log<br>更新 V2Ray： v2ray update<br>更新 V2Ray 管理脚本： v2ray update.sh<br>卸载 V2Ray： v2ray uninstall</p>
 <h2 id="233作者介绍及项目直达链接"><a href="#233作者介绍及项目直达链接" class="headerlink" title="233作者介绍及项目直达链接"></a>233作者介绍及项目直达链接</h2><blockquote><p><img src="/ctor/e8d8fd18/1.PNG" alt="图不见了"><br>前言<br>V2Ray 官网：<a href="https://www.v2ray.com" target="_blank" rel="noopener">https://www.v2ray.com</a></p>
 <p>V2Ray 是一个于 Shadowsocks 之后非常好用的代理软件，但是由于 V2Ray 的配置略复杂，GUI 客户端不完善，所以 V2Ray 并没有像 Shadowsocks 在科学上网人群之中那么流行。<br>不过我想，像我这种小小白萌新，更需要的是一个好用的一键安装脚本……<br>所以，此脚本是为了方便像我这种小小白萌新更加容易去使用 V2Ray，配置 V2Ray。希望对你有帮助 ^_^</p>
@@ -4850,11 +4893,13 @@ permalink    - - - -    url中的名字 - - - -    文件名</p>
 <ul>
 <li>指定网站搜索<br>site:网址 “内容”</li>
 </ul>
-<h3 id="谷歌扩展："><a href="#谷歌扩展：" class="headerlink" title="谷歌扩展："></a>谷歌扩展：</h3><p><a href="https://laokgg.tk/ctor/1bb1a481.html" target="_blank" rel="noopener">点击查看介绍</a></p>
+<h3 id="谷歌扩展："><a href="#谷歌扩展：" class="headerlink" title="谷歌扩展："></a>谷歌扩展：</h3><p><a href="https://www.zj0029.ml/ctor/1bb1a481.html" target="_blank" rel="noopener">点击查看介绍</a></p>
 <h3 id="无痕窗口及bat打开指定网页"><a href="#无痕窗口及bat打开指定网页" class="headerlink" title="无痕窗口及bat打开指定网页"></a>无痕窗口及bat打开指定网页</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"</span> -incognito http://localhost:500</span><br><span class="line">快捷方式目标填写参数 -incognito</span><br></pre></td></tr></table></figure>
 <p>bat打开指定网页：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">start http://localhost:5000</span><br></pre></td></tr></table></figure>
 <h2 id="添加谷歌搜索引擎-tw-hk"><a href="#添加谷歌搜索引擎-tw-hk" class="headerlink" title="添加谷歌搜索引擎 tw hk"></a>添加谷歌搜索引擎 tw hk</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://www.google.com.tw/search?&#123;google:RLZ&#125;&#123;google:acceptedSuggestion&#125;&#123;google:originalQueryForSuggestion&#125;sourceid=chrome&amp;ie=&#123;inputEncoding&#125;&amp;q=%s</span><br></pre></td></tr></table></figure>
+<h2 id="浏览器安装"><a href="#浏览器安装" class="headerlink" title="浏览器安装"></a>浏览器安装</h2><p><a href="https://www.zj0029.ml/ruanjian/浏览器.rar" target="_blank" rel="noopener">在线安装</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5</span><br><span class="line">127D6722CED1C4C75B26DDCDC709CF7D</span><br><span class="line">SHA1</span><br><span class="line">93814629B8BB7541456EBCE8522AC90FB575B319</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Google</category>

@@ -1,5 +1,5 @@
 {
-   "checksum": "b4612e4c52a6c158a9f514b78d339ebf",
+   "checksum": "2142db25718e00e3d0854c4d79a59c96",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -3429,9 +3429,16 @@
                "name": "粉丝福利购",
                "type": "url",
                "url": "https://uland.taobao.com/coupon/edetail?activityId=fba0e91493dc4b83ae7fb20792660575&pid=mm_128854259_41300916_180866303&itemId=612554491031&mt=1"
+            }, {
+               "date_added": "13247673332142244",
+               "guid": "c78a03f9-b509-41ca-9026-6d0aa50745ce",
+               "id": "3921",
+               "name": "【python】读取和输出到txt_flora-CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/zxfhahaha/article/details/81288660"
             } ],
             "date_added": "13214992015944920",
-            "date_modified": "13238772903199125",
+            "date_modified": "13247673332142244",
             "guid": "901586ea-7eff-46e1-9148-c7a778a19276",
             "id": "3173",
             "name": "22",
@@ -4363,9 +4370,16 @@
                "name": "荣耀X10_参数_配置_测评_价格图片-荣耀X10官方论坛-花粉俱乐部",
                "type": "url",
                "url": "https://club.huawei.com/forum-4371-1.html"
+            }, {
+               "date_added": "13247675027779383",
+               "guid": "d20275bf-fb83-421a-8eb2-92e940709b42",
+               "id": "3922",
+               "name": "Python读写txt文本文件 - 猪悟能 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/hackpig/p/8215786.html"
             } ],
             "date_added": "13213810022777804",
-            "date_modified": "13240076271212081",
+            "date_modified": "13247675027779383",
             "guid": "02335d63-9bc8-4435-b2a5-19c9fd40fa43",
             "id": "2995",
             "name": "1",
@@ -4512,9 +4526,86 @@
                "name": "财经",
                "type": "url",
                "url": "https://www.nsfwyoutube.com/watch?v=dphWo0r27Z4&feature=youtu.be"
+            }, {
+               "date_added": "13247717814735989",
+               "guid": "47e3be93-65f0-47c1-971a-028bfd6da43f",
+               "id": "3932",
+               "name": "Windows会阻止主机名·GitHub",
+               "type": "url",
+               "url": "https://gist.github.com/pashinin/f98bc62a727fb517b48baf9d443bcebb"
+            }, {
+               "date_added": "13247717854379793",
+               "guid": "1a0759c1-d9cf-4e43-9198-e667b25dcfdd",
+               "id": "3933",
+               "name": "Windows会阻止主机名·GitHub",
+               "type": "url",
+               "url": "https://gist.github.com/pashinin/f98bc62a727fb517b48baf9d443bcebb"
+            }, {
+               "date_added": "13247717346311031",
+               "guid": "89d8309c-2341-421f-9391-b9ab0d7087a3",
+               "id": "3931",
+               "name": "Windows 10 Privacy Hosts file · GitHub",
+               "type": "url",
+               "url": "https://gist.github.com/angristan/20a398983c5b1daa9c13a1cbadb78fd6"
+            }, {
+               "date_added": "13247717011353763",
+               "guid": "e0d7ad65-10ec-4293-aa9c-8e5a8cfc66b4",
+               "id": "3929",
+               "name": "微软正在阻止用户屏蔽Win10遥测服务 若检测到HOSTS屏蔽则报警 - 蓝点网 | 微信公众号文章阅读 - WeMP",
+               "type": "url",
+               "url": "https://wemp.app/posts/0eda847a-60ad-451f-9da6-4ab655bfafb2"
+            }, {
+               "date_added": "13247675332274911",
+               "guid": "3b382d30-9ee0-4b69-b8dd-a1682c1bd43f",
+               "id": "3924",
+               "name": "Python 读取本地*.txt文件 替换 内容 并保存 - i勤能补拙 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/pygo/p/11997140.html"
+            }, {
+               "date_added": "13247675385174158",
+               "guid": "2246838e-05e7-411d-8a42-cb8cf92a56e8",
+               "id": "3925",
+               "name": "python实现逐个读取txt字符并修改_python_脚本之家",
+               "type": "url",
+               "url": "https://www.jb51.net/article/153291.htm"
+            }, {
+               "date_added": "13247735445828241",
+               "guid": "aabc383f-677e-4203-80bc-18050fdc8876",
+               "id": "3936",
+               "name": "python读取文件并替换字段_aidanmo的博客-CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/aidanmo/article/details/103812928"
+            }, {
+               "date_added": "13247735353668257",
+               "guid": "ad2274d4-4fca-43a2-9d81-844539fbb41e",
+               "id": "3935",
+               "name": "python 文件读写查找、替换相关简单操作_偏执狂才能生存！热忱比专业知识更重要.........-CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/liangrui1988/article/details/49539137"
+            }, {
+               "date_added": "13247675492263180",
+               "guid": "87810653-7eea-4081-b5ac-5bad656150e3",
+               "id": "3926",
+               "name": "Python修改txt文件内容，Python替换txt文件关键字 - cumtchw - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/cumtchw/p/12981047.html"
+            }, {
+               "date_added": "13247675584356527",
+               "guid": "133ff0c3-d8dc-45ea-951a-ced5c2fad0a7",
+               "id": "3927",
+               "name": "Python 读取本地*.txt文件 替换 内容 并保存 - i勤能补拙 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/pygo/p/11997140.html"
+            }, {
+               "date_added": "13247759548906914",
+               "guid": "6e1351fe-3474-4523-a9e5-15a41034b8c2",
+               "id": "3938",
+               "name": "Google Chrome 86.0.4240.111 官方正式版 - 电脑软件精品 - 深度极客IT论坛-深度完美技术论坛 - Sdjk.cc",
+               "type": "url",
+               "url": "http://sdjk.cc/forum.php?mod=viewthread&tid=4141&extra="
             } ],
             "date_added": "13230532780480307",
-            "date_modified": "13236107879775503",
+            "date_modified": "13247759548906914",
             "guid": "a5deb2b9-e8b6-4188-a122-c1170b48a1b1",
             "id": "3650",
             "name": "反串",
@@ -8273,9 +8364,16 @@
                "name": "粉丝福利购",
                "type": "url",
                "url": "https://uland.taobao.com/coupon/edetail?activityId=404f13c3093f4efb98a90be730b1e90d&pid=mm_128854259_41300916_180872690&itemId=572031526768&mt=1"
+            }, {
+               "date_added": "13247640469940652",
+               "guid": "7d8978ed-1b11-4111-a770-6f2f228fa010",
+               "id": "3920",
+               "name": "JT5008211936192_百度搜索",
+               "type": "url",
+               "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=se_chromebtn&wd=JT5008211936192&fenlei=256&rsv_pq=8197dd8300045065&rsv_t=7277pneUoXNgBr0HBi5NGpFkP%2Fyxi%2Bubx5azKEveo6WLV27j8kdc5JKi0iQb%2Bwe8v1qQ&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=16&rsv_sug1=7&rsv_sug7=101&rsv_sug2=0&rsv_btype=t&inputT=20739&rsv_sug4=91657"
             } ],
             "date_added": "13239907856834371",
-            "date_modified": "13246554833701849",
+            "date_modified": "13247640469940652",
             "guid": "8772c9af-1f78-4e69-95f0-9272ab309c75",
             "id": "3794",
             "name": "it",
